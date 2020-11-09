@@ -1,0 +1,21 @@
+{
+  "name": "@hackclub/toolbox",
+  "version": "0.0.1",
+  "author": "Lachlan Campbell (https://lachlanjc.com) <lachlan@hackclub.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@hackclub/meta": "^1.0.0",
+    "@hackclub/theme": "^0.3.0",
+    "next": "^10.0.1",
+    "nextra": "^0.2.7",
+    "nextra-theme-docs": "^0.2.7",
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  }
+}
