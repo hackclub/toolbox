@@ -14,7 +14,7 @@
     "@hackclub/theme": "^0.3.0",
     "next": "^10.0.1",
     "nextra": "^0.2.7",
-    "nextra-theme-docs": "^0.2.7",
+    "nextra-theme-docs": "^0.2.8",
     "react": "16.14.0",
     "react-dom": "16.14.0"
   }
