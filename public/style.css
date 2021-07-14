@@ -7,3 +7,7 @@ html {
 div + h1:first-of-type {
   margin-top: 2rem;
 }
+
+summary > p {
+  display: inline;
+}
