@@ -33,7 +33,7 @@ export default function Nextra({ Component, pageProps }) {
               "linear-gradient(300deg, rgba(1,28,54,0.5480567226890756) 0%, rgba(1,28,54,0.4248074229691877) 100%)",
           }}
           className="hidden-at-first"
-          onClick={() => router.replace()}
+          onClick={() => router.reload()}
         ></div>
         <div
           style={{
