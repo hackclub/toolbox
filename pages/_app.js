@@ -2,19 +2,10 @@ import "nextra-theme-docs/style.css";
 import "@hackclub/theme/fonts/reg-ital-bold.css";
 import "../public/style.css";
 import { signIn } from "next-auth/client";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 export default function Nextra({ Component, pageProps }) {
-  const router = useRouter()
-  async function signInWithSlack() {
-    const csrfToken = await getCsrfToken()
-    await fetch("/api/auth/signin/slack", {
-      method: "POST", 
-      body: JSON.stringify({csrfToken: csrfToken})
-    }).then(res => {
-      console.log("Request complete! response:", res);
-    });
-  }
+  const router = useRouter();
   return (
     <>
       <div
@@ -25,13 +16,25 @@ export default function Nextra({ Component, pageProps }) {
           width: "100vw",
           alignItems: "center",
           justifyContent: "center",
-          zIndex: "999",
-          background:
-            "linear-gradient(300deg, rgba(1,28,54,0.5480567226890756) 0%, rgba(1,28,54,0.4248074229691877) 100%)",
+          zIndex: "688",
         }}
         className="hidden-at-first"
-        onClick={() => router.reload(router.asPath)}
       >
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            minHeight: "100vh",
+            width: "100vw",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: "888",
+            background:
+              "linear-gradient(300deg, rgba(1,28,54,0.5480567226890756) 0%, rgba(1,28,54,0.4248074229691877) 100%)",
+          }}
+          className="hidden-at-first"
+          onClick={() => router.replace()}
+        ></div>
         <div
           style={{
             background: "white",
@@ -40,7 +43,8 @@ export default function Nextra({ Component, pageProps }) {
             width: "400px",
             borderRadius: "0.25rem",
             padding: "24px 16px",
-            textAlign: 'center'
+            textAlign: "center",
+            zIndex: "999",
           }}
         >
           <h3
@@ -54,7 +58,7 @@ export default function Nextra({ Component, pageProps }) {
           </h3>
           <div>
             <code
-              onClick={() => signInWithSlack()}
+              onClick={() => signIn("slack")}
               className="buttonAuth"
               style={{
                 minWidth: "47%",
@@ -65,7 +69,7 @@ export default function Nextra({ Component, pageProps }) {
 sans-serif !important`,
                 paddingLeft: "12px",
                 color: "black",
-                cursor: 'pointer'
+                cursor: "pointer",
               }}
             >
               Login with Slack
