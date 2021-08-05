@@ -6,6 +6,15 @@ import { useRouter } from 'next/router'
 
 export default function Nextra({ Component, pageProps }) {
   const router = useRouter()
+  async function signInWithSlack() {
+    const csrfToken = await getCsrfToken()
+    await fetch("/api/auth/signin/slack", {
+      method: "POST", 
+      body: JSON.stringify({csrfToken: csrfToken})
+    }).then(res => {
+      console.log("Request complete! response:", res);
+    });
+  }
   return (
     <>
       <div
@@ -45,7 +54,7 @@ export default function Nextra({ Component, pageProps }) {
           </h3>
           <div>
             <code
-              onClick={() => signIn('slack', { callbackUrl: router.asPath })}
+              onClick={() => signInWithSlack()}
               className="buttonAuth"
               style={{
                 minWidth: "47%",
