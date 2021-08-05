@@ -1,5 +1,6 @@
 {
   "index": "Toolbox",
   "promotions": "Promotions",
-  "tools": "Tools"
+  "tools": "Tools",
+  "api": "."
 }
