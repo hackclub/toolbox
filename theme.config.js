@@ -14,6 +14,7 @@ export default {
     <React.Fragment>
       For <a href="https://hackclub.com/">Hack Club</a>. Built with{' '}
       <a href="https://nextra.vercel.app">Nextra</a>.
+      
     </React.Fragment>
   ),
   footerEditOnGitHubLink: false,
@@ -31,6 +32,7 @@ export default {
       >
         Toolbox
       </span>
+      
     </React.Fragment>
   ),
   head: (
