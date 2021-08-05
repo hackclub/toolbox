@@ -11,3 +11,7 @@ div + h1:first-of-type {
 summary > p {
   display: inline;
 }
+
+.sidebar > ul > li:last-child {
+  display: none;
+}
