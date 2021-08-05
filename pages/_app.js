@@ -45,7 +45,7 @@ export default function Nextra({ Component, pageProps }) {
           </h3>
           <div>
             <code
-              onClick={() => signIn('slack')}
+              onClick={() => signIn('slack', { callbackUrl: router.asPath })}
               className="buttonAuth"
               style={{
                 minWidth: "47%",
