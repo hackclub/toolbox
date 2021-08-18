@@ -150,7 +150,6 @@ function Content({ currentData, setCurrentData }) {
             boxShadow: 'none'
           }}
           onClick={() => {
-            setCurrentData(null)
             router.push(
               {
                 pathname: '/[slug]',
@@ -159,6 +158,7 @@ function Content({ currentData, setCurrentData }) {
               undefined,
               { scroll: false }
             )
+            setCurrentData(null)
           }}
         >
           Home
@@ -204,7 +204,6 @@ function Content({ currentData, setCurrentData }) {
           top: 0
         }}
         onClick={() => {
-          setCurrentData(null)
           router.push(
             {
               pathname: '/[slug]',
@@ -213,6 +212,7 @@ function Content({ currentData, setCurrentData }) {
             undefined,
             { scroll: false }
           )
+          setCurrentData(null)
         }}
       ></Box>
     </Box>
@@ -377,7 +377,6 @@ export default function Home({ currentItem }) {
                   onClick={
                     item.path &&
                     (() => {
-                      setCurrentData(item)
                       router.push(
                         {
                           pathname: '/[slug]',
@@ -386,6 +385,7 @@ export default function Home({ currentItem }) {
                         undefined,
                         { scroll: false }
                       )
+                      setCurrentData(item)
                     })
                   }
                   {...item}
