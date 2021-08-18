@@ -173,12 +173,13 @@ function Content({ currentData, setCurrentData }) {
           borderTopRightRadius: ['25px', 9],
           borderTopLeftRadius: ['25px', 9],
           p: 4,
-          overflow: 'scroll',
+          
           zIndex: '999',
           position: 'relative'
         }}
         variant="copy"
       >
+        <Box sx={{overflow: 'scroll',borderRadius: 9,height: '100%'}}>
         <Flex
           sx={{
             alignItems: 'flex-start',
@@ -193,6 +194,7 @@ function Content({ currentData, setCurrentData }) {
           }}
         ></Flex>
         <Markdown />
+        </Box>
       </Container>
       <Box
         sx={{
