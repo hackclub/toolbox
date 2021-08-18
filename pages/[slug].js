@@ -150,6 +150,7 @@ function Content({ currentData, setCurrentData }) {
             boxShadow: 'none'
           }}
           onClick={() => {
+            setCurrentData(null)
             router.push(
               {
                 pathname: '/[slug]',
@@ -203,6 +204,7 @@ function Content({ currentData, setCurrentData }) {
           top: 0
         }}
         onClick={() => {
+          setCurrentData(null)
           router.push(
             {
               pathname: '/[slug]',
@@ -375,6 +377,7 @@ export default function Home({ currentItem }) {
                   onClick={
                     item.path &&
                     (() => {
+                      setCurrentData(item)
                       router.push(
                         {
                           pathname: '/[slug]',
