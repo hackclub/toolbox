@@ -206,7 +206,11 @@ function Content({ currentData, setCurrentData }) {
             }}
           >
             Want to make this page better?{' '}
-            <Link href="https://github.com/hackclub/toolbox" sx={{color: 'placeholder'}} target="_blank">
+            <Link
+              href={`https://github.com/hackclub/toolbox/blob/move-away-from-nextra/content/${currentData.path}`}
+              sx={{ color: 'placeholder' }}
+              target="_blank"
+            >
               Contribute on GitHub
             </Link>
             .
@@ -245,15 +249,13 @@ export default function Home({ currentItem, generalBG }) {
   const [oldSearchQuery, setOldSearchQuery] = useState('')
   const [forUseBy, setForUseBy] = useState('')
   const shades = [0.5, 0.75]
-  
+
   return (
     <Box sx={{ bg: 'sheet', minHeight: '100vh', pb: 4 }}>
       <Content currentData={currentData} setCurrentData={setCurrentData} />
       <Box
         sx={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,${
-            shades[0]
-          }), rgba(0,0,0,${shades[1]})), ${generalBG}, linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1))`
+          backgroundImage: `linear-gradient(rgba(0,0,0,${shades[0]}), rgba(0,0,0,${shades[1]})), ${generalBG}, linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1))`
         }}
       >
         <Box
@@ -261,12 +263,35 @@ export default function Home({ currentItem, generalBG }) {
             backgroundImage: `linear-gradient(rgba(0,0,0,${shades[0]}), rgba(0,0,0,${shades[1]})), ${oldSearchQuery}`
           }}
         >
-          <Container>
+          <Container sx={{ display: 'flex' }}>
             <Image
               src="https://assets.hackclub.com/flag-orpheus-top.svg"
               alt="Hack Club flag"
               sx={{ width: [96, 128] }}
             />
+            <Box
+              sx={{
+                flexGrow: 1,
+                display: 'flex',
+                justifyContent: 'flex-end',
+                pt: 3
+              }}
+            >
+              <Flex
+                sx={{
+                  color: 'white',
+                  ':hover': {
+                    '> svg': {
+                      transform: 'scale(1.065)'
+                    }
+                  }
+                }}
+                as="a"
+                href="https://github.com/hackclub/toolbox"
+              >
+                <Icon glyph="github" />
+              </Flex>
+            </Box>
           </Container>
           <Container
             sx={{ textAlign: 'center', mt: '-10px', pb: [4, 5], pt: [3, 0] }}
@@ -415,17 +440,19 @@ export default function Home({ currentItem, generalBG }) {
         </Container>
       ))}
       <Box
-            sx={{
-              textAlign: 'center',
-              py: 1, fontSize: 2, mt: 4
-            }}
-          >
-            Want to make this page better?{' '}
-            <Link href="https://github.com/hackclub/toolbox" target="_blank">
-              Contribute on GitHub
-            </Link>
-            .
-          </Box>
+        sx={{
+          textAlign: 'center',
+          py: 1,
+          fontSize: 2,
+          mt: 4
+        }}
+      >
+        Want to make this page better?{' '}
+        <Link href="https://github.com/hackclub/toolbox" target="_blank">
+          Contribute on GitHub
+        </Link>
+        .
+      </Box>
     </Box>
   )
 }
