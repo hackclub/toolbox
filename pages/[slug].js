@@ -6,6 +6,7 @@ import {
   Image,
   Input,
   Text,
+  Link,
   Button,
   Grid,
   Badge
@@ -173,27 +174,41 @@ function Content({ currentData, setCurrentData }) {
           borderTopRightRadius: ['25px', 9],
           borderTopLeftRadius: ['25px', 9],
           p: 4,
-          
+
           zIndex: '999',
           position: 'relative'
         }}
         variant="copy"
       >
-        <Box sx={{overflow: 'scroll',borderRadius: 9,height: '100%'}}>
-        <Flex
-          sx={{
-            alignItems: 'flex-start',
-            justifyContent: 'flex-end',
-            p: 2,
-            mb: 3,
-            background: `url(${currentData.img})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            borderRadius: 9,
-            minHeight: '30vh'
-          }}
-        ></Flex>
-        <Markdown />
+        <Box sx={{ overflow: 'scroll', borderRadius: 9, height: '100%' }}>
+          <Flex
+            sx={{
+              alignItems: 'flex-start',
+              justifyContent: 'flex-end',
+              p: 2,
+              mb: 3,
+              background: `url(${currentData.img})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              borderRadius: 9,
+              minHeight: '30vh'
+            }}
+          ></Flex>
+          <Markdown />
+          <Box
+            sx={{
+              borderTop: '0.5px solid',
+              borderColor: 'placeholder',
+              py: 1,
+              color: 'placeholder'
+            }}
+          >
+            Want to make this page better?{' '}
+            <Link href="https://github.com/hackclub/toolbox" sx={{color: 'placeholder'}} target="_blank">
+              Contribute on GitHub
+            </Link>
+            .
+          </Box>
         </Box>
       </Container>
       <Box
@@ -229,7 +244,7 @@ export default function Home({ currentItem }) {
   const [forUseBy, setForUseBy] = useState('')
   const shades = [0.5, 0.75]
   return (
-    <Box sx={{ bg: 'sheet', minHeight: '100vh', pb: 5 }}>
+    <Box sx={{ bg: 'sheet', minHeight: '100vh', pb: 4 }}>
       <Content currentData={currentData} setCurrentData={setCurrentData} />
       <Box
         sx={{
@@ -285,7 +300,9 @@ export default function Home({ currentItem }) {
               setSearchQuery(e.target.value.toUpperCase())
               setOldSearchQuery(
                 GeoPattern.generate(
-                  e.target.value.trim() === '' ? (Math.random() + 1).toString(36).substring(7) : e.target.value,
+                  e.target.value.trim() === ''
+                    ? (Math.random() + 1).toString(36).substring(7)
+                    : e.target.value,
                   { baseColor: '#ec3750' }
                 ).toDataUrl()
               )
@@ -397,6 +414,18 @@ export default function Home({ currentItem }) {
           </Grid>
         </Container>
       ))}
+      <Box
+            sx={{
+              textAlign: 'center',
+              py: 1, fontSize: 2, mt: 4
+            }}
+          >
+            Want to make this page better?{' '}
+            <Link href="https://github.com/hackclub/toolbox" target="_blank">
+              Contribute on GitHub
+            </Link>
+            .
+          </Box>
     </Box>
   )
 }
