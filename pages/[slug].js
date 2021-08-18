@@ -15,6 +15,7 @@ import manifest from '../manifest'
 import { useState } from 'react'
 import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
+var GeoPattern = require('geopattern')
 
 function ControlButton({
   children,
@@ -222,51 +223,71 @@ export default function Home({ currentItem }) {
   const router = useRouter()
   const [currentData, setCurrentData] = useState(currentItem)
   const [searchQuery, setSearchQuery] = useState('')
-  const [forUseBy, setForUseBy] = useState('everyone')
+  const [oldSearchQuery, setOldSearchQuery] = useState('')
+  const [forUseBy, setForUseBy] = useState('')
+  const shades = [0.5, 0.75]
   return (
     <Box sx={{ bg: 'sheet', minHeight: '100vh', pb: 5 }}>
       <Content currentData={currentData} setCurrentData={setCurrentData} />
       <Box
         sx={{
-          backgroundImage:
-            'url(https://workshops.hackclub.com/api/patterns/personal_website/)'
+          backgroundImage: `linear-gradient(rgba(0,0,0,${
+            shades[0]
+          }), rgba(0,0,0,${shades[1]})), ${GeoPattern.generate(
+            (Math.random() + 1).toString(36).substring(7),
+            { baseColor: '#ec3750' }
+          ).toDataUrl()}, linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1))`
         }}
       >
-        <Container>
-          <Image
-            src="https://assets.hackclub.com/flag-orpheus-top.svg"
-            alt="Hack Club flag"
-            sx={{ width: [96, 128] }}
-          />
-        </Container>
-        <Container
-          sx={{ textAlign: 'center', mt: '-10px', pb: [4, 5], pt: [3, 0] }}
-          variant="wide"
+        <Box
+          sx={{
+            backgroundImage: `linear-gradient(rgba(0,0,0,${shades[0]}), rgba(0,0,0,${shades[1]})), ${oldSearchQuery}`
+          }}
         >
-          <Heading
-            as="h1"
-            sx={{ fontSize: 6, color: 'snow', textShadow: 'card' }}
+          <Container>
+            <Image
+              src="https://assets.hackclub.com/flag-orpheus-top.svg"
+              alt="Hack Club flag"
+              sx={{ width: [96, 128] }}
+            />
+          </Container>
+          <Container
+            sx={{ textAlign: 'center', mt: '-10px', pb: [4, 5], pt: [3, 0] }}
+            variant="wide"
           >
-            Hack Club Toolbox
-          </Heading>
-          <Heading
-            as="h3"
-            sx={{
-              fontSize: 3,
-              fontWeight: 400,
-              color: 'snow',
-              textShadow: 'card'
-            }}
-          >
-            Tools for hacking, learning and leading.
-          </Heading>
-        </Container>
+            <Heading
+              as="h1"
+              sx={{ fontSize: 6, color: 'snow', textShadow: 'card' }}
+            >
+              Hack Club Toolbox
+            </Heading>
+            <Heading
+              as="h3"
+              sx={{
+                fontSize: 3,
+                fontWeight: 400,
+                color: 'snow',
+                textShadow: 'card'
+              }}
+            >
+              Tools for hacking, learning and leading.
+            </Heading>
+          </Container>
+        </Box>
       </Box>
       <Container sx={{ py: 3, display: ['block', 'flex'] }}>
         <Box sx={{ flexGrow: 1, pr: [0, 3] }}>
           <Input
             placeholder="Search Tools"
-            onChange={e => setSearchQuery(e.target.value.toUpperCase())}
+            onChange={async e => {
+              setSearchQuery(e.target.value.toUpperCase())
+              setOldSearchQuery(
+                GeoPattern.generate(
+                  e.target.value.trim() === '' ? (Math.random() + 1).toString(36).substring(7) : e.target.value,
+                  { baseColor: '#ec3750' }
+                ).toDataUrl()
+              )
+            }}
             sx={{
               border: '1px dashed',
               textAlign: ['left', 'left', 'left'],

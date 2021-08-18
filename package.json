@@ -16,6 +16,7 @@
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^10.0.4",
     "airtable-plus": "^1.0.4",
+    "geopattern": "^1.2.3",
     "next": "^11.0.0",
     "next-auth": "^3.28.0",
     "react": "^17.0.2",
