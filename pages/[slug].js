@@ -243,6 +243,10 @@ export default function Home({ currentItem }) {
   const [oldSearchQuery, setOldSearchQuery] = useState('')
   const [forUseBy, setForUseBy] = useState('')
   const shades = [0.5, 0.75]
+  const generalBG = GeoPattern.generate(
+    (Math.random() + 1).toString(36).substring(7),
+    { baseColor: '#ec3750' }
+  ).toDataUrl()
   return (
     <Box sx={{ bg: 'sheet', minHeight: '100vh', pb: 4 }}>
       <Content currentData={currentData} setCurrentData={setCurrentData} />
@@ -250,10 +254,7 @@ export default function Home({ currentItem }) {
         sx={{
           backgroundImage: `linear-gradient(rgba(0,0,0,${
             shades[0]
-          }), rgba(0,0,0,${shades[1]})), ${GeoPattern.generate(
-            (Math.random() + 1).toString(36).substring(7),
-            { baseColor: '#ec3750' }
-          ).toDataUrl()}, linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1))`
+          }), rgba(0,0,0,${shades[1]})), ${generalBG}, linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1))`
         }}
       >
         <Box
