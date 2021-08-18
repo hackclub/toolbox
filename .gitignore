@@ -1,2 +1,5 @@
-/node_modules
-/.next
+.now
+.next
+node_modules
+.DS_Store
+.env
