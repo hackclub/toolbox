@@ -1,5 +1,61 @@
 export default [
   {
+    header: 'Promotions',
+    items: [
+      {
+        name: 'Replit',
+        icon: 'embed',
+        label: 'a free year of the Hacker Plan',
+        path: 'replit.mdx',
+        img: 'https://appedus.com/wp-content/uploads/2021/02/Repl.it-Funding-Round-2-1536x905.png',
+        forUseBy: 'clubbers'
+      },
+      {
+        name: 'Postman',
+        icon: 'explore',
+        label: 'free access to their teams plan',
+        path: 'postman.mdx',
+        img: 'https://dz2cdn1.dzone.com/storage/temp/13824432-postman-forUseBy-api-testing.png',
+        forUseBy: 'clubbers'
+      },
+      {
+        name: 'Figma',
+        icon: 'photo',
+        label: 'free access to their teams plan',
+        path: 'figma.mdx',
+        img: 'figma.png',
+        forUseBy: 'clubbers'
+      },
+      {
+        name: 'Stickers',
+        icon: 'sticker',
+        path: 'stickers.mdx',
+        img: 'stickers.png',
+        forUseBy: 'leaders'
+      }
+    ]
+  },
+  {
+    header: 'Tools',
+    items: [
+      {
+        name: 'Zoom Pro Meetings',
+        icon: 'welcome',
+        path: 'zoom.mdx',
+        img: 'zoom.png',
+        forUseBy: 'clubbers'
+      },
+      {
+        name: 'Orpheus',
+        icon: 'sam',
+        label: 'a Slack bot to support in running a club',
+        path: 'orpheus.mdx',
+        img: 'https://github.com/hackclub/dinosaurs/raw/main/Dinos.jpg',
+        forUseBy: 'leaders'
+      }
+    ]
+  },
+  {
     header: 'Resources',
     items: [
       {
@@ -56,62 +112,6 @@ export default [
         external: true,
         url: 'https://github.com/hackclub/dns',
         forUseBy: 'clubbers'
-      }
-    ]
-  },
-  {
-    header: 'Promotions',
-    items: [
-      {
-        name: 'Replit',
-        icon: 'embed',
-        label: 'a free year of the Hacker Plan',
-        path: 'replit.mdx',
-        img: 'https://appedus.com/wp-content/uploads/2021/02/Repl.it-Funding-Round-2-1536x905.png',
-        forUseBy: 'clubbers'
-      },
-      {
-        name: 'Postman',
-        icon: 'explore',
-        label: 'free access to their teams plan',
-        path: 'postman.mdx',
-        img: 'https://dz2cdn1.dzone.com/storage/temp/13824432-postman-forUseBy-api-testing.png',
-        forUseBy: 'clubbers'
-      },
-      {
-        name: 'Figma',
-        icon: 'photo',
-        label: 'free access to their teams plan',
-        path: 'figma.mdx',
-        img: 'figma.png',
-        forUseBy: 'clubbers'
-      },
-      {
-        name: 'Stickers',
-        icon: 'sticker',
-        path: 'stickers.mdx',
-        img: 'stickers.png',
-        forUseBy: 'leaders'
-      }
-    ]
-  },
-  {
-    header: 'Tools',
-    items: [
-      {
-        name: 'Zoom Pro Meetings',
-        icon: 'welcome',
-        path: 'zoom.mdx',
-        img: 'zoom.png',
-        forUseBy: 'clubbers'
-      },
-      {
-        name: 'Orpheus',
-        icon: 'sam',
-        label: 'a Slack bot to support in running a club',
-        path: 'orpheus.mdx',
-        img: 'https://github.com/hackclub/dinosaurs/raw/main/Dinos.jpg',
-        forUseBy: 'leaders'
       }
     ]
   }
