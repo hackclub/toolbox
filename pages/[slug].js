@@ -199,7 +199,9 @@ function Content({ currentData, setCurrentData }) {
             sx={{
               borderTop: '0.5px solid',
               borderColor: 'placeholder',
-              py: 1,
+              pb: 1,
+              pt: 2,
+              mt: 3,
               color: 'placeholder'
             }}
           >
@@ -236,17 +238,14 @@ function Content({ currentData, setCurrentData }) {
   )
 }
 
-export default function Home({ currentItem }) {
+export default function Home({ currentItem, generalBG }) {
   const router = useRouter()
   const [currentData, setCurrentData] = useState(currentItem)
   const [searchQuery, setSearchQuery] = useState('')
   const [oldSearchQuery, setOldSearchQuery] = useState('')
   const [forUseBy, setForUseBy] = useState('')
   const shades = [0.5, 0.75]
-  const generalBG = GeoPattern.generate(
-    (Math.random() + 1).toString(36).substring(7),
-    { baseColor: '#ec3750' }
-  ).toDataUrl()
+  
   return (
     <Box sx={{ bg: 'sheet', minHeight: '100vh', pb: 4 }}>
       <Content currentData={currentData} setCurrentData={setCurrentData} />

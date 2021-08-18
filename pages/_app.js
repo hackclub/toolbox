@@ -1,4 +1,4 @@
-import * as React from 'react'
+import {useState} from 'react'
 import NextApp from 'next/app'
 import '@hackclub/theme/fonts/reg-bold.css'
 import theme from '@hackclub/theme'
@@ -6,10 +6,14 @@ import { ThemeProvider } from 'theme-ui'
 import ColorSwitcher from '../components/color-switcher'
 import Meta from '@hackclub/meta'
 import Head from 'next/head'
+var GeoPattern = require('geopattern')
 
-export default class App extends NextApp {
-  render() {
-    const { Component, pageProps } = this.props
+export default function App(props){
+    const { Component, pageProps } = props
+    const [generalBG] = useState(GeoPattern.generate(
+      (Math.random() + 1).toString(36).substring(7),
+      { baseColor: '#ec3750' }
+    ).toDataUrl())
     return (
       <ThemeProvider
         theme={{
@@ -38,8 +42,8 @@ export default class App extends NextApp {
           color="#ec3750" // theme color
           manifest="/site.webmanifest" // link to site manifest
         />
-        <Component {...pageProps} />
+        <Component {...pageProps} generalBG={generalBG} />
       </ThemeProvider>
     )
   }
-}
+
