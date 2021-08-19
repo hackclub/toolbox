@@ -119,7 +119,7 @@ function Content({ currentData, setCurrentData }) {
     return <></>
   }
   const router = useRouter()
-  const Markdown = require(`../content/${currentData.path}`)
+  const Markdown = require(`../content/${currentData.path}`).default
   return (
     <Box
       sx={{
