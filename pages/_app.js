@@ -41,7 +41,7 @@ export default function App(props) {
         name="Hack Club" // site name
         title="Toolbox" // page title
         description="Tools for hacking, learning and leading." // page description
-        image="https://github.com/hackclub/toolbox/blob/main/public/banner.png?raw=true" // large summary card image URL
+        image="https://cloud-n8brj3kg9-hack-club-bot.vercel.app/0toolbox_meta.png" // large summary card image URL
         color="#ec3750" // theme color
         manifest="/site.webmanifest" // link to site manifest
       />
