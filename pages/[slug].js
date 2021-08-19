@@ -225,7 +225,7 @@ function Content({ currentData, setCurrentData }) {
           >
             Want to make this page better?{' '}
             <Link
-              href={`https://github.com/hackclub/toolbox/blob/move-away-from-nextra/content/${currentData.path}`}
+              href={`https://github.com/hackclub/toolbox/blob/main/content/${currentData.path}`}
               sx={{ color: 'placeholder' }}
               target="_blank"
             >
