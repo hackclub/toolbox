@@ -13,7 +13,7 @@ import {
 } from 'theme-ui'
 import Icon from '@hackclub/icons'
 import manifest from '../manifest'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
 var GeoPattern = require('geopattern')
@@ -115,6 +115,17 @@ function Item({ name, label, icon, external, url, onClick, forUseBy }) {
 }
 
 function Content({ currentData, setCurrentData }) {
+  useEffect(() => {
+    currentData != null &&
+      // (document.body.style.overflow = 'hidden')
+      (document.body.style['position'] = 'fixed') &&
+      (document.body.style['overflow-y'] = 'scroll') &&
+      (document.body.style['width'] = '100%')
+    currentData == null &&
+      (document.body.style['position'] = 'static') &&
+      (document.body.style['overflow-y'] = 'auto')
+  }, [currentData])
+
   if (currentData == null) {
     return <></>
   }
@@ -180,7 +191,14 @@ function Content({ currentData, setCurrentData }) {
         }}
         variant="copy"
       >
-        <Box sx={{ overflow: 'scroll', borderRadius: 9, height: '100%' }}>
+        <Box
+          sx={{
+            overflow: 'scroll',
+            borderRadius: 9,
+            height: '100%',
+            overflowX: 'hidden'
+          }}
+        >
           <Flex
             sx={{
               alignItems: 'flex-start',
