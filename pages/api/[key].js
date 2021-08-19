@@ -7,7 +7,7 @@ export default async (req, res) => {
   if (session != null) {
     const airtable = new AirtablePlus({
       baseID: "appvp3mpqIrosrqdP",
-      apiKey: process.env.AIRTABLE_KEY,
+      apiKey: process.env.AIRTABLE,
       tableName: "Codes",
     });
     const record = await airtable.find(req.query.key);
