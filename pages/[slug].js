@@ -94,15 +94,19 @@ function Item({ name, label, icon, external, url, onClick, forUseBy }) {
           <Icon glyph={icon} size={24} />
         </Flex>
       )}
-      <Heading sx={{ ml: '12px' }}>{name}</Heading>
-      {label && (
-        <Heading
-          sx={{ fontWeight: 400, ml: 1, display: ['none', 'block'] }}
-          as="h3"
-        >
-          ({label})
-        </Heading>
-      )}
+      <Flex
+        sx={{ flexDirection: ['column', null, null, 'row'], float: 'left' }}
+      >
+        <Heading sx={{ ml: '12px' }}>{name}</Heading>
+        {label && (
+          <Heading
+            sx={{ fontWeight: 400, ml: '12px', display: ['none', 'block'] }}
+            as="h3"
+          >
+            ({label})
+          </Heading>
+        )}
+      </Flex>
       {external && (
         <Flex
           sx={{ position: 'absolute', top: 2, right: 2, color: 'placeholder' }}
