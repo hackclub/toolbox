@@ -3,14 +3,6 @@ export default [
     header: 'Promotions',
     items: [
       {
-        name: 'Replit',
-        icon: 'embed',
-        label: 'a free year of the Hacker Plan',
-        path: 'replit.mdx',
-        img: 'https://appedus.com/wp-content/uploads/2021/02/Repl.it-Funding-Round-2-1536x905.png',
-        forUseBy: 'clubbers'
-      },
-      {
         name: 'Postman',
         icon: 'explore',
         label: 'free access to their teams plan',
