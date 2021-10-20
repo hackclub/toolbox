@@ -104,7 +104,15 @@ export default [
         external: true,
         url: 'https://github.com/hackclub/dns',
         forUseBy: 'clubbers'
-      }
+      },
+      {
+        name: 'Muse',
+        label: 'music programming language',
+        icon: 'list',
+        external: true,
+        url: 'https://muse.hackclub.dev',
+        forUseBy: 'everyone'
+      },
     ]
   }
 ]
