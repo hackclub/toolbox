@@ -32,6 +32,14 @@ export default [
         path: 'stickers.mdx',
         img: 'stickers.png',
         forUseBy: 'leaders'
+      },
+      {
+        name: 'CodeDay',
+        icon: 'event-code',
+        label: 'discount for in-person CodeDay events',
+        path: 'codeday.mdx',
+        img: 'codeday.png',
+        forUseBy: 'clubbers'
       }
     ]
   },
