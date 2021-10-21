@@ -77,6 +77,13 @@ export default [
         external: true,
         url: 'https://hackathons.hackclub.com',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'Meetings',
+        icon: 'clubs',
+        external: true,
+        url: 'https://meetings.hackclub.com',
+        forUseBy: 'leaders'
       }
     ]
   },
