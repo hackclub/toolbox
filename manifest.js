@@ -113,7 +113,7 @@ export default [
         forUseBy: 'everyone'
       },
       {
-        name: 'Raw CSS Theme Starter',
+        name: 'CSS Theme',
         icon: 'code',
         external: true,
         url: 'https://css-theme.hackclub.dev/',
