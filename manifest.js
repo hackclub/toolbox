@@ -114,7 +114,6 @@ export default [
       },
       {
         name: 'Raw CSS Theme Starter',
-        label: 'music programming language',
         icon: 'code',
         external: true,
         url: 'https://css-theme.hackclub.dev/',
