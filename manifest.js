@@ -113,6 +113,13 @@ export default [
         forUseBy: 'everyone'
       },
       {
+        name: 'CSS Theme',
+        icon: 'code',
+        external: true,
+        url: 'https://css-theme.hackclub.dev/',
+        forUseBy: 'everyone'
+      },
+      {
         name: 'DNS',
         icon: 'web',
         label: 'redeem a free hackclub.com subdomain',
