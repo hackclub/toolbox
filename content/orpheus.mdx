@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 # Orpheus
 
 Orpheus is your best friend on the Hack Club Slack, whilst they may be a dinosaur they are very helpful.
@@ -23,52 +21,3 @@ HQ offers a set of freebies to Hack Clubbers, you can redeem them by running:
 If you need a breakout channel on Slack you can run:
 
 `@orpheus breakout`
-
-### Club Administration 
-
-Sometimes when running your club, you may need to update the data HQ has about your club. Orpheus let's you do that.
-
-To view and get a link to edit your club's address run:
-
-`/club-address`
-
-To view your current leader group run:
-
-`/leader-list`
-
-If that list is missing someone you can run:
-
-`/leader-add @username`
-
-<h3 id="slack-invites">Inviting People to the Slack</h3>
-
-Using **/slack-invite** you can get a unique invite URL for your club + a QR code of that URL, you can share this with members and add it to posters! This will send your members straight to your club channel once they join the Slack so you can build a mini-community. This command will also provide you a custom link for our ["Your First Ship" workshop](https://workshops.hackclub.com/your_first_ship/), this workshop was designed to help you introduce new club members to the Slack through shipping a creation at the end of a meeting. When using the custom link provided by this command, you will also have your members invited to your club channel when they join through the QR code / link in the slideshow.
-
-Lastly, you can append an email address to **/slack-invite** (like /slack-invite mary@hackwood.com) to invite a person directly through email and have them join the club channel on entry to the Slack.
-
-### Tracking Club Growth
-
-<Image src="/club-stats.png" width={3500} height={1305} alt="Orpheus" />
-
-We've integrated tools into Slack for you to track the growth of your club. You aren't obliged to use these but it can be helpful to keep track of how your club attendance changes over time. It's also nice for HQ to have some data on which clubs are active.
-
-To log a meeting use:
-
-`/meeting-add yesterday, [number] people`
-
-for example if you ran a 15 person meeting:
-
-`/meeting-add yesterday, 15 people`
-
-To get a chart like that shown in the banner above
-
-`/stats @username` 
-
-<style>
-  {`
-  
-  img {
-    object-fit: cover;
-  }
-  `}
-</style>
