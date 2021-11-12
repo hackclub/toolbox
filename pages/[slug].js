@@ -498,7 +498,7 @@ export function getStaticProps({ params }) {
   manifest.map(section => {
     section.items.map(item => {
       if (item.path) {
-        if (item.path.replace('.mdx', '') == slug) {
+        if (item.path.replace('.mdx', '').toLowerCase() === slug.toLowerCase()) {
           currentItem = item
         }
       }
