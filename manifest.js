@@ -137,7 +137,7 @@ export default [
       },
       {
         name: 'Game Lab',
-        label: 'A JavaScript web-based game editor',
+        label: 'a JavaScript web-based game editor',
         icon: 'post',
         external: true,
         url: 'https://gamelab.hackclub.com',
