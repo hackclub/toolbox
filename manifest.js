@@ -132,7 +132,15 @@ export default [
         label: 'music programming language',
         icon: 'list',
         external: true,
-        url: 'https://muse.hackclub.dev',
+        url: 'https://muse.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Game Lab',
+        label: 'a JavaScript web-based game editor',
+        icon: 'post',
+        external: true,
+        url: 'https://gamelab.hackclub.com',
         forUseBy: 'everyone'
       },
     ]
