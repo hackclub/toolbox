@@ -73,6 +73,13 @@ export default [
         forUseBy: 'everyone'
       },
       {
+        name: 'Clubs Channel',
+        icon: 'slack',
+        external: true,
+        url: 'https://app.slack.com/client/T0266FRGM/C02PA5G01ND',
+        forUseBy: 'everyone'
+      },
+      {
         name: 'Events',
         icon: 'event-code',
         external: true,
