@@ -123,7 +123,7 @@ export default [
         name: 'CSS Theme',
         icon: 'code',
         external: true,
-        url: 'https://css-theme.hackclub.dev/',
+        url: 'https://css.hackclub.com/',
         forUseBy: 'everyone'
       },
       {
