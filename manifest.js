@@ -48,7 +48,6 @@ export default [
       {
         name: 'Bank',
         icon: 'bank',
-        label: 'become a 501(c)(3) nonprofit.',
         external: true,
         path: 'https://hackclub.com/bank',
         forUseBy: 'everyone'
