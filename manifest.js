@@ -46,12 +46,12 @@ export default [
         forUseBy: 'clubbers'
       },
       {
-        name: 'Orpheus',
-        icon: 'sam',
-        label: 'a Slack bot to support in running a club',
-        path: 'orpheus.mdx',
-        img: 'https://github.com/hackclub/dinosaurs/raw/main/Dinos.jpg',
-        forUseBy: 'leaders'
+        name: 'Bank',
+        icon: 'bank',
+        label: 'become a 501(c)(3) nonprofit.',
+        external: true,
+        path: 'https://hackclub.com/bank',
+        forUseBy: 'everyone'
       }
     ]
   },
