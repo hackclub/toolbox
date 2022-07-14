@@ -49,7 +49,7 @@ export default [
         name: 'Bank',
         icon: 'bank',
         external: true,
-        path: 'https://hackclub.com/bank',
+        url: 'https://hackclub.com/bank',
         forUseBy: 'everyone'
       }
     ]
