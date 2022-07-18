@@ -98,6 +98,13 @@ export default [
         external: true,
         url: 'https://meetings.hackclub.com',
         forUseBy: 'leaders'
+      },
+      {
+        name: 'Branding & Logos',
+        icon: 'like',
+        external: true,
+        url: 'https://hackclub.com/brand',
+        forUseBy: 'everyone'
       }
     ]
   },
