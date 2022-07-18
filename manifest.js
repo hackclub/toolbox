@@ -47,7 +47,7 @@ export default [
       },
       {
         name: 'Bank',
-        icon: 'bank',
+        icon: 'bank-account',
         external: true,
         url: 'https://hackclub.com/bank',
         forUseBy: 'everyone'
