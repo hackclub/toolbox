@@ -6,6 +6,7 @@ import { ThemeProvider } from 'theme-ui'
 import ColorSwitcher from '../components/color-switcher'
 import Meta from '@hackclub/meta'
 import Head from 'next/head'
+import Plausible from '../components/plausible'
 import '../public/scrollbar.css'
 
 var GeoPattern = require('geopattern')
@@ -46,6 +47,7 @@ export default function App(props) {
         manifest="/site.webmanifest" // link to site manifest
       />
       <Component {...pageProps} generalBG={generalBG} />
+      <Plausible />
     </ThemeProvider>
   )
 }
