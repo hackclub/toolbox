@@ -149,11 +149,11 @@ export default [
         forUseBy: 'everyone'
       },
       {
-        name: 'Game Lab',
+        name: 'Sprig',
         label: 'a JavaScript web-based game editor',
         icon: 'post',
         external: true,
-        url: 'https://gamelab.hackclub.com',
+        url: 'https://sprig.hackclub.com',
         forUseBy: 'everyone'
       },
     ]
