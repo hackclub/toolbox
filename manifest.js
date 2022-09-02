@@ -1,4 +1,40 @@
 export default [
+    {
+    header: 'Tools',
+    items: [
+      
+      {
+        name: 'Bank',
+        icon: 'bank-account',
+        external: true,
+        url: 'https://hackclub.com/bank',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Sprig',
+        label: 'a JavaScript web-based game editor',
+        icon: 'post',
+        external: true,
+        url: 'https://sprig.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Muse',
+        label: 'music programming language',
+        icon: 'list',
+        external: true,
+        url: 'https://muse.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Zoom Pro Meetings',
+        icon: 'welcome',
+        path: 'zoom.mdx',
+        img: 'zoom.png',
+        forUseBy: 'clubbers'
+      }
+    ]
+  },
   {
     header: 'Promotions',
     items: [
@@ -32,25 +68,6 @@ export default [
         path: 'codeday.mdx',
         img: 'codeday.png',
         forUseBy: 'clubbers'
-      }
-    ]
-  },
-  {
-    header: 'Tools',
-    items: [
-      {
-        name: 'Zoom Pro Meetings',
-        icon: 'welcome',
-        path: 'zoom.mdx',
-        img: 'zoom.png',
-        forUseBy: 'clubbers'
-      },
-      {
-        name: 'Bank',
-        icon: 'bank-account',
-        external: true,
-        url: 'https://hackclub.com/bank',
-        forUseBy: 'everyone'
       }
     ]
   },
@@ -139,23 +156,7 @@ export default [
         external: true,
         url: 'https://github.com/hackclub/dns',
         forUseBy: 'clubbers'
-      },
-      {
-        name: 'Muse',
-        label: 'music programming language',
-        icon: 'list',
-        external: true,
-        url: 'https://muse.hackclub.com',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Sprig',
-        label: 'a JavaScript web-based game editor',
-        icon: 'post',
-        external: true,
-        url: 'https://sprig.hackclub.com',
-        forUseBy: 'everyone'
-      },
+      }
     ]
   }
 ]
