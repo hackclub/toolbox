@@ -38,7 +38,7 @@ export default [
     header: 'Promotions',
     items: [
       {
-        name: 'Hackathon Grant',
+        name: '$500 Hackathon Grant',
         icon: 'bank-account',
         external: true,
         url: 'https://hackclub.com/hackathons/grant',
