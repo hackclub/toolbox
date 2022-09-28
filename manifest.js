@@ -1,8 +1,7 @@
 export default [
-    {
+  {
     header: 'Tools',
     items: [
-      
       {
         name: 'Bank',
         icon: 'bank-account',
@@ -38,6 +37,13 @@ export default [
   {
     header: 'Promotions',
     items: [
+      {
+        name: '$500 Hackathon Grant',
+        icon: 'bank-account',
+        external: true,
+        url: 'https://hackclub.com/hackathons/grant',
+        forUseBy: 'clubbers'
+      },
       {
         name: 'Postman',
         icon: 'explore',
@@ -103,7 +109,7 @@ export default [
         forUseBy: 'clubbers'
       },
       {
-        name: 'Hackathons',
+        name: 'Find Hackathons',
         icon: 'briefcase',
         external: true,
         url: 'https://hackathons.hackclub.com',
