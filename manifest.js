@@ -128,6 +128,13 @@ export default [
         external: true,
         url: 'https://hackclub.com/brand',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'Docs for IT Admins',
+        icon: 'private-unlocked',
+        external: true,
+        url: 'https://hackclub.com/it-admins',
+        forUseBy: 'everyone'
       }
     ]
   },
