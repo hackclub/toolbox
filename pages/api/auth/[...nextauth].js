@@ -7,5 +7,5 @@ export default NextAuth({
       clientId: process.env.SLACK_CLIENT_ID,
       clientSecret: process.env.SLACK_CLIENT_SECRET
     })
-  ],
+  ]
 })
