@@ -128,6 +128,20 @@ export default [
         external: true,
         url: 'https://hackclub.com/brand',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'Community Newsletter',
+        icon: 'docs',
+        external: true,
+        url: 'https://workshops.hackclub.com/newsletter',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Leader Newsletter',
+        icon: 'docs',
+        external: true,
+        url: 'https://workshops.hackclub.com/leader-newsletters',
+        forUseBy: 'leaders'
       }
     ]
   },

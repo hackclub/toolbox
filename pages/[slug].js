@@ -100,7 +100,12 @@ function Item({ name, label, icon, external, url, onClick, forUseBy }) {
         <Heading sx={{ ml: '12px' }}>{name}</Heading>
         {label && (
           <Heading
-            sx={{ fontWeight: 400, ml: '12px', display: ['none', 'block'], transform: 'translateY(3px)' }}
+            sx={{
+              fontWeight: 400,
+              ml: '12px',
+              display: ['none', 'block'],
+              transform: 'translateY(3px)'
+            }}
             as="h3"
           >
             ({label})
