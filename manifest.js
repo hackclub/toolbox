@@ -144,7 +144,7 @@ export default [
         forUseBy: 'leaders'
       },
       {
-        name: 'For Teachers & Admins',
+        name: 'School Toolbox',
         icon: 'briefcase',
         external: true,
         url: 'https://school-toolbox.hackclub.com',
@@ -160,7 +160,7 @@ export default [
         icon: 'grid',
         external: true,
         url: 'https://theme.hackclub.com',
-        forUseBy: 'everyone'
+        forUseBy: 'leaders'
       },
       {
         name: 'Theme Starter',
