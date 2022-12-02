@@ -142,6 +142,13 @@ export default [
         external: true,
         url: 'https://workshops.hackclub.com/leader-newsletters',
         forUseBy: 'leaders'
+      },
+      {
+        name: 'For Teachers & Admins',
+        icon: 'briefcase',
+        external: true,
+        url: 'https://school-toolbox.hackclub.com',
+        forUseBy: 'everyone'
       }
     ]
   },
