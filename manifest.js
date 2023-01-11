@@ -160,7 +160,7 @@ export default [
         icon: 'grid',
         external: true,
         url: 'https://theme.hackclub.com',
-        forUseBy: 'leaders'
+        forUseBy: 'everyone'
       },
       {
         name: 'Theme Starter',
