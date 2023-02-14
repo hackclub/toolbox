@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "format": "prettier --ignore-path ./.prettierignore --write ."
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@hackclub/icons": "^0.0.12",
+    "@hackclub/meta": "^1.1.32",
+    "@hackclub/theme": "^0.3.3",
+    "@next/font": "^13.1.6",
+    "@theme-ui/mdx": "^0.15.5",
+    "airtable-plus": "^1.0.4",
+    "fuzzaldrin": "^2.1.0",
+    "leaflet": "^1.9.3",
+    "next": "^13.1.6",
+    "next-auth": "^4.19.2",
+    "next-mdx-remote": "^4.3.0",
+    "nprogress": "^0.2.0",
+    "prop-type": "^0.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.0",
+    "swr": "^2.0.3",
+    "theme-ui": "^0.15.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
