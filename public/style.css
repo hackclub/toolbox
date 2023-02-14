@@ -1,0 +1,17 @@
+html {
+  font-family: 'Phantom Sans', 'Inter', system-ui, 'Helvetica Neue', Roboto,
+    sans-serif !important;
+  font-size: 18px;
+}
+
+div + h1:first-of-type {
+  margin-top: 2rem;
+}
+
+summary > p {
+  display: inline;
+}
+
+.sidebar > ul > li:last-child {
+  display: none;
+}
