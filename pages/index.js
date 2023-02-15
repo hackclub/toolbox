@@ -320,7 +320,7 @@ export default function Index({ everything, menu }) {
               </Heading>
             </Flex>
           </Box>
-          <Box sx={{ mb: 4 }}>
+          <Box>
             <Input
               placeholder="Search resources..."
               onChange={event => setQuery(event.target.value)}
