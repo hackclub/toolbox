@@ -1,38 +1,15 @@
 export default [
   {
-    category: 'Tools',
+    category: 'Perks',
     color: 'primary',
-    icon: 'code',
+    icon: 'bag',
     items: [
-      {
-        name: 'Winter Hardware Wonderland',
-        description: 'A winter of making with hardware, happening in Slack',
-        icon: 'freeze',
-        external: true,
-        url: 'https://hackclub.com/winter',
-        forUseBy: 'clubbers'
-      },
       {
         name: 'Zoom Pro Meetings',
         description: 'Run Zoom Pro meetings for free in your Hack Club',
         icon: 'welcome',
         external: false,
         url: 'resources/zoom.mdx',
-        forUseBy: 'clubbers'
-      }
-    ]
-  },
-  {
-    category: 'Promotions',
-    color: 'blue',
-    icon: 'sticker',
-    items: [
-      {
-        name: '$500 Hackathon Grant',
-        description: 'Get up to $500 to run an unforgettable hackathon!',
-        icon: 'bank-account',
-        external: true,
-        url: 'https://hackclub.com/hackathons/grant',
         forUseBy: 'clubbers'
       },
       {
@@ -66,13 +43,101 @@ export default [
         external: false,
         url: 'resources/codeday.mdx',
         forUseBy: 'clubbers'
-      }
+      },
+      {
+        name: 'Branding & Logos',
+        description: 'Make anything Hack Club branded',
+        icon: 'like',
+        external: true,
+        url: 'https://hackclub.com/brand',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'DNS',
+        description: 'Redeem a free hackclub.com subdomain',
+        icon: 'web',
+        external: true,
+        url: 'https://github.com/hackclub/dns',
+        forUseBy: 'clubbers'
+      },
+      {
+        name: 'Theme Starter',
+        description: 'A sample Next.js project for getting started with MDX, Theme UI, & Hack Club Theme',
+        icon: 'help',
+        external: true,
+        url: 'https://github.com/hackclub/theme-starter',
+        forUseBy: 'everyone'
+      },
+       {
+        name: 'Theme',
+        description: "Hack Club's theme, using Theme UI",
+        icon: 'grid',
+        external: true,
+        url: 'https://theme.hackclub.com',
+        forUseBy: 'everyone'
+      },
     ]
   },
   {
     category: 'Resources',
+    color: 'blue',
+    icon: 'explore',
+    items: [
+      {
+        name: 'Hack Club Bank',
+        description: 'A full-stack toolkit for organizing anything',
+        icon: 'bank-account',
+        external: true,
+        url: 'https://hackclub.com/bank',
+        forUseBy: 'everyone'
+      }, 
+      {
+        name: 'School Toolkit',
+        description: 'Resources to help with school admin or IT challenges',
+        icon: 'briefcase',
+        external: true,
+        url: 'https://school-toolbox.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: '$500 Hackathon Grant',
+        description: 'Get up to $500 to run an unforgettable hackathon',
+        icon: 'payment',
+        external: true,
+        url: 'https://hackclub.com/hackathons/grant',
+        forUseBy: 'clubbers'
+      },
+      {
+        name: 'Hackathons Page',
+        description: 'Everything you need to know to run an amazing event, all in one place',
+        icon: 'event-check',
+        external: true,
+        url: 'https://hackclub.com/hackathons/',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Leader Newsletter',
+        description: 'The bi-weekly run-down for Hack Club leaders',
+        icon: 'docs',
+        external: true,
+        url: 'https://workshops.hackclub.com/leader-newsletters',
+        forUseBy: 'leaders'
+      },
+      {
+        name: 'Meetings',
+        description:
+          'A collection of real Hack Club meetings, paired with everything you need to run them in your own club',
+        icon: 'clubs',
+        external: true,
+        url: 'https://meetings.hackclub.com',
+        forUseBy: 'leaders'
+      }
+    ]
+  },
+  {
+    category: 'Activities',
     color: 'orange',
-    icon: 'everything',
+    icon: 'idea',
     items: [
       {
         name: 'Workshops',
@@ -82,6 +147,30 @@ export default [
         external: true,
         url: 'https://workshops.hackclub.com',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'Muse',
+        description: 'music programming language',
+        icon: 'list',
+        external: true,
+        url: 'https://muse.hackclub.com',
+        forUseBy: 'everyone'
+      },
+       {
+        name: 'Sprig',
+        description: 'a JavaScript web-based game editor',
+        icon: 'post',
+        external: true,
+        url: 'https://sprig.hackclub.com',
+        forUseBy: 'everyone'
+      },
+        {
+        name: 'Winter Hardware Wonderland',
+        description: 'A winter of making with hardware, happening in Slack',
+        icon: 'freeze',
+        external: true,
+        url: 'https://hackclub.com/winter',
+        forUseBy: 'clubbers'
       },
       {
         name: 'Slack Community',
@@ -107,62 +196,6 @@ export default [
         external: true,
         url: 'https://hackathons.hackclub.com',
         forUseBy: 'everyone'
-      },
-      {
-        name: 'Meetings',
-        description:
-          'A collection of real Hack Club meetings, paired with everything you need to run them in your own club',
-        icon: 'clubs',
-        external: true,
-        url: 'https://meetings.hackclub.com',
-        forUseBy: 'leaders'
-      },
-      {
-        name: 'Branding & Logos',
-        description: 'Make anything Hack Club branded',
-        icon: 'like',
-        external: true,
-        url: 'https://hackclub.com/brand',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Community Newsletter',
-        description: 'Occasional newsletter for the Hack Club community.',
-        icon: 'docs',
-        external: true,
-        url: 'https://workshops.hackclub.com/newsletter',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Leader Newsletter',
-        description: 'The bi-weekly run-down for Hack Club leaders',
-        icon: 'docs',
-        external: true,
-        url: 'https://workshops.hackclub.com/leader-newsletters',
-        forUseBy: 'leaders'
-      }
-    ]
-  },
-  {
-    category: 'Technical',
-    color: 'purple',
-    icon: 'code',
-    items: [
-      {
-        name: 'Theme',
-        description: "Hack Club's theme, using Theme UI",
-        icon: 'grid',
-        external: true,
-        url: 'https://theme.hackclub.com',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'DNS',
-        description: 'Redeem a free hackclub.com subdomain',
-        icon: 'web',
-        external: true,
-        url: 'https://github.com/hackclub/dns',
-        forUseBy: 'clubbers'
       }
     ]
   }
