@@ -2,5 +2,13 @@
 module.exports = {
   experiments: {
     topLevelAwait: true
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/',
+        destination: '/home'
+      }
+    ]
   }
 }

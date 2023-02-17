@@ -9,7 +9,7 @@ export default [
         description: 'Run Zoom Pro meetings for free in your Hack Club',
         icon: 'welcome',
         external: false,
-        url: 'resources/zoom.mdx',
+        url: '/zoom.mdx',
         forUseBy: 'clubbers'
       },
       {
@@ -17,7 +17,7 @@ export default [
         description: "Free access to Postman's teams plan",
         icon: 'explore',
         external: false,
-        url: 'resources/postman.mdx',
+        url: '/postman.mdx',
         forUseBy: 'clubbers'
       },
       {
@@ -25,7 +25,7 @@ export default [
         description: "Free access to Figma's team plan",
         icon: 'photo',
         external: false,
-        url: 'resources/figma.mdx',
+        url: '/figma.mdx',
         forUseBy: 'clubbers'
       },
       {
@@ -33,7 +33,7 @@ export default [
         description: 'Get a box of stickers for your next meeting or event',
         icon: 'sticker',
         external: false,
-        url: 'resources/stickers.mdx',
+        url: '/stickers.mdx',
         forUseBy: 'leaders'
       },
       {
@@ -41,7 +41,7 @@ export default [
         description: 'Discount for in-person CodeDay events',
         icon: 'event-code',
         external: false,
-        url: 'resources/codeday.mdx',
+        url: '/codeday.mdx',
         forUseBy: 'clubbers'
       },
       {
@@ -97,6 +97,15 @@ export default [
         icon: 'briefcase',
         external: true,
         url: 'https://school-toolbox.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Slack Community',
+        description:
+          'Be part of a fun, technically-diverse and supportive community on Slack',
+        icon: 'slack',
+        external: true,
+        url: 'https://hackclub.com/slack',
         forUseBy: 'everyone'
       },
       {
