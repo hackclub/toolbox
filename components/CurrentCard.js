@@ -51,27 +51,32 @@ export default function CurrentCard({ item, sx = {}, onHover, onHoverLeave }) {
             position: 'relative',
             p: '0 !important',
             width: '100%',
-            maxHeight: '175px',
-            position: 'relative',
-            '::after': {
-              content: '""',
-              position: 'absolute',
-              zIndex: 1,
-              bottom: 0,
-              left: 0,
-              pointerEvents: 'none',
-              backgroundColor: background,
-              width: '100%',
-              height: '25px'
+            '@media screen and (max-width: 64em)': {
+              height: '100%'
             },
-            ':hover': {
-              overflow: 'visible',
-              zIndex: 1000,
+            '@media screen and (min-width: 64em)': {
+              maxHeight: '175px',
+              position: 'relative',
               '::after': {
-                display: 'none'
+                content: '""',
+                position: 'absolute',
+                zIndex: 1,
+                bottom: 0,
+                left: 0,
+                pointerEvents: 'none',
+                backgroundColor: background,
+                width: '100%',
+                height: '25px'
               },
-              '.more': {
-                display: 'none'
+              ':hover': {
+                overflow: 'visible',
+                zIndex: 1000,
+                '::after': {
+                  display: 'none'
+                },
+                '.more': {
+                  display: 'none'
+                }
               }
             }
           }}
@@ -85,7 +90,10 @@ export default function CurrentCard({ item, sx = {}, onHover, onHoverLeave }) {
               bottom: '-8px',
               left: 0,
               textAlign: 'center',
-              width: '100%'
+              width: '100%',
+              '@media screen and (max-width: 64em)': {
+                display: 'none'
+              }
             }}
           >
             <Icon glyph="more" size={25} />
@@ -94,7 +102,10 @@ export default function CurrentCard({ item, sx = {}, onHover, onHoverLeave }) {
             sx={{
               bg: background,
               color: 'white',
-              padding: [4, '20px !important']
+              padding: [4, '20px !important'],
+              '@media screen and (max-width: 64em)': {
+                height: '100%'
+              }
             }}
           >
             <Image

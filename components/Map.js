@@ -43,7 +43,7 @@ export default function Map() {
   const [center, setCenter] = useState(
     window.innerWidth > 767.98 ? [35.683, -25.099] : [55, -100]
   )
-  const [frame, setFrame] = useState(false)
+  const [frame, setFrame] = useState(false) // Originally used to overlay a map over entire page. Not in use right now
 
   useEffect(() => {
     fetch(
@@ -51,12 +51,14 @@ export default function Map() {
     )
       .then(res => res.json())
       .then(json => {
+        console.log(json[0])
         setClubs(
           json
             .filter(
               club =>
-                club.status != 'inactive' &&
-                club.status != 'unknown' &&
+                club.fields.Status &&
+                club.fields.Status != 'inactive' &&
+                club.fields.Status != 'unknown' &&
                 club.fields.Latitude &&
                 club.fields.Longitude
             )
