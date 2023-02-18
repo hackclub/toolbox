@@ -39,7 +39,7 @@ export default [
 
 To add a card to an existing category, you simply add to the cards in the category, like so:
 
-```js
+```diff
 export default [
   {
     category: 'Perks',
@@ -68,7 +68,7 @@ export default [
 
 To add a new category, you'll follow a similar pattern at the bottom of the file:
 
-```js
+```diff
 export default [
   {
     category: 'Perks',
@@ -85,19 +85,19 @@ export default [
       },
     ]
   },
-  {
-    category: '<Category name>',
-    color: '<Category color>',
-    icon: '<Category icon>'
-    items: [
-      ...
-    ]
-  } 
++  {
++    category: '<Category name>',
++    color: '<Category color>',
++    icon: '<Category icon>'
++    items: [
++      ...
++    ]
++  }
 ]
 ```
 
-*For `color` and `icon`, you can use [Hack Club's theme](https://theme.hackclub.com).*
+_For `color` and `icon`, you can use [Hack Club's theme](https://theme.hackclub.com)._
 
 When you edit the file to make these changes, you'll be asked to make a pull request.
 
-Let us know if you have any questions in the `#leaders` channel in [Slack](https://hackclub.slack.com)!
+Let us know if you have any questions in [Slack](https://hackclub.slack.com)!
