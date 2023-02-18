@@ -5,6 +5,7 @@ import { buildRoute } from '../lib/utils'
 
 export function InternalCard({
   item,
+  onMobile,
   onHover,
   onHoverLeave,
   categories,
@@ -39,32 +40,34 @@ export function InternalCard({
           transform: 'scale(1.0225)'
         },
         p: '0 !important',
-        '@media screen and (min-width: 992px)': {
-          maxHeight: '175px',
-          position: 'relative',
-          '::after': {
-            content: '""',
-            position: 'absolute',
-            zIndex: 1,
-            bottom: 0,
-            left: 0,
-            pointerEvents: 'none',
-            backgroundImage:
-              'linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%)',
-            width: '100%',
-            height: '75px'
-          },
-          ':hover': {
-            overflow: 'visible',
-            zIndex: 1000,
+        ...(!onMobile && {
+          '@media screen and (min-width: 992px)': {
+            maxHeight: '175px',
+            position: 'relative',
             '::after': {
-              display: 'none'
+              content: '""',
+              position: 'absolute',
+              zIndex: 1,
+              bottom: 0,
+              left: 0,
+              pointerEvents: 'none',
+              backgroundImage:
+                'linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%)',
+              width: '100%',
+              height: '75px'
             },
-            '.more': {
-              display: 'none'
+            ':hover': {
+              overflow: 'visible',
+              zIndex: 1000,
+              '::after': {
+                display: 'none'
+              },
+              '.more': {
+                display: 'none'
+              }
             }
           }
-        },
+        }),
         ...sx
       }}
       onMouseEnter={onHover}
@@ -80,6 +83,7 @@ export function InternalCard({
           left: 0,
           textAlign: 'center',
           width: '100%',
+          display: onMobile ? 'none' : 'initial',
           '@media screen and (max-width: 991.98px)': {
             display: 'none'
           }
@@ -147,7 +151,13 @@ export function InternalCard({
   )
 }
 
-export function ExternalCard({ item, onHover, onHoverLeave, sx = {} }) {
+export function ExternalCard({
+  item,
+  onMobile,
+  onHover,
+  onHoverLeave,
+  sx = {}
+}) {
   return (
     <Card
       as="a"
@@ -162,33 +172,35 @@ export function ExternalCard({ item, onHover, onHoverLeave, sx = {} }) {
           transform: 'scale(1.0225)'
         },
         p: '0 !important',
-        '@media screen and (min-width: 992px)': {
-          maxHeight: '175px',
-          overflow: 'hidden',
-          position: 'relative',
-          '::after': {
-            content: '""',
-            position: 'absolute',
-            zIndex: 1,
-            bottom: 0,
-            left: 0,
-            pointerEvents: 'none',
-            backgroundImage:
-              'linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%)',
-            width: '100%',
-            height: '75px'
-          },
-          ':hover': {
-            zIndex: 1000,
-            overflow: 'visible',
+        ...(!onMobile && {
+          '@media screen and (min-width: 992px)': {
+            maxHeight: '175px',
+            overflow: 'hidden',
+            position: 'relative',
             '::after': {
-              display: 'none'
+              content: '""',
+              position: 'absolute',
+              zIndex: 1,
+              bottom: 0,
+              left: 0,
+              pointerEvents: 'none',
+              backgroundImage:
+                'linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%)',
+              width: '100%',
+              height: '75px'
             },
-            '.more': {
-              display: 'none'
+            ':hover': {
+              zIndex: 1000,
+              overflow: 'visible',
+              '::after': {
+                display: 'none'
+              },
+              '.more': {
+                display: 'none'
+              }
             }
           }
-        },
+        }),
         ...sx
       }}
       onMouseEnter={onHover}
@@ -204,6 +216,7 @@ export function ExternalCard({ item, onHover, onHoverLeave, sx = {} }) {
           left: 0,
           textAlign: 'center',
           width: '100%',
+          display: onMobile ? 'none' : 'initial',
           '@media screen and (max-width: 991.98px)': {
             display: 'none'
           }
@@ -217,7 +230,8 @@ export function ExternalCard({ item, onHover, onHoverLeave, sx = {} }) {
           p: [4, 'default'],
           '@media screen and (max-width: 991.98px)': {
             height: '100%'
-          }
+          },
+          height: onMobile ? '100%' : 'initial'
         }}
       >
         <Flex
