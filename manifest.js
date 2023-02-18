@@ -62,20 +62,21 @@ export default [
       },
       {
         name: 'Theme Starter',
-        description: 'A sample Next.js project for getting started with MDX, Theme UI, & Hack Club Theme',
+        description:
+          'A sample Next.js project for getting started with MDX, Theme UI, & Hack Club Theme',
         icon: 'help',
         external: true,
         url: 'https://github.com/hackclub/theme-starter',
         forUseBy: 'everyone'
       },
-       {
+      {
         name: 'Theme',
         description: "Hack Club's theme, using Theme UI",
         icon: 'grid',
         external: true,
         url: 'https://theme.hackclub.com',
         forUseBy: 'everyone'
-      },
+      }
     ]
   },
   {
@@ -90,7 +91,7 @@ export default [
         external: true,
         url: 'https://hackclub.com/bank',
         forUseBy: 'everyone'
-      }, 
+      },
       {
         name: 'School Toolkit',
         description: 'Resources to help with school admin or IT challenges',
@@ -118,7 +119,8 @@ export default [
       },
       {
         name: 'Hackathons Page',
-        description: 'Everything you need to know to run an amazing event, all in one place',
+        description:
+          'Everything you need to know to run an amazing event, all in one place',
         icon: 'event-check',
         external: true,
         url: 'https://hackclub.com/hackathons/',
@@ -159,21 +161,21 @@ export default [
       },
       {
         name: 'Muse',
-        description: 'music programming language',
+        description: 'Music programming language',
         icon: 'list',
         external: true,
         url: 'https://muse.hackclub.com',
         forUseBy: 'everyone'
       },
-       {
+      {
         name: 'Sprig',
-        description: 'a JavaScript web-based game editor',
+        description: 'A JavaScript web-based game editor',
         icon: 'post',
         external: true,
         url: 'https://sprig.hackclub.com',
         forUseBy: 'everyone'
       },
-        {
+      {
         name: 'Winter Hardware Wonderland',
         description: 'A winter of making with hardware, happening in Slack',
         icon: 'freeze',
