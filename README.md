@@ -54,14 +54,14 @@ export default [
         url: '/zoom.mdx',
         forUseBy: 'clubbers'
       },
-+      {
-+        name: 'Theme',
-+        description: "Hack Club's theme, using Theme UI",
-+        icon: 'grid',
-+        external: true,
-+        url: 'https://theme.hackclub.com',
-+        forUseBy: 'everyone'
-+      }
++     {
++       name: 'Theme',
++       description: "Hack Club's theme, using Theme UI",
++       icon: 'grid',
++       external: true,
++       url: 'https://theme.hackclub.com',
++       forUseBy: 'everyone'
++     }
     ]
   },
 ```
@@ -85,14 +85,14 @@ export default [
       },
     ]
   },
-+  {
-+    category: '<Category name>',
-+    color: '<Category color>',
-+    icon: '<Category icon>'
-+    items: [
-+      ...
-+    ]
-+  }
++ {
++   category: '<Category name>',
++   color: '<Category color>',
++   icon: '<Category icon>'
++   items: [
++     ...
++   ]
++ }
 ]
 ```
 
