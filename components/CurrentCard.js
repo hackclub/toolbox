@@ -2,7 +2,13 @@ import { Box, Card, Image, Link, Text } from 'theme-ui'
 import Icon from '@hackclub/icons'
 import { useState } from 'react'
 
-export default function CurrentCard({ item, sx = {}, onHover, onHoverLeave }) {
+export default function CurrentCard({
+  item,
+  sx = {},
+  onMobile,
+  onHover,
+  onHoverLeave
+}) {
   const {
     background,
     titleColor,
@@ -35,7 +41,11 @@ export default function CurrentCard({ item, sx = {}, onHover, onHoverLeave }) {
         sx={{
           textDecoration: 'none',
           '&:hover': { cursor: 'pointer' },
-          '&:hover svg': { opacity: 0.5 }
+          '&:hover svg': { opacity: 0.5 },
+          ...(onMobile && {
+            display: 'inline-block',
+            height: '100%'
+          })
         }}
         href={url}
         target="_blank"
@@ -51,34 +61,37 @@ export default function CurrentCard({ item, sx = {}, onHover, onHoverLeave }) {
             position: 'relative',
             p: '0 !important',
             width: '100%',
-            '@media screen and (max-width: 64em)': {
+            '@media screen and (max-width: 992px)': {
               height: '100%'
             },
-            '@media screen and (min-width: 64em)': {
-              maxHeight: '175px',
-              position: 'relative',
-              '::after': {
-                content: '""',
-                position: 'absolute',
-                zIndex: 1,
-                bottom: 0,
-                left: 0,
-                pointerEvents: 'none',
-                backgroundColor: background,
-                width: '100%',
-                height: '25px'
-              },
-              ':hover': {
-                overflow: 'visible',
-                zIndex: 1000,
+            height: onMobile ? '100%' : 'initial',
+            ...(!onMobile && {
+              '@media screen and (min-width: 992px)': {
+                maxHeight: '175px',
+                position: 'relative',
                 '::after': {
-                  display: 'none'
+                  content: '""',
+                  position: 'absolute',
+                  zIndex: 1,
+                  bottom: 0,
+                  left: 0,
+                  pointerEvents: 'none',
+                  backgroundColor: background,
+                  width: '100%',
+                  height: '25px'
                 },
-                '.more': {
-                  display: 'none'
+                ':hover': {
+                  overflow: 'visible',
+                  zIndex: 1000,
+                  '::after': {
+                    display: 'none'
+                  },
+                  '.more': {
+                    display: 'none'
+                  }
                 }
               }
-            }
+            })
           }}
         >
           <Box
@@ -91,9 +104,10 @@ export default function CurrentCard({ item, sx = {}, onHover, onHoverLeave }) {
               left: 0,
               textAlign: 'center',
               width: '100%',
-              '@media screen and (max-width: 64em)': {
+              '@media screen and (max-width: 992px)': {
                 display: 'none'
-              }
+              },
+              display: onMobile ? 'none' : 'initial'
             }}
           >
             <Icon glyph="more" size={25} />
@@ -103,9 +117,10 @@ export default function CurrentCard({ item, sx = {}, onHover, onHoverLeave }) {
               bg: background,
               color: 'white',
               padding: [4, '20px !important'],
-              '@media screen and (max-width: 64em)': {
+              '@media screen and (max-width: 992px)': {
                 height: '100%'
-              }
+              },
+              height: onMobile ? '100%' : 'initial'
             }}
           >
             <Image
