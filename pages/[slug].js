@@ -98,7 +98,7 @@ export default function Index({ everything = [], menu, source }) {
       buildRoute({ categories: [...categories, category], query }),
       undefined,
       {
-        shallow: true,
+        ...(router.query.slug === 'home' && { shallow: true }),
         scroll: false
       }
     )
@@ -109,7 +109,7 @@ export default function Index({ everything = [], menu, source }) {
       buildRoute({ categories: categories.filter(x => x !== category), query }),
       undefined,
       {
-        shallow: true,
+        ...(router.query.slug === 'home' && { shallow: true }),
         scroll: false
       }
     )
@@ -131,6 +131,7 @@ export default function Index({ everything = [], menu, source }) {
     const queryQuery = router.query.query ? router.query.query : ''
     setCategories(queryCategories)
     setQuery(queryQuery)
+    setHover('')
     updateItems(queryCategories, queryQuery)
   }, [router.query])
 
@@ -228,7 +229,6 @@ export default function Index({ everything = [], menu, source }) {
               as="a"
               onClick={() =>
                 router.push(buildRoute({ categories: [], query }), undefined, {
-                  shallow: true,
                   scroll: false
                 })
               }
@@ -299,7 +299,6 @@ export default function Index({ everything = [], menu, source }) {
               as="a"
               onClick={() =>
                 router.push(buildRoute({ categories: [], query }), undefined, {
-                  shallow: true,
                   scroll: false
                 })
               }

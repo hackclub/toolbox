@@ -92,6 +92,7 @@ export default function MDXContent({ source, categories, query }) {
   return (
     <Box sx={{ mt: [0, 1] }}>
       <Link
+        id="start"
         onClick={() =>
           router.push(
             buildRoute({ route: '/', categories, query }),
