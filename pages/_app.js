@@ -37,7 +37,6 @@ export default function App({
           description="Tools for hacking, learning, and leading."
           image="https://cloud-n8brj3kg9-hack-club-bot.vercel.app/0toolbox_meta.png"
           color="#ec3750"
-          manifest="/site.webmanifest"
         />
         <Component {...pageProps} />
         <Plausible />
