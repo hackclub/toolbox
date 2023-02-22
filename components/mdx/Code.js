@@ -8,14 +8,13 @@ export default function Code(props) {
   const { theme } = useThemeUI()
   let [open, setOpen] = useState(false)
   const fetcher = (...args) => fetch(...args).then(res => res.json())
-  const { data, error } = useSWR(`/api/${props.children}`, fetcher, {
-    initialData: { key: 'Loading...' },
+  const { data, error, isLoading } = useSWR(`/api/${props.children}`, fetcher, {
     refreshInterval: 2000
   })
-  if (status === 'authenticated' && session.user) {
-    console.log(data)
+  if (status === 'authenticated' && session.user && !isLoading) {
     return <Text sx={{ ...theme.styles.code }}>{data.key}</Text>
-  }
+  } else if (isLoading)
+    return <Text sx={{ ...theme.styles.code }}>Loading...</Text>
 
   return (
     <>
