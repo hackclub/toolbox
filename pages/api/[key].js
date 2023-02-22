@@ -10,6 +10,6 @@ export default async function handler(req, res) {
       tableName: 'Codes'
     })
     const record = await airtable.find(req.query.key)
-    req.json({ key: record.fields.key })
+    res.json({ key: record.fields.key })
   } else res.json({ key: '👁' })
 }
