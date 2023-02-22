@@ -13,7 +13,7 @@ export default function Code(props) {
     refreshInterval: 2000
   })
   if (status === 'authenticated' && session.user) {
-    console.log(status, session)
+    console.log(data)
     return <Text sx={{ ...theme.styles.code }}>{data.key}</Text>
   }
 
