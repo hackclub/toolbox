@@ -1,29 +1,30 @@
-import { useSession, signIn } from 'next-auth/client'
+import { useSession, signIn } from 'next-auth/react'
 import { useState } from 'react'
-import { Themed } from 'theme-ui'
+import { useThemeUI, Text } from 'theme-ui'
 import useSWR from 'swr'
 
 export default function Code(props) {
-  console.log(props)
-  const [session, loading] = useSession()
+  const { data: session, status } = useSession()
+  const { theme } = useThemeUI()
   let [open, setOpen] = useState(false)
   const fetcher = (...args) => fetch(...args).then(res => res.json())
   const { data, error } = useSWR(`/api/${props.children}`, fetcher, {
     initialData: { key: 'Loading...' },
     refreshInterval: 2000
   })
-  if (session) {
-    return <Themed.code>{data.key}</Themed.code>
+  if (status !== 'authenticated' && session) {
+    return <Text sx={{ ...theme.styles.code }}>{data.key}</Text>
   }
 
   return (
     <>
-      <Themed.code
+      <Text
+        sx={{ ...theme.styles.code }}
         style={{ cursor: 'pointer' }}
         onClick={() => signIn('slack')}
       >
         👁 Reveal Code 👁
-      </Themed.code>
+      </Text>
       <style>
         {`
         .hidden-at-first{

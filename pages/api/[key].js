@@ -1,9 +1,8 @@
-import { getSession } from 'next-auth/client'
+import { getSession } from 'next-auth/react'
 const AirtablePlus = require('airtable-plus')
 
-export default async (req, res) => {
+export default async function handler(req, res) {
   const session = await getSession({ req })
-  console.log(session)
   if (session != null) {
     const airtable = new AirtablePlus({
       baseID: 'appvp3mpqIrosrqdP',
@@ -11,8 +10,6 @@ export default async (req, res) => {
       tableName: 'Codes'
     })
     const record = await airtable.find(req.query.key)
-    res.json({ key: record.fields.key })
-  } else {
-    res.json({ key: '👁' })
-  }
+    req.json({ key: record.fields.key })
+  } else res.json({ key: '👁' })
 }

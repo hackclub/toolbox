@@ -1,188 +1,212 @@
 export default [
   {
-    header: 'Tools',
+    category: 'Perks',
+    color: 'primary',
+    icon: 'bag',
     items: [
-      {
-        name: 'Bank',
-        icon: 'bank-account',
-        external: true,
-        url: 'https://hackclub.com/bank',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Sprig',
-        label: 'a JavaScript web-based game editor',
-        icon: 'post',
-        external: true,
-        url: 'https://sprig.hackclub.com',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Muse',
-        label: 'music programming language',
-        icon: 'list',
-        external: true,
-        url: 'https://muse.hackclub.com',
-        forUseBy: 'everyone'
-      },
       {
         name: 'Zoom Pro Meetings',
+        description: 'Run Zoom Pro meetings for free in your Hack Club',
         icon: 'welcome',
-        path: 'zoom.mdx',
-        img: 'zoom.png',
-        forUseBy: 'clubbers'
-      }
-    ]
-  },
-  {
-    header: 'Promotions',
-    items: [
-      {
-        name: '$500 Hackathon Grant',
-        icon: 'bank-account',
-        external: true,
-        url: 'https://hackclub.com/hackathons/grant',
+        external: false,
+        url: '/zoom.mdx',
         forUseBy: 'clubbers'
       },
       {
         name: 'Postman',
+        description: "Free access to Postman's teams plan",
         icon: 'explore',
-        label: 'free access to their teams plan',
-        path: 'postman.mdx',
-        img: 'https://dz2cdn1.dzone.com/storage/temp/13824432-postman-forUseBy-api-testing.png',
+        external: false,
+        url: '/postman.mdx',
         forUseBy: 'clubbers'
       },
       {
         name: 'Figma',
+        description: "Free access to Figma's team plan",
         icon: 'photo',
-        label: 'free access to their teams plan',
-        path: 'figma.mdx',
-        img: 'figma.png',
+        external: false,
+        url: '/figma.mdx',
         forUseBy: 'clubbers'
       },
       {
         name: 'Stickers',
+        description: 'Get a box of stickers for your next meeting or event',
         icon: 'sticker',
-        path: 'stickers.mdx',
-        img: 'stickers.png',
+        external: false,
+        url: '/stickers.mdx',
         forUseBy: 'leaders'
       },
       {
         name: 'CodeDay',
+        description: 'Discount for in-person CodeDay events',
         icon: 'event-code',
-        label: 'discount for in-person CodeDay events',
-        path: 'codeday.mdx',
-        img: 'codeday.png',
+        external: false,
+        url: '/codeday.mdx',
         forUseBy: 'clubbers'
-      }
-    ]
-  },
-  {
-    header: 'Resources',
-    items: [
-      {
-        name: 'Workshops',
-        icon: 'idea',
-        external: true,
-        url: 'https://workshops.hackclub.com',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Slack Community',
-        icon: 'slack',
-        external: true,
-        url: 'https://hackclub.com/slack',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Clubs Channel',
-        icon: 'slack',
-        external: true,
-        url: 'https://app.slack.com/client/T0266FRGM/C02PA5G01ND',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Events',
-        icon: 'event-code',
-        external: true,
-        url: 'https://events.hackclub.com',
-        forUseBy: 'clubbers'
-      },
-      {
-        name: 'Find Hackathons',
-        icon: 'briefcase',
-        external: true,
-        url: 'https://hackathons.hackclub.com',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Meetings',
-        icon: 'clubs',
-        external: true,
-        url: 'https://meetings.hackclub.com',
-        forUseBy: 'leaders'
       },
       {
         name: 'Branding & Logos',
+        description: 'Make anything Hack Club branded',
         icon: 'like',
         external: true,
         url: 'https://hackclub.com/brand',
         forUseBy: 'everyone'
       },
       {
-        name: 'Community Newsletter',
-        icon: 'docs',
+        name: 'DNS',
+        description: 'Redeem a free hackclub.com subdomain',
+        icon: 'web',
         external: true,
-        url: 'https://workshops.hackclub.com/newsletter',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Leader Newsletter',
-        icon: 'docs',
-        external: true,
-        url: 'https://workshops.hackclub.com/leader-newsletters',
-        forUseBy: 'leaders'
-      },
-      {
-        name: 'School Toolbox',
-        icon: 'briefcase',
-        external: true,
-        url: 'https://school-toolbox.hackclub.com',
-        forUseBy: 'everyone'
-      }
-    ]
-  },
-  {
-    header: 'Technical',
-    items: [
-      {
-        name: 'Theme',
-        icon: 'grid',
-        external: true,
-        url: 'https://theme.hackclub.com',
-        forUseBy: 'everyone'
+        url: 'https://github.com/hackclub/dns',
+        forUseBy: 'clubbers'
       },
       {
         name: 'Theme Starter',
+        description:
+          'A sample Next.js project for getting started with MDX, Theme UI, & Hack Club Theme',
         icon: 'help',
         external: true,
         url: 'https://github.com/hackclub/theme-starter',
         forUseBy: 'everyone'
       },
       {
-        name: 'CSS Theme',
-        icon: 'code',
+        name: 'Theme',
+        description: "Hack Club's theme, using Theme UI",
+        icon: 'grid',
         external: true,
-        url: 'https://css.hackclub.com/',
+        url: 'https://theme.hackclub.com',
+        forUseBy: 'everyone'
+      }
+    ]
+  },
+  {
+    category: 'Resources',
+    color: 'blue',
+    icon: 'explore',
+    items: [
+      {
+        name: 'Hack Club Bank',
+        description: 'A full-stack toolkit for organizing anything',
+        icon: 'bank-account',
+        external: true,
+        url: 'https://hackclub.com/bank',
         forUseBy: 'everyone'
       },
       {
-        name: 'DNS',
-        icon: 'web',
-        label: 'redeem a free hackclub.com subdomain',
+        name: 'School Toolkit',
+        description: 'Resources to help with school admin or IT challenges',
+        icon: 'briefcase',
         external: true,
-        url: 'https://github.com/hackclub/dns',
+        url: 'https://school-toolbox.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Slack Community',
+        description:
+          'Be part of a fun, technically-diverse and supportive community on Slack',
+        icon: 'slack',
+        external: true,
+        url: 'https://hackclub.com/slack',
+        forUseBy: 'everyone'
+      },
+      {
+        name: '$500 Hackathon Grant',
+        description: 'Get up to $500 to run an unforgettable hackathon',
+        icon: 'payment',
+        external: true,
+        url: 'https://hackclub.com/hackathons/grant',
         forUseBy: 'clubbers'
+      },
+      {
+        name: 'Hackathons Page',
+        description:
+          'Everything you need to know to run an amazing event, all in one place',
+        icon: 'event-check',
+        external: true,
+        url: 'https://hackclub.com/hackathons/',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Leader Newsletter',
+        description: 'The bi-weekly run-down for Hack Club leaders',
+        icon: 'docs',
+        external: true,
+        url: 'https://workshops.hackclub.com/leader-newsletters',
+        forUseBy: 'leaders'
+      },
+      {
+        name: 'Meetings',
+        description:
+          'A collection of real Hack Club meetings, paired with everything you need to run them in your own club',
+        icon: 'clubs',
+        external: true,
+        url: 'https://meetings.hackclub.com',
+        forUseBy: 'leaders'
+      }
+    ]
+  },
+  {
+    category: 'Activities',
+    color: 'orange',
+    icon: 'idea',
+    items: [
+      {
+        name: 'Workshops',
+        description:
+          'Learn programming and create fun projects with short, in-depth workshops',
+        icon: 'idea',
+        external: true,
+        url: 'https://workshops.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Muse',
+        description: 'Music programming language',
+        icon: 'list',
+        external: true,
+        url: 'https://muse.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Sprig',
+        description: 'A JavaScript web-based game editor',
+        icon: 'post',
+        external: true,
+        url: 'https://sprig.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Winter Hardware Wonderland',
+        description: 'A winter of making with hardware, happening in Slack',
+        icon: 'freeze',
+        external: true,
+        url: 'https://hackclub.com/winter',
+        forUseBy: 'clubbers'
+      },
+      {
+        name: 'Slack Community',
+        description:
+          'Be part of a fun, technically-diverse and supportive community on Slack',
+        icon: 'slack',
+        external: true,
+        url: 'https://hackclub.com/slack',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Events',
+        description: 'Join an event with other Hack Clubbers',
+        icon: 'event-code',
+        external: true,
+        url: 'https://events.hackclub.com',
+        forUseBy: 'clubbers'
+      },
+      {
+        name: 'Hackathons',
+        description: 'Find hackathons to attend',
+        icon: 'crosshairs',
+        external: true,
+        url: 'https://hackathons.hackclub.com',
+        forUseBy: 'everyone'
       }
     ]
   }

@@ -1,9 +1,9 @@
 import NextAuth from 'next-auth'
-import Providers from 'next-auth/providers'
+import SlackProvider from 'next-auth/providers/slack'
 
 export default NextAuth({
   providers: [
-    Providers.Slack({
+    SlackProvider({
       clientId: process.env.SLACK_CLIENT_ID,
       clientSecret: process.env.SLACK_CLIENT_SECRET
     })

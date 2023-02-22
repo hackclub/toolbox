@@ -1,6 +1,8 @@
-const withMDX = require('@next/mdx')({ extension: /\.mdx?$/ })
-module.exports = withMDX({
-  pageExtensions: ['js', 'jsx', 'mdx'],
+/** @type {import('next').NextConfig} */
+module.exports = {
+  experiments: {
+    topLevelAwait: true
+  },
   async rewrites() {
     return [
       {
@@ -9,4 +11,4 @@ module.exports = withMDX({
       }
     ]
   }
-})
+}
