@@ -12,6 +12,9 @@ export default function Code(props) {
     initialData: { key: 'Loading...' },
     refreshInterval: 2000
   })
+  if (status === 'authenticated' && session.user) {
+    return <Text sx={{ ...theme.styles.code }}>{data.key}</Text>
+  }
 
   return (
     <>
