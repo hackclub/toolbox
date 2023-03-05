@@ -93,7 +93,7 @@ export default [
         forUseBy: 'everyone'
       },
       {
-        name: 'School Toolkit',
+        name: 'School Toolbox',
         description: 'Resources to help with school admin or IT challenges',
         icon: 'briefcase',
         external: true,
