@@ -176,14 +176,6 @@ export default [
         forUseBy: 'everyone'
       },
       {
-        name: 'Winter Hardware Wonderland',
-        description: 'A winter of making with hardware, happening in Slack',
-        icon: 'freeze',
-        external: true,
-        url: 'https://hackclub.com/winter',
-        forUseBy: 'clubbers'
-      },
-      {
         name: 'Slack Community',
         description:
           'Be part of a fun, technically-diverse and supportive community on Slack',
