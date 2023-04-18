@@ -13,14 +13,6 @@ export default [
         forUseBy: 'clubbers'
       },
       {
-        name: 'Postman',
-        description: "Free access to Postman's teams plan",
-        icon: 'explore',
-        external: false,
-        url: '/postman.mdx',
-        forUseBy: 'clubbers'
-      },
-      {
         name: 'Figma',
         description: "Free access to Figma's team plan",
         icon: 'photo',
