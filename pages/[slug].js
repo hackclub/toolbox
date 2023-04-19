@@ -370,7 +370,7 @@ export default function Index({ everything = [], menu, source }) {
             ))}
             <Flex
               as="a"
-              href="https://github.com/hackclub/toolbox/edit/main/manifest.js"
+              href="https://github.com/hackclub/toolbox/issues"
               target="_blank"
               sx={{
                 alignItems: 'center',
