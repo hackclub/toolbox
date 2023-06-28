@@ -77,6 +77,15 @@ export default [
     icon: 'explore',
     items: [
       {
+        name: 'Clubs Directory',
+        description:
+          'Collaborating with other clubs IRL just got way easier! Find clubs near you, but now you can contact each other to plan in-person activities.',
+        icon: 'clubs',
+        external: true,
+        url: 'https://clubsdirectory.vercel.app/',
+        forUseBy: 'leaders'
+      },
+      {
         name: 'Hack Club Bank',
         description: 'A full-stack toolkit for organizing anything',
         icon: 'bank-account',

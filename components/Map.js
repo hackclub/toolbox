@@ -33,7 +33,7 @@ const StyledMapContainer = styled(MapContainer)`
 function MapEvents({ showFrame }) {
   const map = useMapEvents({
     dblclick() {
-      window.open('https://hackclub.github.io/map/', '_blank')
+      window.open('https://directory.hackclub.com/MapPage', '_blank')
     }
   })
 }
@@ -73,6 +73,7 @@ export default function Map() {
 
   return (
     <>
+      {/*
       <StyledMapContainer
         center={center}
         zoom={2.5}
@@ -96,6 +97,18 @@ export default function Map() {
         ))}
         <MapEvents showFrame={() => setFrame(true)} />
       </StyledMapContainer>
+        */}
+      <iframe
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          border: 'none'
+        }}
+        src="https://directory.hackclub.com/MapPage?embed"
+        height="500px"
+        width="100%"
+      />
       {frame === true && (
         <Box
           onClick={() => setFrame(false)}
