@@ -151,8 +151,8 @@ export default function Index({ everything = [], menu, source }) {
           }}
         >
           <Card
-            variant="translucent"
             sx={{
+              backgroundColor: 'rgba(255, 255, 255, 0.5)',
               p: 4,
               borderRadius: [0, 'default']
             }}
