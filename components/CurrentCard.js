@@ -57,7 +57,9 @@ export default function CurrentCard({
           onMouseLeave={() => onHoverLeave()}
           sx={{
             mr: 3,
-            backgroundColor: background,
+            background: background.includes('linear-gradient')
+              ? ''
+              : background,
             position: 'relative',
             p: '0 !important',
             width: '100%',
@@ -76,7 +78,9 @@ export default function CurrentCard({
                   bottom: 0,
                   left: 0,
                   pointerEvents: 'none',
-                  backgroundColor: background,
+                  backgroundColor: background.includes('linear-gradient')
+                    ? 'black'
+                    : background,
                   width: '100%',
                   height: '25px'
                 },
@@ -114,7 +118,9 @@ export default function CurrentCard({
           </Box>
           <Card
             sx={{
-              bg: background,
+              background: background.includes('linear-gradient')
+                ? 'black'
+                : background,
               color: 'white',
               padding: [4, '20px !important'],
               '@media screen and (max-width: 992px)': {

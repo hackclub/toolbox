@@ -152,7 +152,7 @@ export default function Index({ everything = [], menu, source }) {
         >
           <Card
             sx={{
-              backgroundColor: 'rgba(255, 255, 255, 0.5)',
+              background: 'rgba(255, 255, 255, 0.5)',
               p: 4,
               borderRadius: [0, 'default']
             }}
@@ -513,6 +513,7 @@ export const getStaticProps = async ({ params }) => {
     props: {
       everything: await everything(),
       menu: await categories()
-    }
+    },
+    revalidate: 60 * 60 * 24
   }
 }
