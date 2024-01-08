@@ -33,7 +33,7 @@ const StyledMapContainer = styled(MapContainer)`
 function MapEvents({ showFrame }) {
   const map = useMapEvents({
     dblclick() {
-      window.open('https://directory.hackclub.com/MapPage', '_blank')
+      window.open('https://hackclub.github.io/map/', '_blank')
     }
   })
 }
