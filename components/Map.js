@@ -105,7 +105,7 @@ export default function Map() {
           left: 0,
           border: 'none'
         }}
-        src="https://directory.hackclub.com/MapPage?embed"
+        src="https://hackclub.github.io/map/"
         height="500px"
         width="100%"
       />
