@@ -6,7 +6,7 @@ export default [
     items: [
       {
         name: "Zoom Pro Meetings",
-        description: "Run Zoom Pro meetings for free in your Hack Club",
+        description: "Run Zoom Pro meetings for free in your Hack Club!",
         icon: "welcome",
         external: false,
         url: "/zoom.mdx",
@@ -26,6 +26,14 @@ export default [
         icon: "sticker",
         external: false,
         url: "/stickers.mdx",
+        forUseBy: "leaders",
+      },
+      {
+        name: "Posters",
+        description: "Get large Hack Club posters to promote your Hack Club",
+        icon: "docs-fill",
+        external: false,
+        url: "https://forms.hackclub.com/t/uzgyhTqvsFus",
         forUseBy: "leaders",
       },
       {
@@ -91,6 +99,14 @@ export default [
         icon: "slack",
         external: true,
         url: "https://hackclub.com/slack",
+        forUseBy: "everyone",
+      },
+      {
+        name: "Gas Fund",
+        description: "Drive to any high school hackathon and get the cost of gas reimbursed",
+        icon: "briefcase",
+        external: true,
+        url: "https://gas.hackclub.com/",
         forUseBy: "everyone",
       },
       {
