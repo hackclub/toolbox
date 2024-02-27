@@ -6,7 +6,7 @@ export default [
     items: [
       {
         name: "Zoom Pro Meetings",
-        description: "Run Zoom Pro meetings for free in your Hack Club!",
+        description: "Run Zoom Pro meetings for free in your Hack Club",
         icon: "welcome",
         external: false,
         url: "/zoom.mdx",
