@@ -32,7 +32,7 @@ export default [
         name: "Posters",
         description: "Get large Hack Club posters to promote your Hack Club",
         icon: "docs-fill",
-        external: false,
+        external: true,
         url: "https://forms.hackclub.com/t/uzgyhTqvsFus",
         forUseBy: "leaders",
       },
