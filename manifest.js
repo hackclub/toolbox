@@ -133,16 +133,7 @@ export default [
         external: true,
         url: "https://workshops.hackclub.com/leader-newsletters",
         forUseBy: "leaders",
-      },
-      {
-        name: "Meetings",
-        description:
-          "A collection of real Hack Club meetings, paired with everything you need to run them in your own club",
-        icon: "clubs",
-        external: true,
-        url: "https://meetings.hackclub.com",
-        forUseBy: "leaders",
-      },
+      }
     ],
   },
   {
@@ -158,6 +149,14 @@ export default [
         external: true,
         url: "https://workshops.hackclub.com",
         forUseBy: "everyone",
+      },
+      {
+        name: "AMAs",
+        description: "Call someone who we’ve always wanted to talk to—and the entire Hack Club Slack community is invited to ask questions & chat with the guest live.",
+        icon: "person",
+        external: true,
+        url: "https://hackclub.com/amas/",
+        forUseBy: "everyone"
       },
       {
         name: "Muse",

@@ -198,7 +198,25 @@ export default function Index({ everything = [], menu, source }) {
                 }
               }}
             >
-              Join the Hack Club Slack &rarr;
+              Join the Slack
+            </Button>
+
+            <Button
+              variant="cta"
+              as="a"
+              href="https://apply.hackclub.com"
+              target="_blank"
+              sx={{
+                pointerEvents: 'all',
+                mt: 2,
+                ml: 4,
+                mb: [3, 0],
+                '@media screen and (max-width: 991.98px)': {
+                  display: 'none'
+                }
+              }}
+            >
+              Start Your Hack Club
             </Button>
           </Box>
         </Flex>
