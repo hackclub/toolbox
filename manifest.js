@@ -45,6 +45,14 @@ export default [
         forUseBy: "clubbers",
       },
       {
+        name: "Code Crafters",
+        description: "Code crafters free 2 years free membership",
+        icon: "code",
+        external: true,
+        url: "https://codecrafters.io/event/hackclub",
+        forUseBy: "clubbers",
+      },
+      {
         name: "Branding & Logos",
         description: "Make anything Hack Club branded",
         icon: "like",
