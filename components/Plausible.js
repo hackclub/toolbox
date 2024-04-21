@@ -5,7 +5,7 @@ export default function Plausible() {
     <Script
       defer
       data-domain="toolbox.hackclub.com"
-      src="https://plausible.io/js/plausible.js"
+      src="https://plausible.io/js/script.tagged-events.js"
     />
   )
 }
