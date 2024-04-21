@@ -30,6 +30,7 @@ export function InternalCard({
         )
       }
       target={!item.external ? '' : '_blank'}
+      className={`plausible-event-name=${item.name.replace(' ', '-')}`}
       sx={{
         textDecoration: 'none',
         alignSelf: 'flex-start',
@@ -163,6 +164,7 @@ export function ExternalCard({
       as="a"
       href={item.url}
       target={!item.external ? '' : '_blank'}
+      className={`plausible-event-name=${item.name.replace(' ', '-')}`}
       sx={{
         textDecoration: 'none',
         alignSelf: 'flex-start',
