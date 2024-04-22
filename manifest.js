@@ -142,6 +142,15 @@ export default [
         url: "https://hackclub.com/hackathons/",
         forUseBy: "everyone",
       },
+         {
+        name: "HCB",
+        description:
+          "A full-stack toolkit for organizing anything.",
+        icon: "university",
+        external: true,
+        url: "https://hackclub.com/hcb",
+        forUseBy: "everyone",
+      }
       {
         name: "Leader Newsletter",
         description: "The bi-weekly run-down for Hack Club leaders",
