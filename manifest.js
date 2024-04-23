@@ -47,7 +47,7 @@ export default [
       {
         name: "Boba Drops",
         description: "Give your club an unfair advantage with free boba",
-        icon: "",
+        icon: "rep",
         external: true,
         url: "https://hack.club/boba",
         forUseBy: "clubbers",
