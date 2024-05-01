@@ -142,7 +142,7 @@ export default [
         url: "https://hackclub.com/hackathons/",
         forUseBy: "everyone",
       },
-         {
+      {
         name: "HCB",
         description:
           "A full-stack toolkit for organizing anything.",
@@ -150,7 +150,7 @@ export default [
         external: true,
         url: "https://hackclub.com/hcb",
         forUseBy: "everyone",
-      }
+      },
       {
         name: "Leader Newsletter",
         description: "The bi-weekly run-down for Hack Club leaders",
