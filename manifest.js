@@ -146,7 +146,7 @@ export default [
         name: "HCB",
         description:
           "A full-stack toolkit for organizing anything.",
-        icon: "university",
+        icon: "bank-account",
         external: true,
         url: "https://hackclub.com/hcb",
         forUseBy: "everyone",
