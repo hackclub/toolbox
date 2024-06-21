@@ -5,6 +5,14 @@ export default [
     icon: "bag",
     items: [
       {
+        name: "Brilliant Premium",
+        description: "Free Brilliant Premium student access",
+        icon: "code",
+        external: false,
+        url: "/brilliant.mdx",
+        forUseBy: "clubbers",
+      },
+      {
         name: "Zoom Pro Meetings",
         description: "Run Zoom Pro meetings for free in your Hack Club",
         icon: "welcome",
