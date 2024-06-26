@@ -61,6 +61,14 @@ export default [
         forUseBy: "clubbers",
       },
       {
+        name: "Hackaccino",
+        description: "Get free frappuccinos for your club members",
+        icon: "like-fill",
+        external: true,
+        url: "https://fraps.hackclub.com",
+        forUseBy: "clubbers",
+      },
+      {
         name: "Code Crafters",
         description: "Code crafters free 2 years free membership",
         icon: "code",
