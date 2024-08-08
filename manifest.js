@@ -37,6 +37,14 @@ export default [
         forUseBy: "leaders",
       },
       {
+        name: "Posters - Europe",
+        description: "If you're in Europe, get large Hack Club posters to promote your Hack Club",
+        icon: "docs-fill",
+        external: true,
+        url: "https://hack.club/eu-posters",
+        forUseBy: "leaders",
+      },
+      {
         name: "CodeDay",
         description: "Discount for in-person CodeDay events",
         icon: "event-code",
