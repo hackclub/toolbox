@@ -85,6 +85,14 @@ export default [
         forUseBy: "clubbers",
       },
       {
+        name: "Build Your Own LLM",
+        description: "Learn to build and customize your own language model from scratch. Share your work by October 1st to get a free YubiKey and book!",
+        icon: "code",
+        external: true,
+        url: "https://hackclub.slack.com/archives/C01FXNNF6F2/p1725326501200079",
+        forUseBy: "clubbers",
+      },
+      {
         name: "Branding & Logos",
         description: "Make anything Hack Club branded",
         icon: "like",
