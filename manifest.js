@@ -102,7 +102,7 @@ export default [
       },
       {
         name: "DNS",
-        description: "Redeem a free hackclub.com subdomain",
+        description: "Redeem a free dino.icu subdomain",
         icon: "web",
         external: true,
         url: "https://github.com/hackclub/dns",
