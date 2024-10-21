@@ -45,11 +45,11 @@ export default [
         forUseBy: "leaders",
       },
       {
-        name: "Posters - Europe",
-        description: "If you're in Europe, get large Hack Club posters to promote your Hack Club",
+        name: "International Posters",
+        description: "If you're outside of US/Canada, get large Hack Club posters to promote your Hack Club",
         icon: "docs-fill",
         external: true,
-        url: "https://hack.club/eu-posters",
+        url: "https://hack.club/intl-posters",
         forUseBy: "leaders",
       },
       {
