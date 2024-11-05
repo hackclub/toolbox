@@ -45,11 +45,11 @@ export default [
         forUseBy: "leaders",
       },
       {
-        name: "Posters - Europe",
-        description: "If you're in Europe, get large Hack Club posters to promote your Hack Club",
+        name: "International Posters",
+        description: "If you're outside of US/Canada, get large Hack Club posters to promote your Hack Club",
         icon: "docs-fill",
         external: true,
-        url: "https://hack.club/eu-posters",
+        url: "https://hack.club/intl-posters",
         forUseBy: "leaders",
       },
       {
@@ -82,14 +82,6 @@ export default [
         icon: "code",
         external: true,
         url: "https://codecrafters.io/event/hackclub",
-        forUseBy: "clubbers",
-      },
-      {
-        name: "Build Your Own LLM",
-        description: "Learn to build and customize your own language model from scratch. Share your work by October 1st to get a free YubiKey and book!",
-        icon: "code",
-        external: true,
-        url: "https://hackclub.slack.com/archives/C01FXNNF6F2/p1725326501200079",
         forUseBy: "clubbers",
       },
       {
