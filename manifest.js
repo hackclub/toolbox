@@ -148,7 +148,7 @@ export default [
         external: true,
         url: "https://workshops.hackclub.com/leader-newsletters",
         forUseBy: "leaders",
-      }      
+      },      
       {
         name: "DNS",
         description: "Redeem a free hackclub.com subdomain",
