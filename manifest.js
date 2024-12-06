@@ -14,7 +14,7 @@ export default [
       },
       {
         name: "Cider",
-        description: "Design, Code, and Ship an iOS app to the App Store in 30 days",
+        description: "Design, Code, and Ship an iOS app to the App Store in 30 days.",
         icon: "event-code",
         external: true,
         url: "https://cider.hackclub.com/",
