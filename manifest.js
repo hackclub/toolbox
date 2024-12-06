@@ -25,7 +25,7 @@ export default [
         description: "Build a mod. Get Minecraft",
         icon: "crosshairs",
         external: true,
-        url: "hackcraft.hackclub.com",
+        url: "https://hackcraft.hackclub.com/",
         forUseBy: "clubbers",
       }, 
       {
@@ -65,7 +65,7 @@ export default [
         description: "Turn any coding project into a YSWS",
         icon: "crosshairs",
         external: true,
-        url: "hack.club/scallywag",
+        url: "https://highseas.hackclub.com/?utm_medium=hc-channel&utm_campaign=clubs&utm_source=clubs",
         forUseBy: "everyone",
       },
       {
@@ -73,13 +73,13 @@ export default [
         description: "$5 for every sign-up to buy food for your club!",
         icon: "crosshairs",
         external: true,
-        url: "forms.hackclub.com/high-seas-pizza-fund",
+        url: "https://forms.hackclub.com/high-seas-pizza-fund",
         forUseBy: "everyone",
       },
       {
         name: "Pizza Grant",
         description: "$100 to buy food for your club!",
-        icon: "pizza",
+        icon: "briefcase",
         external: true,
         url: "https://hackclub.com/pizza/",
         forUseBy: "everyone",
@@ -133,6 +133,22 @@ export default [
         url: "https://hackclub.com/slack",
         forUseBy: "everyone",
       },
+      {
+        name: "Leadership Guide",
+        description: "Advice on how to lead a club",
+        icon: "docs-fill",
+        external: true,
+        url: "https://archived.guide.hackclub.com/#/",
+        forUseBy: "leaders",
+      },  
+      {
+        name: "Leader Newsletter",
+        description: "The bi-weekly run-down for Hack Club leaders",
+        icon: "docs",
+        external: true,
+        url: "https://workshops.hackclub.com/leader-newsletters",
+        forUseBy: "leaders",
+      }      
       {
         name: "DNS",
         description: "Redeem a free hackclub.com subdomain",
@@ -192,14 +208,6 @@ export default [
         url: "https://hackclub.com/hcb",
         forUseBy: "everyone",
       },
-      {
-        name: "Leader Newsletter",
-        description: "The bi-weekly run-down for Hack Club leaders",
-        icon: "docs",
-        external: true,
-        url: "https://workshops.hackclub.com/leader-newsletters",
-        forUseBy: "leaders",
-      }
     ],
   },
   {
