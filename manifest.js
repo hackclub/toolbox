@@ -20,6 +20,14 @@ export default [
         url: "https://fraps.hackclub.com",
         forUseBy: "clubbers",
       },
+       {
+        name: "Anchor",
+        description: "you ship a vtuber style logo for your project, we ship you custom stickers",
+        icon: "sticker",
+        external: true,
+        url: "https://anchor.hackclub.com/",
+        forUseBy: "clubbers",
+      },
       {
         name: "HackCraft",
         description: "Build a mod. Get Minecraft",
