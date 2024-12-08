@@ -4,14 +4,6 @@ export default [
     color: "orange",
     icon: "idea",
     items: [
-            {
-        name: "Boba Drops",
-        description: "Give your club an unfair advantage with free boba",
-        icon: "rep",
-        external: true,
-        url: "https://hack.club/boba",
-        forUseBy: "clubbers",
-      },
       {
         name: "Hackaccino",
         description: "Get free frappuccinos for your club members",
@@ -27,7 +19,7 @@ export default [
         external: true,
         url: "https://hackcraft.hackclub.com/",
         forUseBy: "clubbers",
-      }, 
+      },
       {
         name: "Cider",
         description: "Design, Code, and Ship an iOS app to the App Store in 30 days.",
@@ -44,7 +36,7 @@ export default [
         external: true,
         url: "https://workshops.hackclub.com",
         forUseBy: "everyone",
-      },      
+      },
       {
         name: "Muse",
         description: "Music programming language",
@@ -52,7 +44,7 @@ export default [
         external: true,
         url: "https://muse.hackclub.com",
         forUseBy: "everyone",
-      },      
+      },
     ],
   },
   {
@@ -83,7 +75,7 @@ export default [
         external: true,
         url: "https://hackclub.com/pizza/",
         forUseBy: "everyone",
-      },      
+      },
       {
         name: "Posters",
         description: "Get large Hack Club posters to promote your Hack Club",
@@ -115,7 +107,7 @@ export default [
         external: false,
         url: "/stickers.mdx",
         forUseBy: "leaders",
-      },      
+      },
       {
         name: "School Toolbox",
         description: "Resources to help with school admin or IT challenges",
@@ -140,7 +132,7 @@ export default [
         external: true,
         url: "https://archived.guide.hackclub.com/#/",
         forUseBy: "leaders",
-      },  
+      },
       {
         name: "Leader Newsletter",
         description: "The bi-weekly run-down for Hack Club leaders",
@@ -148,7 +140,7 @@ export default [
         external: true,
         url: "https://workshops.hackclub.com/leader-newsletters",
         forUseBy: "leaders",
-      }      
+      },
       {
         name: "DNS",
         description: "Redeem a free hackclub.com subdomain",
@@ -173,7 +165,7 @@ export default [
         external: true,
         url: "https://theme.hackclub.com",
         forUseBy: "everyone",
-      },      
+      },
       {
         name: "Gas Fund",
         description: "Drive to any high school hackathon and get the cost of gas reimbursed",
@@ -201,8 +193,7 @@ export default [
       },
       {
         name: "HCB",
-        description:
-          "A full-stack toolkit for organizing anything.",
+        description: "A full-stack toolkit for organizing anything.",
         icon: "bank-account",
         external: true,
         url: "https://hackclub.com/hcb",
@@ -225,12 +216,13 @@ export default [
       },
       {
         name: "AMAs",
-        description: "Call someone who we’ve always wanted to talk to—and the entire Hack Club Slack community is invited to ask questions & chat with the guest live.",
+        description:
+          "Call someone who we’ve always wanted to talk to—and the entire Hack Club Slack community is invited to ask questions & chat with the guest live.",
         icon: "person",
         external: true,
         url: "https://hackclub.com/amas/",
-        forUseBy: "everyone"
-      },      
+        forUseBy: "everyone",
+      },
       {
         name: "Brilliant Premium",
         description: "Free Brilliant Premium student access",
@@ -238,7 +230,7 @@ export default [
         external: false,
         url: "/brilliant.mdx",
         forUseBy: "clubbers",
-      },  
+      },
       {
         name: "Zoom Pro Meetings",
         description: "Run Zoom Pro meetings for free in your Hack Club",
@@ -270,7 +262,7 @@ export default [
         external: true,
         url: "https://codecrafters.io/event/hackclub",
         forUseBy: "clubbers",
-      },      
+      },
       {
         name: "Hackathons",
         description: "Find hackathons to attend",
