@@ -4,14 +4,6 @@ export default [
     color: "orange",
     icon: "idea",
     items: [
-            {
-        name: "Boba Drops",
-        description: "Give your club an unfair advantage with free boba",
-        icon: "rep",
-        external: true,
-        url: "https://hack.club/boba",
-        forUseBy: "clubbers",
-      },
       {
         name: "Hackaccino",
         description: "Get free frappuccinos for your club members",
