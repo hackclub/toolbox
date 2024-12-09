@@ -5,22 +5,6 @@ export default [
     icon: "idea",
     items: [
       {
-        name: "Hackaccino",
-        description: "Get free frappuccinos for your club members",
-        icon: "like-fill",
-        external: true,
-        url: "https://fraps.hackclub.com",
-        forUseBy: "clubbers",
-      },
-      {
-        name: "HackCraft",
-        description: "Build a mod. Get Minecraft",
-        icon: "crosshairs",
-        external: true,
-        url: "https://hackcraft.hackclub.com/",
-        forUseBy: "clubbers",
-      },
-      {
         name: "Cider",
         description: "Design, Code, and Ship an iOS app to the App Store in 30 days.",
         icon: "event-code",
