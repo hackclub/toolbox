@@ -5,14 +5,6 @@ export default [
     icon: "idea",
     items: [
       {
-        name: "Cider",
-        description: "Design, Code, and Ship an iOS app to the App Store in 30 days.",
-        icon: "event-code",
-        external: true,
-        url: "https://cider.hackclub.com/",
-        forUseBy: "clubbers",
-      },
-      {
         name: "Workshops",
         description:
           "Learn programming and create fun projects with short, in-depth workshops",
