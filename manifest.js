@@ -151,14 +151,6 @@ export default [
         forUseBy: "everyone",
       },
       {
-        name: "$500 Hackathon Grant",
-        description: "Get up to $500 to run an unforgettable hackathon",
-        icon: "payment",
-        external: true,
-        url: "https://hackclub.com/hackathons/grant",
-        forUseBy: "clubbers",
-      },
-      {
         name: "Hackathons Page",
         description:
           "Everything you need to know to run an amazing event, all in one place",
