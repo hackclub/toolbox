@@ -16,7 +16,7 @@ import Icon from '@hackclub/icons'
 import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
 import InfoCard from '../components/Card'
-import CurrentCard from '../components/CurrentCard'
+import FancyCard from '../components/FancyCard'
 import { filter } from 'fuzzaldrin'
 import { everything, categories } from '../lib/content'
 import MDXContent from '../components/mdx/MDXContent'
@@ -444,9 +444,9 @@ export default function Index({ everything = [], menu, source }) {
                 {items.length > 0 ? (
                   <Grid columns={[1, 2, 3]} sx={{ gap: 3 }}>
                     {items.map((item, idx) => {
-                      if (item.category === 'Current')
+                      if (item.fancy)
                         return (
-                          <CurrentCard
+                          <FancyCard
                             onMobile={onMobile}
                             onHover={() => setHover(item.category)}
                             onHoverLeave={() => setHover('')}
