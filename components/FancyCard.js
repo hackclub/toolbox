@@ -2,7 +2,7 @@ import { Box, Card, Image, Link, Text } from 'theme-ui'
 import Icon from '@hackclub/icons'
 import { useState } from 'react'
 
-export default function CurrentCard({
+export default function FancyCard({
   item,
   sx = {},
   onMobile,
@@ -13,7 +13,7 @@ export default function CurrentCard({
     background,
     titleColor,
     descriptionColor,
-    title,
+    name,
     description,
     img,
     url
@@ -137,7 +137,7 @@ export default function CurrentCard({
               }}
             />
             <Text as="h3" sx={{ color: titleColor, fontSize: '22px' }}>
-              {title}
+              {name}
             </Text>
             <Text as="p" sx={{ color: descriptionColor, fontSize: '20px' }}>
               {description}
