@@ -133,7 +133,8 @@ export default function FancyCard({
               src={img}
               sx={{
                 width: ['50px', '58px'],
-                height: ['50px', '58px']
+                height: ['50px', '58px'],
+                objectFit: 'contain'
               }}
             />
             <Text as="h3" sx={{ color: titleColor, fontSize: '22px' }}>
