@@ -523,14 +523,14 @@ export const getStaticProps = async ({ params }) => {
     return {
       props: {
         source: await serialize(source),
-        menu: await categories()
+        menu: (await categories()).filter(cat => cat.category !== "Highlighted") // don't show highlighted on the sidebar
       }
     }
   }
   return {
     props: {
       everything: await everything(),
-      menu: await categories()
+      menu: (await categories()).filter(cat => cat.category !== "Highlighted") // don't show highlighted on the sidebar
     },
     revalidate: 60 * 60 * 24
   }
