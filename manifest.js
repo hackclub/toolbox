@@ -101,6 +101,17 @@ export default [
         fancy: true,
       },
       {
+        name: "BakeBuild",
+        description: "Design a cookie cutter and get it shipped to you (Ends February 11)",
+        img: "https://cloud-95uvm0t2a-hack-club-bot.vercel.app/0cookie.png",
+        background: "#ffffff",
+        titleColor: "#83583c",
+        descriptionColor: "#b19065",
+        external: true,
+        url: "https://bakebuild.hackclub.com/",
+        fancy: true,
+      },
+      {
         name: "HackCraft",
         description: "Code a Minecraft mod, get Minecraft (Ends January 31)",
         img: "https://cloud-kgilrkgl7-hack-club-bot.vercel.app/0image.png", // TODO: real logo
