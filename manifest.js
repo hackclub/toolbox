@@ -7,7 +7,7 @@ export default [
       {
         name: "Scrapyard",
         description: "A scrappy hackathon organized by Hack Clubbers globally in 100+ cities",
-        img: "https://cloud-n4ouddvia-hack-club-bot.vercel.app/0image.png",
+        img: "/cards/scrapyard.png",
         background: "#337d78",
         titleColor: "#ffffff",
         descriptionColor: "#ffffff",
@@ -25,7 +25,7 @@ export default [
       {
         name: "Boba Drops",
         description: "Build an HTML + CSS static site, get free boba",
-        img: "https://cloud-ktwmd5kff-hack-club-bot.vercel.app/0boba.png",
+        img: "/cards/boba.png",
         background: "#C76B0F",
         titleColor: "#F6D193",
         descriptionColor: "#F6D193",
@@ -36,7 +36,7 @@ export default [
       {
         name: "Hackaccino",
         description: "Make a 3D website, get a free Frappuccino",
-        img: "https://cloud-ahkc8uotv-hack-club-bot.vercel.app/0group_15.png",
+        img: "/cards/hackaccino.png",
         background: "#FFF1DE",
         titleColor: "#4F2A0E",
         descriptionColor: "#4F2A0E",
@@ -47,7 +47,7 @@ export default [
       {
         name: "OnBoard",
         description: "Join 1k teens designing PCBs, learning hardware, and building electronics",
-        img: "https://cloud-6skkg6eck-hack-club-bot.vercel.app/0image.png",
+        img: "/cards/onboard.png",
         background: "dark",
         titleColor: "green",
         descriptionColor: "white",
@@ -58,7 +58,7 @@ export default [
       {
         name: "Sprig",
         description: "Join hundreds of teenagers making tile-based JavaScript games",
-        img: "https://cloud-daf42gs62-hack-club-bot.vercel.app/0sprig.png",
+        img: "/cards/sprig.png",
         background: "#000",
         titleColor: "green",
         descriptionColor: "white",
@@ -69,7 +69,7 @@ export default [
       {
         name: "Cider",
         description: "Design and code an iOS app and get it shipped to the App Store for free",
-        img: "/ysws/cider.png",
+        img: "/cards/cider.png",
         background: "#b93c3c",
         titleColor: "#fffffb",
         descriptionColor: "#ffffff",
@@ -81,7 +81,7 @@ export default [
       {
         name: "High Seas",
         description: "Build personal projects. Get free stuff. (Ends January 31)",
-        img: "https://cloud-6k139ft24-hack-club-bot.vercel.app/1highseas.png",
+        img: "/cards/highseas.png",
         background: "#3eade2",
         titleColor: "#ffffff",
         descriptionColor: "#ffffff",
@@ -92,7 +92,7 @@ export default [
       {
         name: "Minus Twelve",
         description: "Make a useful tool in JavaScript, get a microcontroller (Ends January 27)",
-        img: "https://cloud-nnaphgoe1-hack-club-bot.vercel.app/0minustwelve.png",
+        img: "/cards/minustwelve.png",
         background: "#0e1120",
         titleColor: "#d776ef",
         descriptionColor: "#e3b8e3",
@@ -103,7 +103,7 @@ export default [
       {
         name: "Hackapet",
         description: "Code a virtual pet, get a custom Tamagotchi clone (Ends January 31)",
-        img: "https://cloud-6k139ft24-hack-club-bot.vercel.app/0hackapet.png",
+        img: "/cards/hackapet.png",
         background: "#b2daef",
         titleColor: "#137d88",
         descriptionColor: "#137d88",
@@ -114,7 +114,7 @@ export default [
       {
         name: "BakeBuild",
         description: "Design a cookie cutter and get it shipped to you (Ends February 11)",
-        img: "https://cloud-95uvm0t2a-hack-club-bot.vercel.app/0cookie.png",
+        img: "/cards/bakebuild.png",
         background: "#ffffff",
         titleColor: "#83583c",
         descriptionColor: "#b19065",
@@ -125,7 +125,7 @@ export default [
       {
         name: "Asylum",
         description: "A series of fast-paced hardware \"You-Ship-We-Ship\"s",
-        img: "https://cloud-ec18p2hug-hack-club-bot.vercel.app/0asylum.png",
+        img: "/cards/asylum.png",
         background: "#e4e4e4",
         titleColor: "#6d6d6d",
         descriptionColor: "#444444",
@@ -136,7 +136,7 @@ export default [
       {
         name: "HackCraft",
         description: "Code a Minecraft mod, get Minecraft (Ends January 31)",
-        img: "/ysws/hackcraft.png",
+        img: "/cards/hackcraft.png",
         background: "#30AE1F",
         titleColor: "#FFFFFF",
         descriptionColor: "#FFFFFF",
@@ -147,7 +147,7 @@ export default [
       {
         name: "Hacky Holidays",
         description: "Design a PCB holiday decoration and get it printed for free (Ends January 30)",
-        img: "https://cloud-6k139ft24-hack-club-bot.vercel.app/2image.png",
+        img: "/cards/hackyholidays.png",
         background: "#5abdff",
         titleColor: "#FFFFFF",
         descriptionColor: "#FFFFFF",
@@ -158,7 +158,7 @@ export default [
       {
         name: "Say Cheese!",
         description: "Fit a program entirely into a QR code and get a portable printer (Ends January 26)",
-        img: "https://cloud-6k139ft24-hack-club-bot.vercel.app/3image.png",
+        img: "/cards/saycheese.png",
         background: "#FFFFFF",
         titleColor: "#000000",
         descriptionColor: "#000000",
@@ -169,7 +169,7 @@ export default [
       {
         name: "RaspAPI",
         description: "Create an API from scratch and get a mini server to host it on (Ends March 10)",
-        img: "https://cloud-6k139ft24-hack-club-bot.vercel.app/4raspberrypi.webp",
+        img: "/cards/raspapi.webp",
         background: "#000000",
         titleColor: "#16a34a",
         descriptionColor: "#ffffff",
@@ -187,7 +187,7 @@ export default [
       {
         name: "Jams",
         description: "Collaborative coding workshops where sparks ignite, fears dissolve, and inventions come to life",
-        img: "https://cloud-7xyxcf3f6-hack-club-bot.vercel.app/0new_project__3_.png",
+        img: "/cards/jams.png",
         background: "#1f2d3d",
         titleColor: "#ffffff",
         descriptionColor: "#ffffff",
@@ -198,7 +198,7 @@ export default [
       {
         name: "Some Assembly Required",
         description: "An approachable introduction to assembly",
-        img: "https://cloud-jh49ygzta-hack-club-bot.vercel.app/0image.png",
+        img: "/cards/someassemblyrequired.png",
         background: "#ffffff",
         titleColor: "#17171d",
         descriptionColor: "#17171d", 
@@ -209,7 +209,7 @@ export default [
       {
         name: "Putting The \"You\" In CPU",
         description: "Curious exactly what happens when you run a program on your computer? Read this.",
-        img: "https://cloud-eg2ex8nol-hack-club-bot.vercel.app/0favicon-on-light-removebg-preview.png",
+        img: "/cards/puttingtheyouincpu.png",
         background: "#ffffff",
         titleColor: "#17171d",
         descriptionColor: "#17171d", 
@@ -220,7 +220,7 @@ export default [
       {
         name: "SineRider",
         description: "Help build a game about love, math, and graphing 💖",
-        img: "https://emoji.slack-edge.com/T0266FRGM/sinerider/68a0bc1208e885dd.png",
+        img: "/cards/sinerider.png",
         background: "#271932",
         titleColor: "#CAB4D4",
         descriptionColor: "#ffffff",
@@ -255,7 +255,7 @@ export default [
       {
         name: "Nest",
         description: "Free Linux server for all Hack Clubbers to host anything they need",
-        img: "https://cloud-2pv9833tu-hack-club-bot.vercel.app/0image.png",
+        img: "/cards/nest.png",
         background: "#e9e9e9",
         titleColor: "#1f2d3d",
         descriptionColor: "#1f2d3d",
