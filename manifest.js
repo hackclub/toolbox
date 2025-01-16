@@ -68,8 +68,8 @@ export default [
       },
       {
         name: "Cider",
-        description: "Design, Code, and Ship an iOS app to the App Store in 30 days.",
-        img: "https://cloud-m33gqgkp6-hack-club-bot.vercel.app/0image.png",
+        description: "Design and code an iOS app and get it shipped to the App Store for free",
+        img: "/ysws/cider.png",
         background: "#b93c3c",
         titleColor: "#fffffb",
         descriptionColor: "#ffffff",
