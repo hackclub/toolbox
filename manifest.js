@@ -136,7 +136,7 @@ export default [
       {
         name: "HackCraft",
         description: "Code a Minecraft mod, get Minecraft (Ends January 31)",
-        img: "https://cloud-kgilrkgl7-hack-club-bot.vercel.app/0image.png", // TODO: real logo
+        img: "/ysws/hackcraft.png",
         background: "#30AE1F",
         titleColor: "#FFFFFF",
         descriptionColor: "#FFFFFF",
