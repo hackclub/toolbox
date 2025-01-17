@@ -13,6 +13,7 @@ export default function FancyCard({
     background,
     titleColor,
     descriptionColor,
+    arrowColor,
     name,
     description,
     img,
@@ -95,9 +96,26 @@ export default function FancyCard({
                   }
                 }
               }
-            })
+            }),
+            overflow: "hidden",
           }}
         >
+          <Box
+            sx={{
+              position: 'absolute',
+              top: 2,
+              right: 2,
+              opacity: 0.3,
+              fontSize: [1, '16px', '20px']
+            }}
+          >
+            <Icon
+              glyph="external"
+              size={32}
+              color={arrowColor || "#E9E9E9"}
+              className="icon"
+            />
+          </Box>
           <Box
             className="more"
             sx={{

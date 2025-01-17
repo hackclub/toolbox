@@ -92,10 +92,12 @@ export default function Index({ everything = [], menu, source }) {
   }
 
   const [categories, setCategories] = useState([])
-  const addCategory = category => {
-    setCategories([...categories, category])
+  const selectCategory = category => {
+    // this code is still written for multiple categories to be selected at once, but only one is selectable at a time
+    setCategories([category])
+    console.log("selecting", category, categories)
     router.replace(
-      buildRoute({ categories: [...categories, category], query }),
+      buildRoute({ categories: [category], query }),
       undefined,
       {
         ...(router.query.slug === 'home' && { shallow: true }),
@@ -268,7 +270,7 @@ export default function Index({ everything = [], menu, source }) {
                 onClick={() =>
                   categories.includes(category.category)
                     ? removeCategory(category.category)
-                    : addCategory(category.category)
+                    : selectCategory(category.category)
                 }
                 key={idx}
                 sx={{
@@ -354,7 +356,7 @@ export default function Index({ everything = [], menu, source }) {
                 onClick={() =>
                   categories.includes(category.category)
                     ? removeCategory(category.category)
-                    : addCategory(category.category)
+                    : selectCategory(category.category)
                 }
                 key={idx}
                 sx={{
