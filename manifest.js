@@ -272,14 +272,6 @@ export default [
         fancy: true,
       },
       {
-        name: "Pizza Grant",
-        description: "$100 to buy food for your club!",
-        icon: "briefcase",
-        external: true,
-        url: "https://hackclub.com/pizza/",
-        forUseBy: "everyone",
-      },
-      {
         name: "Posters",
         description: "Get large Hack Club posters to promote your Hack Club",
         icon: "docs-fill",
