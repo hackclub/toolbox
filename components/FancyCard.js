@@ -132,7 +132,7 @@ export default function FancyCard({
               display: onMobile ? 'none' : 'initial'
             }}
           >
-            <Icon glyph="more" size={25} />
+            <Icon glyph="more" size={25} color={descriptionColor} opacity={0.7} />
           </Box>
           <Card
             sx={{
