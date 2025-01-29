@@ -272,6 +272,14 @@ export default [
         fancy: true,
       },
       {
+        name: "Pizza",
+        description: "Earn $5 per shipped project from your club to buy pizza!",
+        icon: "briefcase",
+        external: true,
+        url: "https://airtable.com/appSUAc40CDu6bDAp/pagvu2xGhfsMC8AOL/form",
+        forUseBy: "leaders",
+      },
+      {
         name: "Posters",
         description: "Get large Hack Club posters to promote your Hack Club",
         icon: "docs-fill",
