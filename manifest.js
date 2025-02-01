@@ -92,7 +92,7 @@ export default [
       },
       {
         name: "Hackapet",
-        description: "Code a virtual pet, get a custom Tamagotchi clone (Ends January 31)",
+        description: "Code a virtual pet, get a custom Tamagotchi clone (Ends February 3)",
         img: "/cards/hackapet.png",
         background: "#b2daef",
         titleColor: "#137d88",
