@@ -111,7 +111,7 @@ export default [
         descriptionColor: "#444444",
         arrowColor: "#9a9a9a",
         external: true,
-        url: "https://bakebuild.hackclub.com/",
+        url: "https://hackclub.slack.com/archives/C083CCAAHM1",
         fancy: true,
       },
       {
