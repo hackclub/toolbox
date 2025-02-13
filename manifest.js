@@ -91,18 +91,6 @@ export default [
         fancy: true,
       },
       {
-        name: "BakeBuild",
-        description: "Design a cookie cutter and get it shipped to you (Ends February 11)",
-        img: "/cards/bakebuild.png",
-        background: "#ffffff",
-        titleColor: "#83583c",
-        descriptionColor: "#b19065",
-        arrowColor: "#9a9a9a",
-        external: true,
-        url: "https://bakebuild.hackclub.com/",
-        fancy: true,
-      },
-      {
         name: "Asylum",
         description: "A series of fast-paced hardware \"You-Ship-We-Ship\"s",
         img: "/cards/asylum.png",
