@@ -104,7 +104,7 @@ export default [
       },
       {
         name: "Infill",
-        description: "Design your own 3D printer, get the parts shipped to you. Get it printing, get flown to a 3D printing festival in Colorado!",
+        description: "Design your own 3D printer, get the parts shipped to you. Get it printing, get flown to a 3D printing festival in Colorado (Ends March 31)",
         img: "/cards/infill.webp",
         background: "#121a1c",
         titleColor: "#ffffff",
@@ -115,7 +115,7 @@ export default [
       },
       {
         name: "Retrospect ",
-        description: "Create a J2ME game (Java MIDlet) and have it delivered on a J2ME-capable phone.",
+        description: "Create a J2ME game (Java MIDlet) and have it delivered on a J2ME-capable phone (Ends April 7)",
         img: "/cards/retrospect.png",
         background: "#f0f0f0",
         titleColor: "#000000",
