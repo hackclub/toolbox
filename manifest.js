@@ -235,19 +235,6 @@ export default [
     icon: "explore",
     items: [
       {
-        name: "Spaces",
-        description:
-          "Create, share, and deploy websites or other apps instantly with GIT integration for clubs.",
-        img: "/cards/spaces.png",
-        background: "#e9e9e9",
-        titleColor: "#1f2d3d",
-        descriptionColor: "#1f2d3d",
-        arrowColor: "#7f7f7f",
-        external: true,
-        url: "https://spaces.hackclub.com",
-        fancy: true
-      },
-      {
         name: "Nest",
         description: "Free Linux server for all Hack Clubbers to host anything they need",
         img: "/cards/nest.png",
@@ -258,6 +245,19 @@ export default [
         external: true,
         url: "https://hackclub.app/",
         fancy: true,
+      },
+      {
+        name: "Spaces",
+        description:
+          "Create, share, and deploy websites or other apps instantly with GIT integration for clubs.",
+        img: "/cards/spaces.png",
+        background: "#dfcdd1",
+        titleColor: "#1f2d3d",
+        descriptionColor: "#1f2d3d",
+        arrowColor: "#7f7f7f",
+        external: true,
+        url: "https://spaces.hackclub.com",
+        fancy: true
       },
       {
         name: "Pizza",
