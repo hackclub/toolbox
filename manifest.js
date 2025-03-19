@@ -363,7 +363,7 @@ export default [
       },
       {
         name: "HCB",
-        description: "A full-stack toolkit for organizing anything.",
+        description: "The full stack financial toolkit to run your club or hackathon, built by Hack Club",
         icon: "bank-account",
         external: true,
         url: "https://hackclub.com/hcb",
