@@ -1,22 +1,4 @@
 export default [
-  { // this category doesn't show up on the sidebar, it's just for current stuff that needs to be highlighted
-    category: "Highlighted",
-    color: "purple",
-    icon: "view",
-    items: [
-      {
-        name: "Scrapyard",
-        description: "A scrappy hackathon organized by Hack Clubbers globally in 100+ cities",
-        img: "/cards/scrapyard.png",
-        background: "#337d78",
-        titleColor: "#ffffff",
-        descriptionColor: "#ffffff",
-        external: true,
-        url: "https://scrapyard.hackclub.com",
-        fancy: true,
-      }
-    ]
-  },
   {
     category: "YSWS",
     color: "green",
