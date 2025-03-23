@@ -80,18 +80,6 @@ export default [
       },
       // Limited-time YSWSs start here
       {
-        name: "Asylum",
-        description: "A series of fast-paced hardware \"You-Ship-We-Ship\"s",
-        img: "/cards/asylum.png",
-        background: "#e4e4e4",
-        titleColor: "#6d6d6d",
-        descriptionColor: "#444444",
-        arrowColor: "#9a9a9a",
-        external: true,
-        url: "https://hackclub.slack.com/archives/C083CCAAHM1",
-        fancy: true,
-      },
-      {
         name: "Black Box",
         description: "Create a constrained, interactive C program and get a portable device to run it on (Ends March 15)",
         img: "/cards/blackbox.png",
