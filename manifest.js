@@ -62,28 +62,6 @@ export default [
       },
       // Limited-time YSWSs start here
       {
-        name: "Black Box",
-        description: "Create a constrained, interactive C program and get a portable device to run it on (Ends March 15)",
-        img: "/cards/blackbox.png",
-        background: "#000000",
-        titleColor: "#ef654d",
-        descriptionColor: "#ffffff",
-        external: true,
-        url: "https://blackbox.hackclub.com/",
-        fancy: true,
-      },
-      {
-        name: "BrowserBuddy",
-        description: "Build a Chrome extension, get $30 to launch it on the Chrome Web Store (Ends March 19)",
-        img: "/cards/browserbuddy.png",
-        background: "#ffffff",
-        titleColor: "#ec3750",
-        descriptionColor: "#000000",
-        external: true,
-        url: "https://browserbuddy.hackclub.com/",
-        fancy: true, 
-      },
-      {
         name: "PixelDust",
         description: "Design a neopixel-based PCB, get the parts to make one yourself (Ends April 1)",
         img: "/cards/pixeldust.png",
