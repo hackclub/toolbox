@@ -1,22 +1,4 @@
 export default [
-  { // this category doesn't show up on the sidebar, it's just for current stuff that needs to be highlighted
-    category: "Highlighted",
-    color: "purple",
-    icon: "view",
-    items: [
-      {
-        name: "Scrapyard",
-        description: "A scrappy hackathon organized by Hack Clubbers globally in 100+ cities",
-        img: "/cards/scrapyard.png",
-        background: "#337d78",
-        titleColor: "#ffffff",
-        descriptionColor: "#ffffff",
-        external: true,
-        url: "https://scrapyard.hackclub.com",
-        fancy: true,
-      }
-    ]
-  },
   {
     category: "YSWS",
     color: "green",
@@ -79,18 +61,6 @@ export default [
         fancy: true,
       },
       // Limited-time YSWSs start here
-      {
-        name: "Asylum",
-        description: "A series of fast-paced hardware \"You-Ship-We-Ship\"s",
-        img: "/cards/asylum.png",
-        background: "#e4e4e4",
-        titleColor: "#6d6d6d",
-        descriptionColor: "#444444",
-        arrowColor: "#9a9a9a",
-        external: true,
-        url: "https://hackclub.slack.com/archives/C083CCAAHM1",
-        fancy: true,
-      },
       {
         name: "Black Box",
         description: "Create a constrained, interactive C program and get a portable device to run it on (Ends March 15)",
