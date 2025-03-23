@@ -103,17 +103,6 @@ export default [
         fancy: true,
       },
       {
-        name: "BrowserBuddy",
-        description: "Build a Chrome extension, get $30 to launch it on the Chrome Web Store (Ends March 19)",
-        img: "/cards/browserbuddy.png",
-        background: "#ffffff",
-        titleColor: "#ec3750",
-        descriptionColor: "#000000",
-        external: true,
-        url: "https://browserbuddy.hackclub.com/",
-        fancy: true, 
-      },
-      {
         name: "TerminalCraft",
         description: "Build & publish a cross-platform terminal app, Get 10 users, and get a Raspberry Pi 4 (Ends March 19)",
         img: "/cards/terminalcraft.png",
