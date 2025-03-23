@@ -35,7 +35,7 @@ export default [
       },
       {
         name: "Hackaccino",
-        description: "Make a 3D website, get a free Frappuccino",
+        description: "Make a 3D website, get a free Frappuccino (Ends summer of 2025)",
         img: "/cards/hackaccino.png",
         background: "#FFF1DE",
         titleColor: "#4F2A0E",
