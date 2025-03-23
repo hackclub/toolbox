@@ -114,17 +114,6 @@ export default [
         fancy: true, 
       },
       {
-        name: "TerminalCraft",
-        description: "Build & publish a cross-platform terminal app, Get 10 users, and get a Raspberry Pi 4 (Ends March 19)",
-        img: "/cards/terminalcraft.png",
-        background: "#1e1e1e",
-        titleColor: "#ffffff",
-        descriptionColor: "#4af626",
-        external: true,
-        url: "https://terminalcraft.hackclub.com/",
-        fancy: true,
-      },
-      {
         name: "PixelDust",
         description: "Design a neopixel-based PCB, get the parts to make one yourself (Ends April 1)",
         img: "/cards/pixeldust.png",
