@@ -86,7 +86,7 @@ export default [
       // Limited-time YSWSs start here
       {
         name: "Hackcraft",
-        description: "Make a Minecraft mod, get Minecraft",
+        description: "Make a Minecraft mod, get Minecraft (Ends April 21)",
         img: "/cards/hackcraft.png",
         background: "#30AE1F",
         titleColor: "#FFFFFF",
@@ -97,7 +97,7 @@ export default [
       },
       {
         name: "Visioneer",
-        description: "Give your computer the gift of vision, get an esp32-s3-eye to see it through",
+        description: "Give your computer the gift of vision, get an esp32-s3-eye to see it through (ends June 1)",
         img: "/cards/visioneer.png",
         background: "#008080",
         titleColor: "#ffffff",
@@ -116,7 +116,7 @@ export default [
         external: true,
         url: "https://sidequests.hackclub.com/",
         fancy: true,
-      }
+      },
     ],
   },
   {
