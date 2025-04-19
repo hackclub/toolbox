@@ -97,7 +97,7 @@ export default [
       },
       {
         name: "Visioneer",
-        description: "Give your computer the gift of vision, get an esp32-s3-eye to see it through (ends June 1)",
+        description: "Give your computer the gift of vision, get an esp32-s3-eye to see it through (ends April 20)",
         img: "/cards/visioneer.png",
         background: "#008080",
         titleColor: "#ffffff",
