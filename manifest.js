@@ -86,7 +86,7 @@ export default [
       // Limited-time YSWSs start here
       {
         name: "Hackcraft",
-        description: "Make a Minecraft mod, get Minecraft (Ends April 21)",
+        description: "Make a Minecraft mod, get Minecraft (Ends June 1st)",
         img: "/cards/hackcraft.png",
         background: "#30AE1F",
         titleColor: "#FFFFFF",
