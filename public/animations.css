@@ -1,0 +1,8 @@
+@keyframes move-bg {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 300px 300px;
+    }
+}

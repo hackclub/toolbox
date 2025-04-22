@@ -5,6 +5,8 @@ import { ThemeProvider } from 'theme-ui'
 import { SessionProvider } from 'next-auth/react'
 import Plausible from '../components/Plausible'
 import '../public/scrollbar.css'
+import '../public/animations.css'
+
 
 export default function App({
   Component,

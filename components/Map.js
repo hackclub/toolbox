@@ -38,7 +38,7 @@ function MapEvents({ showFrame }) {
   })
 }
 
-export default function Map() {
+export default function Map({ height = '500px' }) {
   const [clubs, setClubs] = useState([])
   const [center, setCenter] = useState(
     window.innerWidth > 767.98 ? [35.683, -25.099] : [55, -100]
@@ -103,10 +103,11 @@ export default function Map() {
           position: 'absolute',
           top: 0,
           left: 0,
-          border: 'none'
+          border: 'none',
+          height
         }}
         src="https://hackclub.github.io/map/"
-        height="500px"
+        height="100%"
         width="100%"
       />
       {frame === true && (
