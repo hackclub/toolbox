@@ -96,17 +96,6 @@ export default [
         fancy: true,
       },
       {
-        name: "Visioneer",
-        description: "Give your computer the gift of vision, get an esp32-s3-eye to see it through (ends June 1)",
-        img: "/cards/visioneer.png",
-        background: "#008080",
-        titleColor: "#ffffff",
-        descriptionColor: "#ffffff",
-        external: true,
-        url: "https://visioneer.hackclub.com/",
-        fancy: true,
-      },
-      {
         name: "Sidequests",
         description: "A short, low-volume series of miscellaneous YSWSs",
         img: "/cards/sidequests.png",
