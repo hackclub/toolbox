@@ -107,6 +107,17 @@ export default [
         fancy: true,
       },
       {
+        name: "Hacklet",
+        description: "Spend two hours building a javascript bookmarklet, get $10 to buy a domain (Ends May 10th)",
+        img: "/cards/hacklet.png",  
+        background: "#000000",
+        titleColor: "#ffffff",
+        descriptionColor: "#ffffff",
+        external: true,
+        url: "https://hacklet.hackclub.com/",
+        fancy: true,
+      },
+      {
         name: "Hackcraft",
         description: "Make a Minecraft mod, get Minecraft (Ends June 1st)",
         img: "/cards/hackcraft.png",
