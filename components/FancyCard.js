@@ -6,8 +6,8 @@ export default function FancyCard({
   item,
   sx = {},
   onMobile,
-  onHover,
-  onHoverLeave
+  onHover = () => {},
+  onHoverLeave = () => {}
 }) {
   const {
     background,

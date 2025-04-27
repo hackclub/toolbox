@@ -1,5 +1,5 @@
 import '@hackclub/theme/fonts/reg-bold.css'
-import { Box, Flex, Card, Heading, Button, Image, Container } from 'theme-ui'
+import { Box, Flex, Grid, Heading, Button, Image, Container } from 'theme-ui'
 import { useState, useEffect } from 'react'
 import dynamic from 'next/dynamic'
 
