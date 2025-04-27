@@ -24,146 +24,152 @@ export default function Index() {
 
     return (
         <div>
-            <Box variant="wide" sx={{ position: 'relative', minHeight: 'max(350px,60vh)', height: '100%' }}>
-                <Flex
-                    sx={{
-                        p: [0, 4],
-                        justifyContent: 'space-between',
-                        position: 'relative',
-                        zIndex: 600,
-                        pointerEvents: 'none',
-                        flexDirection: 'column',
-                        height: '100%',
-                        minHeight: 'max(350px,60vh)'
-                    }}
-                >
-                    {/* <Card
+            <Flex sx={{
+                flexDirection: 'column',
+                width: '100%',
+                minHeight: '100vh',
+            }}>
+                <Flex variant="wide" sx={{ position: 'relative', height: '100%', flexGrow: 1 }}>
+                    <Flex
                         sx={{
-                            background: 'primary',
-                            p: 4,
-                            borderRadius: [0, 'default']
+                            p: [0, 4],
+                            justifyContent: 'space-between',
+                            position: 'relative',
+                            zIndex: 600,
+                            pointerEvents: 'none',
+                            flexDirection: 'column',
+                            height: '100%',
+                            mt: 'auto',
+                            flexGrow: 1,
                         }}
                     >
-                        <Heading
-                        as="h2"
-                        sx={{
-                            fontSize: 4,
-                            color: 'white',
-                            textShadow: 'card',
-                            pointerEvents: 'all',
-                            lineHeight: ['0.95', 'default'],
-                            mb: 2
-                        }}
-                        >
-                        Hack Club Toolbox
-                        </Heading>
-                        <Heading
-                        as="h4"
-                        sx={{
-                            fontSize: 2,
-                            fontWeight: 400,
-                            color: 'white',
-                            textShadow: 'card',
-                            pointerEvents: 'all'
-                        }}
-                        >
-                        Tools for hacking, learning, and leading.
-                        </Heading>
-                    </Card> */}
-                    <Box sx={{
-                        width: 'max-content',
-                        ml: 'auto',
-                        mt: 'auto',
-                    }}>
-                        <Button
-                            variant="cta"
-                            as="a"
-                            href="https://hackclub.com/slack"
-                            target="_blank"
+                        {/* <Card
                             sx={{
+                                background: 'primary',
+                                p: 4,
+                                borderRadius: [0, 'default']
+                            }}
+                        >
+                            <Heading
+                            as="h2"
+                            sx={{
+                                fontSize: 4,
+                                color: 'white',
+                                textShadow: 'card',
                                 pointerEvents: 'all',
-                                mt: 2,
-                                mb: [3, 0],
-                                // '@media screen and (max-width: 991.98px)': {
-                                //     display: 'none'
-                                // }
+                                lineHeight: ['0.95', 'default'],
+                                mb: 2
                             }}
-                        >
-                            Join the Slack
-                        </Button>
-
-                        <Button
-                            variant="cta"
-                            as="a"
-                            href="https://apply.hackclub.com"
-                            target="_blank"
-                            sx={{
-                                pointerEvents: 'all',
-                                mt: 2,
-                                ml: 4,
-                                mb: [3, 0],
-                                // '@media screen and (max-width: 991.98px)': {
-                                //     display: 'none'
-                                // }
-                            }}
-                        >
-                            Start Your Hack Club
-                        </Button>
-                    </Box>
-                </Flex>
-                <Map height='max(350px,60vh)' />
-            </Box>
-            <Container
-                sx={{
-                    position: 'relative', 
-                    height: 'calc(100vh - max(350px,60vh))',
-                    padding: 48,
-                    mx: 'auto',
-                }}>
-                <Box sx={{ ml: '1.5em', fontSize: 6 }} >
-                    <Heading
-                        as="h1"
-                        sx={{
-                            fontSize: 6,
-                            fontWeight: 600,
-                            mb: 3,
-                            position: 'relative'
-                        }}
-                    >
-                        <Image
-                            src='/hammer-and-wrench.svg'
-                            sx={{
-                                fontSize: 6,
-                                width: '1em',
-                                // height: '2em',
-                                height: 'max-content',
-                                objectFit: 'contain',
-                                position: 'absolute',
-                                top: '50%',
-                                left: '-0.5em',
-                                transform: 'translateY(-50%) translateX(-100%)',
-                            }}
-                        />
-                        The Hack Club Toolbox
-                    </Heading>
-                    <Flex sx={{ flexGrow: 1, gap: '8vw' }}>
-                        <Heading
+                            >
+                            Hack Club Toolbox
+                            </Heading>
+                            <Heading
                             as="h4"
                             sx={{
                                 fontSize: 2,
-                                fontWeight: 400
+                                fontWeight: 400,
+                                color: 'white',
+                                textShadow: 'card',
+                                pointerEvents: 'all'
                             }}
-                        >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat
-                        </Heading>
-                        <Box sx={{ transform: 'rotateZ(-16deg)', flexShrink: 0, fontSize: 1 }}>
-                            scroll&nbsp;down!
-                            <br />
-                            <Image src='/arrow.svg' sx={{ height: '4rem', width: '100%' }} ></Image>
+                            >
+                            Tools for hacking, learning, and leading.
+                            </Heading>
+                        </Card> */}
+                        <Box sx={{
+                            width: 'max-content',
+                            ml: 'auto',
+                            mt: 'auto',
+                        }}>
+                            <Button
+                                variant="cta"
+                                as="a"
+                                href="https://hackclub.com/slack"
+                                target="_blank"
+                                sx={{
+                                    pointerEvents: 'all',
+                                    mt: 2,
+                                    mb: [3, 0],
+                                    // '@media screen and (max-width: 991.98px)': {
+                                    //     display: 'none'
+                                    // }
+                                }}
+                            >
+                                Join the Slack
+                            </Button>
+
+                            <Button
+                                variant="cta"
+                                as="a"
+                                href="https://apply.hackclub.com"
+                                target="_blank"
+                                sx={{
+                                    pointerEvents: 'all',
+                                    mt: 2,
+                                    ml: 4,
+                                    mb: [3, 0],
+                                    // '@media screen and (max-width: 991.98px)': {
+                                    //     display: 'none'
+                                    // }
+                                }}
+                            >
+                                Start Your Hack Club
+                            </Button>
                         </Box>
                     </Flex>
-                </Box>
-            </Container>
+                    <Map height='100%' />
+                </Flex>
+                <Container
+                    sx={{
+                        position: 'relative', 
+                        padding: 48,
+                        mx: 'auto',
+                    }}>
+                    <Box sx={{ ml: '1.5em', fontSize: 6 }} >
+                        <Heading
+                            as="h1"
+                            sx={{
+                                fontSize: 6,
+                                fontWeight: 600,
+                                mb: 3,
+                                position: 'relative'
+                            }}
+                        >
+                            <Image
+                                src='/hammer-and-wrench.svg'
+                                sx={{
+                                    fontSize: 6,
+                                    width: '1em',
+                                    // height: '2em',
+                                    height: 'max-content',
+                                    objectFit: 'contain',
+                                    position: 'absolute',
+                                    top: '50%',
+                                    left: '-0.5em',
+                                    transform: 'translateY(-50%) translateX(-100%)',
+                                }}
+                            />
+                            The Hack Club Toolbox
+                        </Heading>
+                        <Flex sx={{ flexGrow: 1, gap: '8vw' }}>
+                            <Heading
+                                as="h4"
+                                sx={{
+                                    fontSize: 2,
+                                    fontWeight: 400
+                                }}
+                            >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat
+                            </Heading>
+                            <Box sx={{ transform: 'rotateZ(-16deg)', flexShrink: 0, fontSize: 1 }}>
+                                scroll&nbsp;down!
+                                <br />
+                                <Image src='/arrow.svg' sx={{ height: '4rem', width: '100%' }} ></Image>
+                            </Box>
+                        </Flex>
+                    </Box>
+                </Container>
+            </Flex>
             <Box
                 variant="wide"
                 sx={{
@@ -189,7 +195,7 @@ export default function Index() {
                         zIndex: 1,
                         cursor: 'pointer',
                         ':hover': {
-                            filter: 'brightness(1.05)'
+                            filter: 'brightness(1.03)'
                         },
                         ':hover > div': {
                             animationPlayState: 'running',
@@ -243,7 +249,7 @@ export default function Index() {
                         zIndex: 1,
                         cursor: 'pointer',
                         ':hover': {
-                            filter: 'brightness(1.05)'
+                            filter: 'brightness(1.03)'
                         },
                         ':hover > div': {
                             animationPlayState: 'running',
@@ -298,7 +304,7 @@ export default function Index() {
                         zIndex: 1,
                         cursor: 'pointer',
                         ':hover': {
-                            filter: 'brightness(1.05)'
+                            filter: 'brightness(1.03)'
                         },
                         ':hover > div': {
                             animationPlayState: 'running',
@@ -355,7 +361,7 @@ export default function Index() {
                         zIndex: 1,
                         cursor: 'pointer',
                         ':hover': {
-                            filter: 'brightness(1.05)'
+                            filter: 'brightness(1.03)'
                         },
                         ':hover > div': {
                             animationPlayState: 'running',
