@@ -85,6 +85,28 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: "Tonic",
+        description: "Make a Jekyll theme, show it to the world, and get a Hack Club hat (Ends Mid May)",
+        img: "/cards/tonic.png",
+        background: "#faebd7",
+        titleColor: "#706044",
+        descriptionColor: "#706044",
+        external: true,
+        url: "https://tonic.hackclub.com/",
+        fancy: true,
+      },
+      {
+        name: "Solder",
+        description: "Make your first circuit board, get a kit of electronics to assemble it for free (Ends May 30th)",
+        img: "/cards/solder.png",
+        background: "#faf2fb",
+        titleColor: "#ff60a3",
+        descriptionColor: "#000000",
+        external: true,
+        url: "https://solder.hackclub.com/",
+        fancy: true,
+      },
+      {
         name: "Hackcraft",
         description: "Make a Minecraft mod, get Minecraft (Ends June 1st)",
         img: "/cards/hackcraft.png",
@@ -106,17 +128,6 @@ export default [
         url: "https://sidequests.hackclub.com/",
         fancy: true,
       },
-      {
-        name: "Tonic",
-        description: "Make a Jekyll theme, show it to the world, and get a Hack Club hat",
-        img: "/cards/tonic.png",
-        background: "#faebd7",
-        titleColor: "#706044",
-        descriptionColor: "#706044",
-        external: true,
-        url: "https://tonic.hackclub.com/",
-        fancy: true,
-      }
     ],
   },
   {
