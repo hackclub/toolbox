@@ -106,6 +106,17 @@ export default [
         url: "https://sidequests.hackclub.com/",
         fancy: true,
       },
+      {
+        name: "Tonic",
+        description: "Make a Jekyll theme, show it to the world, and get a Hack Club hat",
+        img: "/cards/tonic.png",
+        background: "#faebd7",
+        titleColor: "#706044",
+        descriptionColor: "#706044",
+        external: true,
+        url: "https://tonic.hackclub.com/",
+        fancy: true,
+      }
     ],
   },
   {
