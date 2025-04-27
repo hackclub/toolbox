@@ -29,17 +29,17 @@ export default function Index() {
                 width: '100%',
                 minHeight: '100vh',
             }}>
-                <Flex variant="wide" sx={{ position: 'relative', height: '100%', flexGrow: 1 }}>
+                <Flex variant="wide" sx={{ position: 'relative', height: '100%', flexGrow: 1, minHeight: '500px' }}>
                     <Flex
                         sx={{
-                            p: [0, 4],
+                            p: 4,
                             justifyContent: 'space-between',
                             position: 'relative',
                             zIndex: 600,
                             pointerEvents: 'none',
                             flexDirection: 'column',
                             height: '100%',
-                            mt: 'auto',
+                            mt: [0, 0, 'auto'],
                             flexGrow: 1,
                         }}
                     >
@@ -76,10 +76,13 @@ export default function Index() {
                             Tools for hacking, learning, and leading.
                             </Heading>
                         </Card> */}
-                        <Box sx={{
+                        <Flex sx={{
                             width: 'max-content',
-                            ml: 'auto',
-                            mt: 'auto',
+                            ml: ['auto', 2],
+                            flexWrap: 'wrap',
+                            columnGap: 4,
+                            rowGap: 3,
+                            width: '100%', 
                         }}>
                             <Button
                                 variant="cta"
@@ -88,8 +91,6 @@ export default function Index() {
                                 target="_blank"
                                 sx={{
                                     pointerEvents: 'all',
-                                    mt: 2,
-                                    mb: [3, 0],
                                     // '@media screen and (max-width: 991.98px)': {
                                     //     display: 'none'
                                     // }
@@ -105,9 +106,6 @@ export default function Index() {
                                 target="_blank"
                                 sx={{
                                     pointerEvents: 'all',
-                                    mt: 2,
-                                    ml: 4,
-                                    mb: [3, 0],
                                     // '@media screen and (max-width: 991.98px)': {
                                     //     display: 'none'
                                     // }
@@ -115,7 +113,7 @@ export default function Index() {
                             >
                                 Start Your Hack Club
                             </Button>
-                        </Box>
+                        </Flex>
                     </Flex>
                     <Map height='100%' />
                 </Flex>
@@ -125,7 +123,7 @@ export default function Index() {
                         padding: 48,
                         mx: 'auto',
                     }}>
-                    <Box sx={{ ml: '1.5em', fontSize: 6 }} >
+                    <Box sx={{ ml: [0, 0, '1.5em'], fontSize: 6 }} >
                         <Heading
                             as="h1"
                             sx={{
@@ -147,6 +145,7 @@ export default function Index() {
                                     top: '50%',
                                     left: '-0.5em',
                                     transform: 'translateY(-50%) translateX(-100%)',
+                                    display: ['none', 'none', 'unset']
                                 }}
                             />
                             The Hack Club Toolbox
@@ -161,7 +160,12 @@ export default function Index() {
                             >
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat
                             </Heading>
-                            <Box sx={{ transform: 'rotateZ(-16deg)', flexShrink: 0, fontSize: 1 }}>
+                            <Box sx={{
+                                transform: 'rotateZ(-16deg)',
+                                flexShrink: 0,
+                                fontSize: 1,
+                                display: ['none', 'none', 'block'],    
+                            }}>
                                 scroll&nbsp;down!
                                 <br />
                                 <Image src='/arrow.svg' sx={{ height: '4rem', width: '100%' }} ></Image>
@@ -173,9 +177,10 @@ export default function Index() {
             <Box
                 variant="wide"
                 sx={{
-                    height: '100vh',
+                    height: ['auto', '100vh'],
                     display: 'grid',
-                    gridTemplateColumns: 'repeat(2, 1fr)',
+                    gridTemplateColumns: ['1fr', '1fr 1fr'],
+                    gridAutoRows: ['1fr', '1fr 1fr'],
                     gap: 3,
                     padding: 3,
                 }}
@@ -191,6 +196,7 @@ export default function Index() {
                         justifyContent: 'center',
                         alignContent: 'center',
                         px: 4,
+                        py: 5,
                         position: 'relative',
                         zIndex: 1,
                         cursor: 'pointer',
@@ -245,6 +251,7 @@ export default function Index() {
                         justifyContent: 'center',
                         alignContent: 'center',
                         px: 4,
+                        py: 5,
                         position: 'relative',
                         zIndex: 1,
                         cursor: 'pointer',
@@ -300,6 +307,7 @@ export default function Index() {
                         justifyContent: 'center',
                         alignContent: 'center',
                         px: 4,
+                        py: 5,
                         position: 'relative',
                         zIndex: 1,
                         cursor: 'pointer',
@@ -357,6 +365,7 @@ export default function Index() {
                         justifyContent: 'center',
                         alignContent: 'center',
                         px: 4,
+                        py: 5,
                         position: 'relative',
                         zIndex: 1,
                         cursor: 'pointer',
