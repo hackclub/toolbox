@@ -31,7 +31,7 @@ export const categories = [
     color: "blue",
     headerStyle: "left",
   },
-    {
+  {
     id: "perks",
     category: "Perks",
     title: "Perks",
@@ -68,7 +68,8 @@ export default function ToolboxPage({ everything = [] }) {
       return
     }
 
-    const { id, category, title, color, headerStyle } = categories[router.query.slug]
+    console.log('asdfasdfasdf', router.query.slug);
+    const { id, category, title, color, headerStyle } = categories.find(category => category.id == router.query.slug)
 
     const [items, setItems] = useState([])
     const updateItems = (query) => {
@@ -202,7 +203,7 @@ export default function ToolboxPage({ everything = [] }) {
                         gap: 2,
                     }}
                 >
-                  <Link href='/' sx={{
+                  <Link href='..' sx={{
                     display: 'inline-block',
                     height: '0.8em',
                     opacity: 0.5,
@@ -287,6 +288,16 @@ export default function ToolboxPage({ everything = [] }) {
             </Container>
         </div>
     )
+}
+
+export const getStaticPaths = async () => {
+  const paths = categories.map(category => ({
+    params: { slug: category.id }
+  }))
+  return {
+    paths: [...paths, { params: { slug: 'home-new' } }],
+    fallback: false
+  }
 }
 
 export const getStaticProps = async ({ params }) => {

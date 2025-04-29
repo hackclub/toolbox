@@ -1,7 +1,6 @@
 import '@hackclub/theme/fonts/reg-bold.css'
-import { Box, Flex, Grid, Heading, Button, Image, Container } from 'theme-ui'
-import { useState, useEffect } from 'react'
 import dynamic from 'next/dynamic'
+import { Box, Button, Container, Flex, Heading, Image, Link } from 'theme-ui'
 
 let Map
 if (!Map) {
@@ -29,7 +28,7 @@ export default function Index() {
                 width: '100%',
                 minHeight: '100vh',
             }}>
-                <Flex variant="wide" sx={{ position: 'relative', height: '100%', flexGrow: 1, minHeight: '500px' }}>
+                <Flex variant="wide" sx={{ position: 'relative', height: '100%', flexGrow: 1, minHeight: '400px' }}>
                     <Flex
                         sx={{
                             p: 4,
@@ -78,11 +77,10 @@ export default function Index() {
                         </Card> */}
                         <Flex sx={{
                             width: 'max-content',
-                            ml: ['auto', 2],
+                            ml: [0, 0, 'auto'],
                             flexWrap: 'wrap',
                             columnGap: 4,
                             rowGap: 3,
-                            width: '100%', 
                         }}>
                             <Button
                                 variant="cta"
@@ -185,7 +183,7 @@ export default function Index() {
                     padding: 3,
                 }}
             >
-                <a href="activities" style={{textDecoration: 'none'}}>
+                <Link href="activities" sx={{textDecoration: 'none'}}>
                     <Flex sx={{
                         background: 'yellow',
                         color: 'white',
@@ -239,8 +237,8 @@ export default function Index() {
                             Ready-to-use workshops, lessons, and coding challenges.
                         </Heading>
                     </Flex>
-                </a>
-                <a href="ysws" style={{textDecoration: 'none'}}>
+                </Link>
+                <Link href="ysws" sx={{textDecoration: 'none'}}>
                     <Flex sx={{
                         background: 'green',
                         color: 'white',
@@ -295,8 +293,8 @@ export default function Index() {
                             A collection of specialized programs you can run as club meetings, with rewards for every project.
                         </Heading>
                     </Flex>
-                </a>
-                <a href="resources" style={{textDecoration: 'none'}}>
+                </Link>
+                <Link href="resources" sx={{textDecoration: 'none'}}>
                     <Flex sx={{
                         background: 'blue',
                         color: 'white',
@@ -353,8 +351,8 @@ export default function Index() {
                             Practical support including free materials & leader community connections.
                         </Heading>
                     </Flex>
-                </a>
-                <a href="perks" style={{textDecoration: 'none'}}>
+                </Link>
+                <Link href="perks" sx={{textDecoration: 'none'}}>
                     <Flex sx={{
                         background: 'red',
                         color: 'white',
@@ -409,7 +407,7 @@ export default function Index() {
                             Exclusive benefits like premium software, industry AMAs, and event opportunities.
                         </Heading>
                     </Flex>
-                </a>
+                </Link>
             </Box>
         </div>
     );
