@@ -203,7 +203,7 @@ export default function ToolboxPage({ everything = [] }) {
                         gap: 2,
                     }}
                 >
-                  <Link href='..' sx={{
+                  <Link href='.' sx={{
                     display: 'inline-block',
                     height: '0.8em',
                     opacity: 0.5,

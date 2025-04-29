@@ -183,7 +183,7 @@ export default function Index() {
                     padding: 3,
                 }}
             >
-                <Link href="activities" sx={{textDecoration: 'none'}}>
+                <Link href="/home-new/activities" sx={{textDecoration: 'none'}}>
                     <Flex sx={{
                         background: 'yellow',
                         color: 'white',
@@ -238,7 +238,7 @@ export default function Index() {
                         </Heading>
                     </Flex>
                 </Link>
-                <Link href="ysws" sx={{textDecoration: 'none'}}>
+                <Link href="/home-new/ysws" sx={{textDecoration: 'none'}}>
                     <Flex sx={{
                         background: 'green',
                         color: 'white',
@@ -294,7 +294,7 @@ export default function Index() {
                         </Heading>
                     </Flex>
                 </Link>
-                <Link href="resources" sx={{textDecoration: 'none'}}>
+                <Link href="/home-new/resources" sx={{textDecoration: 'none'}}>
                     <Flex sx={{
                         background: 'blue',
                         color: 'white',
@@ -352,7 +352,7 @@ export default function Index() {
                         </Heading>
                     </Flex>
                 </Link>
-                <Link href="perks" sx={{textDecoration: 'none'}}>
+                <Link href="/home-new/perks" sx={{textDecoration: 'none'}}>
                     <Flex sx={{
                         background: 'red',
                         color: 'white',
