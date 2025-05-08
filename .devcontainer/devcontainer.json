@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "echo \"No test script defined in package.json\"",
+    "build": "yarn install && yarn build",
+    "launch": "yarn install && yarn dev"
+  }
+}
