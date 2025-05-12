@@ -375,6 +375,18 @@ export default [
         url: "https://hackclub.com/hcb",
         forUseBy: "everyone",
       },
+      {
+        name: "Github Education",
+        description: "Get access to tons of hacker resources and free offers",
+        img: "/cards/gh.svg",
+        external: true,
+        url: "https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student",
+        forUseBy: "everyone",
+        fancy: true,
+        background: "#000000",
+        titleColor: "#ffffff",
+        descriptionColor: "#ffffff",
+      }
     ],
   },
   {
