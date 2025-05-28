@@ -97,7 +97,7 @@ export default [
       // Limited-time YSWSs start here
       {
         name: "Tonic",
-        description: "Make a Jekyll theme, show it to the world, and get a Hack Club hat (Ends Mid May)",
+        description: "Make a Jekyll theme, show it to the world, and get a Hack Club hat",
         img: "/cards/tonic.png",
         background: "#faebd7",
         titleColor: "#706044",
