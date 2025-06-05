@@ -95,15 +95,11 @@ export default function Index({ everything = [], menu, source }) {
   const selectCategory = category => {
     // this code is still written for multiple categories to be selected at once, but only one is selectable at a time
     setCategories([category])
-    console.log("selecting", category, categories)
-    router.replace(
-      buildRoute({ categories: [category], query }),
-      undefined,
-      {
-        ...(router.query.slug === 'home' && { shallow: true }),
-        scroll: false
-      }
-    )
+    console.log('selecting', category, categories)
+    router.replace(buildRoute({ categories: [category], query }), undefined, {
+      ...(router.query.slug === 'home' && { shallow: true }),
+      scroll: false
+    })
   }
   const removeCategory = category => {
     setCategories(categories.filter(x => x !== category))
@@ -219,6 +215,24 @@ export default function Index({ everything = [], menu, source }) {
               }}
             >
               Start Your Hack Club
+            </Button>
+
+            <Button
+              variant="cta"
+              as="a"
+              href="https://dashboard.hackclub.com"
+              target="_blank"
+              sx={{
+                pointerEvents: 'all',
+                mt: 2,
+                ml: 4,
+                mb: [3, 0],
+                '@media screen and (max-width: 991.98px)': {
+                  display: 'none'
+                }
+              }}
+            >
+              Club Dashboard
             </Button>
           </Box>
         </Flex>
@@ -525,14 +539,14 @@ export const getStaticProps = async ({ params }) => {
     return {
       props: {
         source: await serialize(source),
-        menu: (await categories()).filter(cat => cat.category !== "Highlighted") // don't show highlighted on the sidebar
+        menu: (await categories()).filter(cat => cat.category !== 'Highlighted') // don't show highlighted on the sidebar
       }
     }
   }
   return {
     props: {
       everything: await everything(),
-      menu: (await categories()).filter(cat => cat.category !== "Highlighted") // don't show highlighted on the sidebar
+      menu: (await categories()).filter(cat => cat.category !== 'Highlighted') // don't show highlighted on the sidebar
     },
     revalidate: 60 * 60 * 24
   }
