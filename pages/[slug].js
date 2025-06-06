@@ -16,7 +16,7 @@ import Icon from '@hackclub/icons'
 import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
 import InfoCard from '../components/Card'
-import CurrentCard from '../components/CurrentCard'
+import FancyCard from '../components/FancyCard'
 import { filter } from 'fuzzaldrin'
 import { everything, categories } from '../lib/content'
 import MDXContent from '../components/mdx/MDXContent'
@@ -92,16 +92,14 @@ export default function Index({ everything = [], menu, source }) {
   }
 
   const [categories, setCategories] = useState([])
-  const addCategory = category => {
-    setCategories([...categories, category])
-    router.replace(
-      buildRoute({ categories: [...categories, category], query }),
-      undefined,
-      {
-        ...(router.query.slug === 'home' && { shallow: true }),
-        scroll: false
-      }
-    )
+  const selectCategory = category => {
+    // this code is still written for multiple categories to be selected at once, but only one is selectable at a time
+    setCategories([category])
+    console.log('selecting', category, categories)
+    router.replace(buildRoute({ categories: [category], query }), undefined, {
+      ...(router.query.slug === 'home' && { shallow: true }),
+      scroll: false
+    })
   }
   const removeCategory = category => {
     setCategories(categories.filter(x => x !== category))
@@ -218,6 +216,24 @@ export default function Index({ everything = [], menu, source }) {
             >
               Start Your Hack Club
             </Button>
+
+            <Button
+              variant="cta"
+              as="a"
+              href="https://dashboard.hackclub.com"
+              target="_blank"
+              sx={{
+                pointerEvents: 'all',
+                mt: 2,
+                ml: 4,
+                mb: [3, 0],
+                '@media screen and (max-width: 991.98px)': {
+                  display: 'none'
+                }
+              }}
+            >
+              Club Dashboard
+            </Button>
           </Box>
         </Flex>
         <Map />
@@ -268,7 +284,7 @@ export default function Index({ everything = [], menu, source }) {
                 onClick={() =>
                   categories.includes(category.category)
                     ? removeCategory(category.category)
-                    : addCategory(category.category)
+                    : selectCategory(category.category)
                 }
                 key={idx}
                 sx={{
@@ -354,7 +370,7 @@ export default function Index({ everything = [], menu, source }) {
                 onClick={() =>
                   categories.includes(category.category)
                     ? removeCategory(category.category)
-                    : addCategory(category.category)
+                    : selectCategory(category.category)
                 }
                 key={idx}
                 sx={{
@@ -444,9 +460,9 @@ export default function Index({ everything = [], menu, source }) {
                 {items.length > 0 ? (
                   <Grid columns={[1, 2, 3]} sx={{ gap: 3 }}>
                     {items.map((item, idx) => {
-                      if (item.category === 'Current')
+                      if (item.fancy)
                         return (
-                          <CurrentCard
+                          <FancyCard
                             onMobile={onMobile}
                             onHover={() => setHover(item.category)}
                             onHoverLeave={() => setHover('')}
@@ -523,14 +539,14 @@ export const getStaticProps = async ({ params }) => {
     return {
       props: {
         source: await serialize(source),
-        menu: await categories()
+        menu: (await categories()).filter(cat => cat.category !== 'Highlighted') // don't show highlighted on the sidebar
       }
     }
   }
   return {
     props: {
       everything: await everything(),
-      menu: await categories()
+      menu: (await categories()).filter(cat => cat.category !== 'Highlighted') // don't show highlighted on the sidebar
     },
     revalidate: 60 * 60 * 24
   }

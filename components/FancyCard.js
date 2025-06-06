@@ -2,7 +2,7 @@ import { Box, Card, Image, Link, Text } from 'theme-ui'
 import Icon from '@hackclub/icons'
 import { useState } from 'react'
 
-export default function CurrentCard({
+export default function FancyCard({
   item,
   sx = {},
   onMobile,
@@ -13,7 +13,8 @@ export default function CurrentCard({
     background,
     titleColor,
     descriptionColor,
-    title,
+    arrowColor,
+    name,
     description,
     img,
     url
@@ -95,9 +96,26 @@ export default function CurrentCard({
                   }
                 }
               }
-            })
+            }),
+            overflow: "hidden",
           }}
         >
+          <Box
+            sx={{
+              position: 'absolute',
+              top: 2,
+              right: 2,
+              opacity: 0.3,
+              fontSize: [1, '16px', '20px']
+            }}
+          >
+            <Icon
+              glyph="external"
+              size={32}
+              color={arrowColor || "#E9E9E9"}
+              className="icon"
+            />
+          </Box>
           <Box
             className="more"
             sx={{
@@ -114,7 +132,7 @@ export default function CurrentCard({
               display: onMobile ? 'none' : 'initial'
             }}
           >
-            <Icon glyph="more" size={25} />
+            <Icon glyph="more" size={25} color={descriptionColor} opacity={0.7} />
           </Box>
           <Card
             sx={{
@@ -133,11 +151,12 @@ export default function CurrentCard({
               src={img}
               sx={{
                 width: ['50px', '58px'],
-                height: ['50px', '58px']
+                height: ['50px', '58px'],
+                objectFit: 'contain'
               }}
             />
             <Text as="h3" sx={{ color: titleColor, fontSize: '22px' }}>
-              {title}
+              {name}
             </Text>
             <Text as="p" sx={{ color: descriptionColor, fontSize: '20px' }}>
               {description}
