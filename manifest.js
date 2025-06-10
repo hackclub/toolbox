@@ -338,7 +338,7 @@ export default [
         name: 'Stickers',
         description: 'Get a box of stickers for your next meeting or event',
         icon: 'sticker',
-        external: false,
+        external: true,
         url: 'https://forms.hackclub.com/stickers',
         forUseBy: 'leaders'
       },
