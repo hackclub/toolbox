@@ -1,6 +1,6 @@
 export default [
   {
-    category: 'YSWS',
+    category: 'YSWS s',
     color: 'green',
     icon: 'bolt',
     items: [
@@ -51,18 +51,6 @@ export default [
         fancy: true
       },
       {
-        name: 'Shipwrecked',
-        description:
-          'On August 8-11, you and 130 other students will gather on Cathleen Stone Island in the Boston Harbor for a once in a lifetime, 4-day story-based hackathon!',
-        img: '/cards/shipwrecked.png',
-        background: '#45cff6',
-        titleColor: 'black',
-        descriptionColor: 'white',
-        external: true,
-        url: 'https://shipwrecked.hackclub.com',
-        fancy: true
-      },
-      {
         name: 'Sprig',
         description:
           'Join hundreds of teenagers making tile-based JavaScript games',
@@ -102,7 +90,7 @@ export default [
       {
         name: 'Tonic',
         description:
-          'Make a Jekyll theme, show it to the world, and get a Hack Club hat',
+          'Make a Jekyll theme, show it to the world, and get a Hack Club hat.',
         img: '/cards/tonic.png',
         background: '#faebd7',
         titleColor: '#706044',
@@ -112,50 +100,26 @@ export default [
         fancy: true
       },
       {
-        name: 'Grub',
-        description: 'Build a website using Tailwind CSS, Get Junk Food!',
-        img: '/cards/grub.png',
-        background: '#ff6b35',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff',
+        name: "Grub",
+        description: "Build a website using Tailwind CSS, get junk food!",
+        img: "/cards/grub.png",
+        background: "#c10007",
+        titleColor: "#ffdf20",
+        descriptionColor: "white",
         external: true,
-        url: 'https://grub.hackclub.com/',
-        fancy: true
+        url: "https://grub.hackclub.com",
+        fancy: true,
       },
       {
         name: 'TerminalCraft',
         description:
-          'Create an original program that runs in the terminal, get a raspberry pi 4!',
+          'Create an original program that runs in the terminal, get a Raspberry Pi 4!',
         img: '/cards/terminalcraft.png',
         background: '#000000',
         titleColor: '#00ff00',
         descriptionColor: '#ffffff',
         external: true,
         url: 'https://terminalcraft.hackclub.com/',
-        fancy: true
-      },
-      {
-        name: 'Highway',
-        description:
-          'Design any project, and we will send you the parts & funding you need to build it and invite you to Github HQ!',
-        img: '/cards/highway.png',
-        background: '#9b59b6',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff',
-        external: true,
-        url: 'https://highway.hackclub.com/',
-        fancy: true
-      },
-      {
-        name: 'Athena',
-        description:
-          "Earn Hack Club's Athena Award, an industry recognized technical certificate. Travel to New York City for 2025's largest high school hackathon for girls! Win prizes as you code, including laptops, iPads, Flipper Zeros, headphones and hoodies.",
-        img: '/cards/athena.svg',
-        background: '#dda14c',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff',
-        external: true,
-        url: 'https://athena.hackclub.com/',
         fancy: true
       },
       {
@@ -191,6 +155,46 @@ export default [
         external: true,
         url: 'https://sidequests.hackclub.com/',
         fancy: true
+      }
+    ]
+  },
+  {
+    category: 'Hackathons',
+    color: '#FF2800',
+    icon: 'event-code',
+    items: [
+      {
+        name: "Shipwrecked",
+        description: "On August 8-11, you and 130 other students will gather on Cathleen Stone Island in the Boston Harbor for a once in a lifetime, 4-day story-based hackathon!",
+        img: "/cards/shipwrecked.png",
+        background: "#45cff6",
+        titleColor: "black",
+        descriptionColor: "white",
+        external: true,
+        url: "https://shipwrecked.hackclub.com",
+        fancy: true,
+      },
+      {
+        name: "Highway",
+        description: "Highway is a grant program where you can design any project, and we'll send you the parts & funding you need to build it! Repeat to get invited to Undercity, a 4-day hardware hackathon at GitHub HQ in July. (Until July 31st)",
+        img: "/cards/highway.png",
+        background: "#302c61",
+        titleColor: "#a9e7c6",
+        descriptionColor: "white",
+        external: true,
+        url: "https://highway.hackclub.com",
+        fancy: true,
+      },
+      {
+        name: "Athena Award",
+        description: "Build three projects, code 30 hours and open source your projects, earn a industrry recognized ceritifcate and travel to NYC for 2025's largest high school hackathon for girls! (Until Oct 31st)",
+        img: "/cards/athena.svg",
+        background: "#8c2e37",
+        titleColor: "white",
+        descriptionColor: "white",
+        external: true,
+        url: "https://athena.hackclub.com",
+        fancy: true,
       }
     ]
   },
@@ -272,41 +276,16 @@ export default [
     icon: 'explore',
     items: [
       {
-        name: 'Club Dashboard',
-        description: 'Manage your Hack Club with tools for leaders and members',
-        img: '/cards/dashboard.png',
-        background: '#ec3750',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff',
+        name: "Github Education",
+        description: "Get access to tons of hacker resources and free offers",
+        img: "/cards/gh.svg",
         external: true,
-        url: 'https://dashboard.hackclub.com/',
-        fancy: true
-      },
-      {
-        name: 'Nest',
-        description:
-          'Free Linux server for all Hack Clubbers to host anything they need',
-        img: '/cards/nest.png',
-        background: '#e9e9e9',
-        titleColor: '#1f2d3d',
-        descriptionColor: '#1f2d3d',
-        arrowColor: '#7f7f7f',
-        external: true,
-        url: 'https://hackclub.app/',
-        fancy: true
-      },
-      {
-        name: 'Spaces',
-        description:
-          'Create, share, and deploy websites or other apps instantly with GIT integration for clubs.',
-        img: '/cards/spaces.png',
-        background: '#dfcdd1',
-        titleColor: '#1f2d3d',
-        descriptionColor: '#1f2d3d',
-        arrowColor: '#7f7f7f',
-        external: true,
-        url: 'https://spaces.hackclub.com',
-        fancy: true
+        url: "https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student",
+        forUseBy: "everyone",
+        fancy: true,
+        background: "#000000",
+        titleColor: "#ffffff",
+        descriptionColor: "#ffffff",
       },
       {
         name: 'Pizza',
@@ -345,8 +324,8 @@ export default [
         name: 'Stickers',
         description: 'Get a box of stickers for your next meeting or event',
         icon: 'sticker',
-        external: false,
-        url: '/stickers.mdx',
+        external: true,
+        url: 'https://forms.hackclub.com/stickers',
         forUseBy: 'leaders'
       },
       {
