@@ -135,6 +135,17 @@ export default [
         fancy: true
       },
       {
+        name: 'Hackcraft',
+        description: 'Make a Minecraft mod, get Minecraft (Ends June 1st)',
+        img: '/cards/hackcraft.png',
+        background: '#30AE1F',
+        titleColor: '#FFFFFF',
+        descriptionColor: '#FFFFFF',
+        external: true,
+        url: 'https://hackcraft.hackclub.com/',
+        fancy: true
+      },
+      {
         name: 'Sidequests',
         description: 'A short, low-volume series of miscellaneous YSWSs',
         img: '/cards/sidequests.png',
@@ -147,7 +158,7 @@ export default [
       }
     ]
   },
-    {
+  {
     category: 'Hackathons',
     color: '#FF2800',
     icon: 'event-code',
