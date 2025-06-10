@@ -265,41 +265,16 @@ export default [
     icon: 'explore',
     items: [
       {
-        name: 'Club Dashboard',
-        description: 'Manage your Hack Club with tools for leaders and members',
-        img: '/cards/dashboard.png',
-        background: '#ec3750',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff',
+        name: "Github Education",
+        description: "Get access to tons of hacker resources and free offers",
+        img: "/cards/gh.svg",
         external: true,
-        url: 'https://dashboard.hackclub.com/',
-        fancy: true
-      },
-      {
-        name: 'Nest',
-        description:
-          'Free Linux server for all Hack Clubbers to host anything they need',
-        img: '/cards/nest.png',
-        background: '#e9e9e9',
-        titleColor: '#1f2d3d',
-        descriptionColor: '#1f2d3d',
-        arrowColor: '#7f7f7f',
-        external: true,
-        url: 'https://hackclub.app/',
-        fancy: true
-      },
-      {
-        name: 'Spaces',
-        description:
-          'Create, share, and deploy websites or other apps instantly with GIT integration for clubs.',
-        img: '/cards/spaces.png',
-        background: '#dfcdd1',
-        titleColor: '#1f2d3d',
-        descriptionColor: '#1f2d3d',
-        arrowColor: '#7f7f7f',
-        external: true,
-        url: 'https://spaces.hackclub.com',
-        fancy: true
+        url: "https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student",
+        forUseBy: "everyone",
+        fancy: true,
+        background: "#000000",
+        titleColor: "#ffffff",
+        descriptionColor: "#ffffff",
       },
       {
         name: 'Pizza',
