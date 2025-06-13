@@ -133,28 +133,6 @@ export default [
         external: true,
         url: 'https://dashboard.hackclub.com/',
         fancy: true
-      },
-      {
-        name: 'Hackcraft',
-        description: 'Make a Minecraft mod, get Minecraft (Ends June 1st)',
-        img: '/cards/hackcraft.png',
-        background: '#30AE1F',
-        titleColor: '#FFFFFF',
-        descriptionColor: '#FFFFFF',
-        external: true,
-        url: 'https://hackcraft.hackclub.com/',
-        fancy: true
-      },
-      {
-        name: 'Sidequests',
-        description: 'A short, low-volume series of miscellaneous YSWSs',
-        img: '/cards/sidequests.png',
-        background: '#000000',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff',
-        external: true,
-        url: 'https://sidequests.hackclub.com/',
-        fancy: true
       }
     ]
   },
@@ -351,14 +329,6 @@ export default [
         icon: 'docs-fill',
         external: true,
         url: 'https://archived.guide.hackclub.com/#/',
-        forUseBy: 'leaders'
-      },
-      {
-        name: 'Leader Newsletter',
-        description: 'The bi-weekly run-down for Hack Club leaders',
-        icon: 'docs',
-        external: true,
-        url: 'https://workshops.hackclub.com/leader-newsletters',
         forUseBy: 'leaders'
       },
       {
