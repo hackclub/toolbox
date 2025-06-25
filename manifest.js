@@ -135,18 +135,6 @@ export default [
         fancy: true
       },
       {
-        name: 'Decode',
-        description:
-          'Learn how a tech product works (hardware + software) and we ship you a grant to make it yourself!',
-        img: '/cards/decode.png',
-        background: '#1D1D1D',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff',
-        external: true,
-        url: 'https://decode.hackclub.dev/',
-        fancy: true
-      },
-      {
         name: 'Pizza Party',
         description:
           'Make ANY project and host a pizza party for your club + get reimbursed',
