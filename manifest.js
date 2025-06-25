@@ -39,6 +39,14 @@ export default [
         fancy: true
       },
       {
+        name: 'Converge',
+        description: "Build Discord/Telegram/Slack bots, win prizes (Hetzner credits, Blahajs, domain names and more)",
+        icon: 'grid',
+        external: true,
+        url: 'https://converge.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
         name: 'Waffles',
         description:
           'Waffles is the next step after the completion of Swirl! You are expected to make a website that is packed with cool features (using JavaScript) and has something fun and unique! As a reward, we will give you $10 to buy Waffles!',
