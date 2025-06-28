@@ -51,6 +51,18 @@ export default [
         fancy: true
       },
       {
+        name: 'Pathfinder',
+        description:
+          'Learn how to make a custom PCB and make a controller board/efidget. You ship your project with screenshots and we ship all your parts!',
+        img: '/cards/pathfinder.png',
+        background: '#8c2e37',
+        titleColor: '#f4bf4f',
+        descriptionColor: '#FFFFFF',
+        external: true,
+        url: 'https://pathfinder.hackclub.com',
+        fancy: true
+      },
+      {
         name: 'Hackaccino',
         description: 'Make a 3D website, get a free Frappuccino',
         img: '/cards/hackaccino.png',
