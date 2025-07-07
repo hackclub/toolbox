@@ -1,6 +1,6 @@
 export default [
   {
-    category: 'YSWS s',
+    category: 'YSWSs',
     color: 'green',
     icon: 'bolt',
     items: [
@@ -51,16 +51,15 @@ export default [
         fancy: true
       },
       {
-        name: 'Hackaccino',
-        description: 'Make a 3D website, get a free Frappuccino',
-        img: '/cards/hackaccino.png',
-        background: '#FFF1DE',
-        titleColor: '#4F2A0E',
-        descriptionColor: '#4F2A0E',
-        arrowColor: '#ba9d75',
+        name: "Grub",
+        description: "Build a website using Tailwind CSS, get junk food!",
+        img: "/cards/grub.png",
+        background: "#c10007",
+        titleColor: "#ffdf20",
+        descriptionColor: "white",
         external: true,
-        url: 'https://hack.club/fraps',
-        fancy: true
+        url: "https://grub.hackclub.com",
+        fancy: true,
       },
       {
         name: 'Sprig',
@@ -110,17 +109,6 @@ export default [
         external: true,
         url: 'https://tonic.hackclub.com/',
         fancy: true
-      },
-      {
-        name: "Grub",
-        description: "Build a website using Tailwind CSS, get junk food!",
-        img: "/cards/grub.png",
-        background: "#c10007",
-        titleColor: "#ffdf20",
-        descriptionColor: "white",
-        external: true,
-        url: "https://grub.hackclub.com",
-        fancy: true,
       },
       {
         name: 'TerminalCraft',
