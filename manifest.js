@@ -99,6 +99,18 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: 'Jumpstart',
+        description:
+          'Build a game for 20 hours in a month, earn a high-quality gaming console to run your game on!',
+        img: '/cards/jumpstart.png',
+        background: '#142b70',
+        titleColor: 'white',
+        descriptionColor: 'white',
+        external: true,
+        url: 'https://jumpstart.hackclub.com/',
+        fancy: true
+      },
+      {
         name: 'Tonic',
         description:
           'Make a Jekyll theme, show it to the world, and get a Hack Club hat.',
