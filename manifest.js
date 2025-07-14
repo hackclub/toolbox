@@ -27,6 +27,17 @@ export default [
         fancy: true
       },
       {
+        name: "Grub",
+        description: "Build a website using Tailwind CSS, get junk food!",
+        img: "/cards/grub.png",
+        background: "#c10007",
+        titleColor: "#ffdf20",
+        descriptionColor: "white",
+        external: true,
+        url: "https://grub.hackclub.com",
+        fancy: true,
+      },
+      {
         name: 'Toppings',
         description:
           'Add some flavor to your site with CSS and earn toppings for your Ice Cream & Boba!',
@@ -51,17 +62,6 @@ export default [
         fancy: true
       },
       {
-        name: "Grub",
-        description: "Build a website using Tailwind CSS, get junk food!",
-        img: "/cards/grub.png",
-        background: "#c10007",
-        titleColor: "#ffdf20",
-        descriptionColor: "white",
-        external: true,
-        url: "https://grub.hackclub.com",
-        fancy: true,
-      },
-      {
         name: 'Sprig',
         description:
           'Join hundreds of teenagers making tile-based JavaScript games',
@@ -83,6 +83,18 @@ export default [
         descriptionColor: '#ffffff',
         external: true,
         url: 'https://cider.hackclub.com/',
+        fancy: true
+      },
+      {
+        name: 'Gemini',
+        description:
+          'Ship an Android app to the Play Store, get an Android Phone!',
+        img: '/cards/gemini.png',
+        background: '#299558',
+        titleColor: 'white',
+        descriptionColor: 'white',
+        external: true,
+        url: 'https://gemini.hackclub.com/',
         fancy: true
       },
       {
