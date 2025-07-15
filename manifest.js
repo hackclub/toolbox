@@ -135,18 +135,6 @@ export default [
         fancy: true
       },
       {
-        name: 'TerminalCraft',
-        description:
-          'Create an original program that runs in the terminal, get a Raspberry Pi 4!',
-        img: '/cards/terminalcraft.png',
-        background: '#000000',
-        titleColor: '#00ff00',
-        descriptionColor: '#ffffff',
-        external: true,
-        url: 'https://terminalcraft.hackclub.com/',
-        fancy: true
-      },
-      {
         name: 'Pizza Party',
         description:
           'Make ANY project and host a pizza party for your club + get reimbursed',
