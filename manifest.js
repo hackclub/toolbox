@@ -146,10 +146,10 @@ export default [
         fancy: true
       },
       {
-        name: 'Pizza Party',
+        name: 'Club Dashboard',
         description:
-          'Make ANY project and host a pizza party for your club + get reimbursed',
-        img: '/cards/pizzaparty.png',
+          'A tool to help manage your club!',
+        icon: 'leaders',
         background: '#e74c3c',
         titleColor: '#ffffff',
         descriptionColor: '#ffffff',
@@ -287,14 +287,6 @@ export default [
         background: "#000000",
         titleColor: "#ffffff",
         descriptionColor: "#ffffff",
-      },
-      {
-        name: 'Pizza',
-        description: 'Earn $5 per shipped project from your club to buy pizza!',
-        icon: 'briefcase',
-        external: true,
-        url: 'https://airtable.com/appSUAc40CDu6bDAp/pagvu2xGhfsMC8AOL/form',
-        forUseBy: 'leaders'
       },
       {
         name: 'Posters',
