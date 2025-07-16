@@ -27,17 +27,6 @@ export default [
         fancy: true
       },
       {
-        name: "Grub",
-        description: "Build a website using Tailwind CSS, get junk food!",
-        img: "/cards/grub.png",
-        background: "#c10007",
-        titleColor: "#ffdf20",
-        descriptionColor: "white",
-        external: true,
-        url: "https://grub.hackclub.com",
-        fancy: true,
-      },
-      {
         name: 'Toppings',
         description:
           'Add some flavor to your site with CSS and earn toppings for your Ice Cream & Boba!',
@@ -48,6 +37,17 @@ export default [
         external: true,
         url: 'https://toppings.hackclub.com',
         fancy: true
+      },
+      {
+        name: "Grub",
+        description: "Build a website using Tailwind CSS, get junk food!",
+        img: "/cards/grub.png",
+        background: "#c10007",
+        titleColor: "#ffdf20",
+        descriptionColor: "white",
+        external: true,
+        url: "https://grub.hackclub.com",
+        fancy: true,
       },
       {
         name: 'Waffles',
@@ -143,18 +143,6 @@ export default [
         descriptionColor: '#706044',
         external: true,
         url: 'https://tonic.hackclub.com/',
-        fancy: true
-      },
-      {
-        name: 'Club Dashboard',
-        description:
-          'A tool to help manage your club!',
-        icon: 'leaders',
-        background: '#e74c3c',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff',
-        external: true,
-        url: 'https://dashboard.hackclub.com/',
         fancy: true
       }
     ]
@@ -276,6 +264,15 @@ export default [
     color: 'blue',
     icon: 'explore',
     items: [
+      {
+        name: 'Dashboard',
+        description:
+          "A tool to help manage your club!",
+        icon: 'leaders',
+        external: true,
+        url: 'https://dashboard.hackclub.com',
+        forUseBy: 'leaders'
+      },
       {
         name: "Github Education",
         description: "Get access to tons of hacker resources and free offers",
