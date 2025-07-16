@@ -111,6 +111,17 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: "Smelt",
+        description: "Ship a Svelte/SvelteKit site, get awesome collectable swag!",
+        img: "/cards/smelt.png",
+        background: "#af5534ff",
+        titleColor: "#ffffff",
+        descriptionColor: "#ffffff",
+        external: true,
+        url: "https://smelt.hackclub.com",
+        fancy: true
+      },
+      {
         name: 'Jumpstart',
         description:
           'Build a game for 20 hours in a month, earn a high-quality gaming console to run your game on!',
