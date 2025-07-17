@@ -111,6 +111,18 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: 'Toybox',
+        description:
+          'Ship a daily game, get a steam gift card!',
+        img: '/cards/toybox.png',
+        background: '#faebd7',
+        titleColor: '#706044',
+        descriptionColor: '#706044',
+        external: true,
+        url: 'https://toybox.hackclub.com/',
+        fancy: true
+      }
+      {
         name: "Smelt",
         description: "Ship a Svelte/SvelteKit site, get awesome collectable swag!",
         img: "/cards/smelt.png",
