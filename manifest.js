@@ -121,7 +121,7 @@ export default [
         external: true,
         url: 'https://toybox.hackclub.com/',
         fancy: true
-      }
+      },
       {
         name: "Smelt",
         description: "Ship a Svelte/SvelteKit site, get awesome collectable swag!",
