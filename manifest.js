@@ -384,7 +384,7 @@ export default [
         name: 'Gas Fund',
         description:
           'Drive to any high school hackathon and get the cost of gas reimbursed',
-        icon: 'briefcase',
+        icon: 'send',
         external: true,
         url: 'https://gas.hackclub.com/',
         forUseBy: 'everyone'
