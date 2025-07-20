@@ -384,7 +384,7 @@ export default [
         name: 'Gas Fund',
         description:
           'Drive to any high school hackathon and get the cost of gas reimbursed',
-        icon: 'send',
+        icon: 'breifcase',
         external: true,
         url: 'https://gas.hackclub.com/',
         forUseBy: 'everyone'
@@ -393,7 +393,7 @@ export default [
         name: 'Jet Fund',
         description:
           'Fly to any high school hackathon and get the flights reimbursed',
-        icon: 'briefcase',
+        icon: 'send',
         external: true,
         url: 'https://jet.hackclub.com/',
         forUseBy: 'everyone'
