@@ -5,61 +5,13 @@ export default [
     icon: 'bolt',
     items: [
       {
-        name: 'Boba Drops',
-        description: 'Build an HTML + CSS static site, get free boba',
-        img: '/cards/boba.png',
-        background: '#C76B0F',
-        titleColor: '#F6D193',
-        descriptionColor: '#F6D193',
-        external: true,
-        url: 'https://hack.club/boba',
-        fancy: true
-      },
-      {
-        name: 'Swirl',
-        description: 'Build a cool website, get free ice cream',
-        img: '/cards/swirl.svg',
-        background: '#fde09d',
-        titleColor: '#b875ff',
-        descriptionColor: '#5d5031',
-        external: true,
-        url: 'https://swirl.hackclub.com/',
-        fancy: true
-      },
-      {
-        name: 'Toppings',
+        name: 'Web Development YSWSs',
         description:
-          'Add some flavor to your site with CSS and earn toppings for your Ice Cream & Boba!',
-        img: '/cards/toppings.png',
-        background: '#ffcc00',
-        titleColor: '#000',
-        descriptionColor: '#000',
+          'Our web development You Ship, We Ships!',
+        icon: 'web',
         external: true,
-        url: 'https://toppings.hackclub.com',
-        fancy: true
-      },
-      {
-        name: "Grub",
-        description: "Build a website using Tailwind CSS, get junk food!",
-        img: "/cards/grub.png",
-        background: "#c10007",
-        titleColor: "#ffdf20",
-        descriptionColor: "white",
-        external: true,
-        url: "https://grub.hackclub.com",
-        fancy: true,
-      },
-      {
-        name: 'Waffles',
-        description:
-          'Waffles is the next step after the completion of Swirl! You are expected to make a website that is packed with cool features (using JavaScript) and has something fun and unique! As a reward, we will give you $10 to buy Waffles!',
-        img: '/cards/waffles.jpg',
-        background: '#f8b84f',
-        titleColor: '#715547',
-        descriptionColor: '#000',
-        external: true,
-        url: 'https://waffles.hackclub.com',
-        fancy: true
+        url: 'https://webdev.hackclub.com',
+        forUseBy: 'everyone'
       },
       {
         name: 'Sprig',
