@@ -150,17 +150,6 @@ export default [
         fancy: true,
       },
       {
-        name: "Highway",
-        description: "Highway is a grant program where you can design any project, and we'll send you the parts & funding you need to build it! Repeat to get invited to Undercity, a 4-day hardware hackathon at GitHub HQ in July. (Until July 31st)",
-        img: "/cards/highway.png",
-        background: "#302c61",
-        titleColor: "#a9e7c6",
-        descriptionColor: "white",
-        external: true,
-        url: "https://highway.hackclub.com",
-        fancy: true,
-      },
-      {
         name: "Athena Award",
         description: "Build three projects, code 30 hours and open source your projects, earn a industrry recognized ceritifcate and travel to NYC for 2025's largest high school hackathon for girls! (Until Oct 31st)",
         img: "/cards/athena.svg",
