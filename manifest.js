@@ -63,6 +63,17 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: "Summer of Making",
+        description: " Build stuff. Get stuff. Repeat.",
+        img: "/cards/summerofmaking.png",
+        background: "#EED8BC",
+        titleColor: "#4A2D24",
+        descriptionColor: "#8b4513",
+        external: true,
+        url: "https://summer.hackclub.com/",
+        fancy: true,
+      },
+      {
         name: "Hackcraft",
         description: "Make a Minecraft mod, get Minecraft",
         img: "/cards/hackcraft.png",
@@ -136,17 +147,6 @@ export default [
         descriptionColor: "white",
         external: true,
         url: "https://shipwrecked.hackclub.com",
-        fancy: true,
-      },
-      {
-        name: "Highway",
-        description: "Highway is a grant program where you can design any project, and we'll send you the parts & funding you need to build it! Repeat to get invited to Undercity, a 4-day hardware hackathon at GitHub HQ in July. (Until July 31st)",
-        img: "/cards/highway.png",
-        background: "#302c61",
-        titleColor: "#a9e7c6",
-        descriptionColor: "white",
-        external: true,
-        url: "https://highway.hackclub.com",
         fancy: true,
       },
       {
