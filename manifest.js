@@ -97,14 +97,14 @@ export default [
         fancy: true
       },
       {
-        name: "Smelt",
-        description: "Ship a Svelte/SvelteKit site, get awesome collectable swag!",
-        img: "/cards/smelt.png",
-        background: "#af5534ff",
+        name: "The Zoo",
+        description: "Ship interactive animal themed Svelte site, get Ikea animal plushies!",
+        img: "/cards/zoo.png",
+        background: "#017100",
         titleColor: "#ffffff",
         descriptionColor: "#ffffff",
         external: true,
-        url: "https://smelt.hackclub.com",
+        url: "https://zoo.hackclub.com",
         fancy: true
       },
       {
