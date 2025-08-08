@@ -99,7 +99,7 @@ export default [
       {
         name: "The Zoo",
         description: "Ship interactive animal themed Svelte site, get Ikea animal plushies!",
-        img: "/cards/smelt.png",
+        img: "/cards/zoo.png",
         background: "#017100",
         titleColor: "#ffffff",
         descriptionColor: "#ffffff",
