@@ -139,17 +139,6 @@ export default [
     icon: 'event-code',
     items: [
       {
-        name: "Shipwrecked",
-        description: "On August 8-11, you and 130 other students will gather on Cathleen Stone Island in the Boston Harbor for a once in a lifetime, 4-day story-based hackathon!",
-        img: "/cards/shipwrecked.png",
-        background: "#45cff6",
-        titleColor: "black",
-        descriptionColor: "white",
-        external: true,
-        url: "https://shipwrecked.hackclub.com",
-        fancy: true,
-      },
-      {
         name: "Athena Award",
         description: "Build three projects, code 30 hours and open source your projects, earn a industrry recognized ceritifcate and travel to NYC for 2025's largest high school hackathon for girls! (Until Oct 31st)",
         img: "/cards/athena.svg",
