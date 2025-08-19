@@ -13,6 +13,29 @@ export default [
         url: 'https://webdev.hackclub.com',
         forUseBy: 'everyone'
       },
+            {
+        name: 'BakeBuild',
+        description: 'Design a cookie cutter and get it shipped to you',
+        img: '/cards/bakebuild.png',
+        background: '#ffffff',
+        titleColor: '#83583c',
+        descriptionColor: '#b19065',
+        arrowColor: '#9a9a9a',
+        external: true,
+        url: 'https://bakebuild.hackclub.com/',
+        fancy: true
+      },
+            {
+        name: "Fuse Ring",
+        description: "Design a keyring, get your keyring and a clip for your backpack!",
+        img: "/cards/fusering.svg",
+        background: "#a75970",
+        titleColor: "#ffffffff",
+        descriptionColor: "#ffffff",
+        external: true,
+        url: "https://fusering.hackclub.com",
+        fancy: true
+      },
       {
         name: 'Sprig',
         description:
@@ -47,18 +70,6 @@ export default [
         descriptionColor: 'white',
         external: true,
         url: 'https://gemini.hackclub.com/',
-        fancy: true
-      },
-      {
-        name: 'BakeBuild',
-        description: 'Design a cookie cutter and get it shipped to you',
-        img: '/cards/bakebuild.png',
-        background: '#ffffff',
-        titleColor: '#83583c',
-        descriptionColor: '#b19065',
-        arrowColor: '#9a9a9a',
-        external: true,
-        url: 'https://bakebuild.hackclub.com/',
         fancy: true
       },
       // Limited-time YSWSs start here
@@ -106,17 +117,6 @@ export default [
         url: "https://raspite.hackclub.com",
         fancy: true
       },
-      {
-        name: "Fusering",
-        description: "Design a keyring, get your keyring and a clip for your backpack!",
-        img: "/cards/fusering.svg",
-        background: "#a75970",
-        titleColor: "#ffffffff",
-        descriptionColor: "#ffffff",
-        external: true,
-        url: "https://fusering.hackclub.com",
-        fancy: true
-      }
     ]
   },
   {
