@@ -116,6 +116,18 @@ export default [
         external: true,
         url: "https://fusering.hackclub.com",
         fancy: true
+      },
+      {
+        name: 'birthday-cards',
+        description:
+          'You ship a birthday themed project we ship a birthday card!',
+        img: '/cards/birthday_cards.png',
+        background: '#501546ff',
+        titleColor: '#337dd1ff',
+        descriptionColor: '#1a6679ff',
+        external: true,
+        url: 'https://birthday-cards.hackclub.com/',
+        fancy: true
       }
     ]
   },
