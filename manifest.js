@@ -85,18 +85,6 @@ export default [
         fancy: true,
       },
       {
-        name: 'Toybox',
-        description:
-          'Ship a daily game, get a steam gift card!',
-        img: '/cards/toybox.png',
-        background: '#faebd7',
-        titleColor: '#706044',
-        descriptionColor: '#706044',
-        external: true,
-        url: 'https://toybox.hackclub.com/',
-        fancy: true
-      },
-      {
         name: "The Zoo",
         description: "Ship interactive animal themed Svelte site, get Ikea animal plushies!",
         img: "/cards/zoo.png",
@@ -108,27 +96,25 @@ export default [
         fancy: true
       },
       {
-        name: 'Jumpstart',
-        description:
-          'Build a game for 20 hours in a month, earn a high-quality gaming console to run your game on!',
-        img: '/cards/jumpstart.png',
-        background: '#142b70',
-        titleColor: 'white',
-        descriptionColor: 'white',
+        name: "Raspite",
+        description: "Make a website for your club. Get a domain grant, or a Raspberry Pi. Or both?",
+        img: "/cards/raspi.svg",
+        background: "#23232a",
+        titleColor: "#ff2d2d",
+        descriptionColor: "#ffffff",
         external: true,
-        url: 'https://jumpstart.hackclub.com/',
+        url: "https://raspite.hackclub.com",
         fancy: true
       },
       {
-        name: 'Tonic',
-        description:
-          'Make a Jekyll theme, show it to the world, and get a Hack Club hat.',
-        img: '/cards/tonic.png',
-        background: '#faebd7',
-        titleColor: '#706044',
-        descriptionColor: '#706044',
+        name: "Fusering",
+        description: "Design a keyring, get your keyring and a clip for your backpack!",
+        img: "/cards/fusering.svg",
+        background: "#a75970",
+        titleColor: "#ffffffff",
+        descriptionColor: "#ffffff",
         external: true,
-        url: 'https://tonic.hackclub.com/',
+        url: "https://fusering.hackclub.com",
         fancy: true
       }
     ]
@@ -139,21 +125,21 @@ export default [
     icon: 'event-code',
     items: [
       {
-        name: "Shipwrecked",
-        description: "On August 8-11, you and 130 other students will gather on Cathleen Stone Island in the Boston Harbor for a once in a lifetime, 4-day story-based hackathon!",
-        img: "/cards/shipwrecked.png",
-        background: "#45cff6",
-        titleColor: "black",
-        descriptionColor: "white",
-        external: true,
-        url: "https://shipwrecked.hackclub.com",
-        fancy: true,
-      },
-      {
         name: "Athena Award",
         description: "Build three projects, code 30 hours and open source your projects, earn a industrry recognized ceritifcate and travel to NYC for 2025's largest high school hackathon for girls! (Until Oct 31st)",
         img: "/cards/athena.svg",
         background: "#8c2e37",
+        titleColor: "white",
+        descriptionColor: "white",
+        external: true,
+        url: "https://athena.hackclub.com",
+        fancy: true,
+      },
+      {
+        name: "Shiba",
+        description: "Build a Godot game, make an arcade in Japan!",
+        img: "/cards/shiba.png",
+        background: "#ff1a00",
         titleColor: "white",
         descriptionColor: "white",
         external: true,
