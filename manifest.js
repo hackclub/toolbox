@@ -15,7 +15,7 @@ export default [
       },
       {
         name: 'Armed',
-        description: 'Develop an arm assembly program, get lego',
+        description: 'Develop an ARM assembly program, get LEGO',
         img: '/cards/armlogo.svg',
         background: '#000000',
         titleColor: '#DE0391',
