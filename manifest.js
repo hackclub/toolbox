@@ -13,6 +13,18 @@ export default [
         url: 'https://webdev.hackclub.com',
         forUseBy: 'everyone'
       },
+      {
+        name: 'Armed',
+        description: 'Develop an ARM assembly program, get LEGO',
+        img: '/cards/armlogo.svg',
+        background: '#000000',
+        titleColor: '#DE0391',
+        descriptionColor: '#d872b3',
+        arrowColor: '#9a9a9a',
+        external: true,
+        url: 'https://armed.hackclub.com/',
+        fancy: true
+      },
             {
         name: 'BakeBuild',
         description: 'Design a cookie cutter and get it shipped to you',
