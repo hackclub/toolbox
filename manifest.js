@@ -155,7 +155,7 @@ export default [
         titleColor: "white",
         descriptionColor: "white",
         external: true,
-        url: "https://athena.hackclub.com",
+        url: "https://shiba.hackclub.com",
         fancy: true,
       }
     ]
