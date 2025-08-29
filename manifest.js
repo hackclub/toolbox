@@ -452,6 +452,17 @@ export default [
         external: true,
         url: 'hackclub.com/opensource',
         forUseBy: 'everyone',
+      },
+      {
+        name: 'Hackatime',
+        description: "Hack Club's Coding Time Tracker - See How Much You Code!",
+        img: 'cards/hackatime.png',
+        external: true,
+        url: 'https://hackatime.hackclub.com',
+        background: '#121217',
+        titleColor: '#e2344d',
+        descriptionColor: '#ffffff',
+        fancy: true
       }
     ]
   },
