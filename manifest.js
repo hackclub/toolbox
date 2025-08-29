@@ -229,6 +229,55 @@ export default [
         external: true,
         url: 'https://muse.hackclub.com',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'Scrapbook',
+        description: 'A daily diary of what Hack Clubbers are learning & making every day',
+        icon: 'photo-fill',
+        external: true,
+        url: 'https://scrapbook.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Hack Night',
+        description: 'Hack club community calls to chat, procrastinate or livestream, whenever you want it to be!',
+        img: '/cards/hacknight.png',
+        background: '#17171d',
+        titleColor: '#ffffff',
+        descriptionColor: '#ffffff',
+        external: true, 
+        url: 'https://hackclub.com/night',
+        fancy: true,
+      },
+      {
+        name: 'LockIn',
+        description: 'Hop on a call with another hack clubber and lock in.',
+        img: '/cards/lockin.png',
+        background: '#eefbf6',
+        titleColor: '#17171d',
+        descriptionColor: '#17171d',
+        external: true,
+        url: 'https://lockin.hackclub.com',
+        fancy: true
+      },
+      {
+        name: 'Minecraft Server',
+        description: 'Hang out with the tree-punchers of Hack Club playing on the official minecraft server',
+        img: '/cards/minecraftserver.svg',
+        background: '#5c762a',
+        titleColor: '#ffffff',
+        descriptionColor: '#ffffff',
+        external: true,
+        url: 'https://hackclub.com/minecraft',
+        fancy: true
+      },
+      {
+        name: 'Pfp Maker',
+        description: 'Add cool overlays to your slack profile picture to join a cult!',
+        icon: 'profile-fill',
+        external: true,
+        url: 'https://pfp.hackclub.com',
+        forUseBy: 'everyone'
       }
     ]
   },
@@ -376,6 +425,44 @@ export default [
         external: true,
         url: 'https://hackclub.com/hcb',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'Spaces',
+        description: 'All-in-one web IDE to create, host and collaborate in with over 500 supported languages and a variety of templates to use.',
+        img: 'cards/spaces.png',
+        external: true,
+        url: 'https://spaces.hackclub.com',
+        background: '#292c34',
+        titleColor: '#eb5d3c',
+        descriptionColor: '#ffffff',
+        fancy: true
+      },
+      {
+        name: 'Mail',
+        description: "Hackclub's mail dashboard!",
+        icon: 'email-fill',
+        external: true,
+        url: 'https://mail.hackclub.com',
+        forUseBy: 'everyone',
+      },
+      {
+        name: 'Open Source at HackClub',
+        description: 'Open sourced finances, code, planning documents and more at HC',
+        icon: 'analytics',
+        external: true,
+        url: 'hackclub.com/opensource',
+        forUseBy: 'everyone',
+      },
+      {
+        name: 'Hackatime',
+        description: "Hack Club's Coding Time Tracker - See How Much You Code!",
+        img: 'cards/hackatime.png',
+        external: true,
+        url: 'https://hackatime.hackclub.com',
+        background: '#121217',
+        titleColor: '#e2344d',
+        descriptionColor: '#ffffff',
+        fancy: true
       }
     ]
   },
@@ -447,6 +534,22 @@ export default [
         icon: 'crosshairs',
         external: true,
         url: 'https://hackathons.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'IP',
+        description: 'An experimental service providing unlimited IP address geolocation and metadata for free, for teens in Hack Club.',
+        icon: 'pin-fill',
+        external: true,
+        url: 'https://ip.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'AI',
+        description: 'An experimental service providing unlimited /chat/completions for free, for teens in Hack Club.',
+        icon: 'code',
+        external: true,
+        url: 'https://ai.hackclub.com',
         forUseBy: 'everyone'
       }
     ]
