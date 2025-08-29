@@ -425,7 +425,18 @@ export default [
         external: true,
         url: 'https://hackclub.com/hcb',
         forUseBy: 'everyone'
-      }
+      },
+      {
+        name: 'Spaces',
+        description: 'All-in-one web IDE to create, host and collaborate in with over 500 supported languages and a variety of templates to use.',
+        img: 'cards/spaces.png',
+        external: true,
+        url: 'https://spaces.hackclub.com',
+        background: '#292c34',
+        titleColor: '#eb5d3c',
+        descriptionColor: '#ffffff',
+        fancy: true
+      },
     ]
   },
   {
