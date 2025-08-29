@@ -444,6 +444,14 @@ export default [
         external: true,
         url: 'https://mail.hackclub.com',
         forUseBy: 'everyone',
+      },
+      {
+        name: 'Open Source at HackClub',
+        description: 'Open sourced finances, code, planning documents and more at HC',
+        icon: 'analytics',
+        external: true,
+        url: 'hackclub.com/opensource',
+        forUseBy: 'everyone',
       }
     ]
   },
