@@ -248,6 +248,17 @@ export default [
         external: true, 
         url: 'https://hackclub.com/night',
         fancy: true,
+      },
+      {
+        name: 'LockIn',
+        description: 'Hop on a call with another hack clubber and lock in.',
+        img: '/cards/lockin.png',
+        background: '#eefbf6',
+        titleColor: '#17171d',
+        descriptionColor: '#17171d',
+        external: true,
+        url: 'https://lockin.hackclub.com',
+        fancy: true
       }
     ]
   },
