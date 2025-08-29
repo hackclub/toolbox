@@ -270,6 +270,14 @@ export default [
         external: true,
         url: 'https://hackclub.com/minecraft',
         fancy: true
+      },
+      {
+        name: 'Pfp Maker',
+        description: 'Add cool overlays to your slack profile picture to join a cult!',
+        icon: 'profile-fill',
+        external: true,
+        url: 'https://pfp.hackclub.com',
+        forUseBy: 'everyone'
       }
     ]
   },
