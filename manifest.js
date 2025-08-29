@@ -535,6 +535,14 @@ export default [
         external: true,
         url: 'https://hackathons.hackclub.com',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'IP',
+        description: 'An experimental service providing unlimited IP address geolocation and metadata for free, for teens in Hack Club.',
+        icon: 'pin-fill',
+        external: true,
+        url: 'https://ip.hackclub.com',
+        forUseBy: 'everyone'
       }
     ]
   }
