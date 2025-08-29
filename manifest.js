@@ -437,6 +437,14 @@ export default [
         descriptionColor: '#ffffff',
         fancy: true
       },
+      {
+        name: 'Mail',
+        description: "Hackclub's mail dashboard!",
+        icon: 'email-fill',
+        external: true,
+        url: 'https://mail.hackclub.com',
+        forUseBy: 'everyone',
+      }
     ]
   },
   {
