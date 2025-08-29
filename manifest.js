@@ -259,6 +259,17 @@ export default [
         external: true,
         url: 'https://lockin.hackclub.com',
         fancy: true
+      },
+      {
+        name: 'Minecraft Server',
+        description: 'Hang out with the tree-punchers of Hack Club playing on the official minecraft server',
+        img: '/cards/minecraftserver.svg',
+        background: '#5c762a',
+        titleColor: '#ffffff',
+        descriptionColor: '#ffffff',
+        external: true,
+        url: 'https://hackclub.com/minecraft',
+        fancy: true
       }
     ]
   },
