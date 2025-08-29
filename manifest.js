@@ -229,6 +229,14 @@ export default [
         external: true,
         url: 'https://muse.hackclub.com',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'Scrapbook',
+        description: 'A daily diary of what Hack Clubbers are learning & making every day',
+        icon: 'photo-fill',
+        external: true,
+        url: 'https://scrapbook.hackclub.com',
+        forUseBy: 'everyone'
       }
     ]
   },
