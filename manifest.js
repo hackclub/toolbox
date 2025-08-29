@@ -543,6 +543,14 @@ export default [
         external: true,
         url: 'https://ip.hackclub.com',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'AI',
+        description: 'An experimental service providing unlimited /chat/completions for free, for teens in Hack Club.',
+        icon: 'code',
+        external: true,
+        url: 'https://ai.hackclub.com',
+        forUseBy: 'everyone'
       }
     ]
   }
