@@ -237,6 +237,17 @@ export default [
         external: true,
         url: 'https://scrapbook.hackclub.com',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'Hack Night',
+        description: 'Hack club community calls to chat, procrastinate or livestream, whenever you want it to be!',
+        img: '/cards/hacknight.png',
+        background: '#17171d',
+        titleColor: '#ffffff',
+        descriptionColor: '#ffffff',
+        external: true, 
+        url: 'https://hackclub.com/night',
+        fancy: true,
       }
     ]
   },
