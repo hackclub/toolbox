@@ -97,14 +97,14 @@ export default [
         fancy: true,
       },
       {
-        name: "The Zoo",
-        description: "Ship interactive animal themed Svelte site, get Ikea animal plushies!",
-        img: "/cards/zoo.png",
-        background: "#017100",
-        titleColor: "#ffffff",
-        descriptionColor: "#ffffff",
+        name: "Siege",
+        description: "Ship every week, get prizes. Make it to the end, get a framework!",
+        img: "/cards/siege.webp",
+        background: "#D4B68E",
+        titleColor: "#5A0605",
+        descriptionColor: "#7B0907",
         external: true,
-        url: "https://zoo.hackclub.com",
+        url: "https://siege.hackclub.com",
         fancy: true
       },
       {
