@@ -157,7 +157,18 @@ export default [
         external: true,
         url: "https://shiba.hackclub.com",
         fancy: true,
-      }
+      },
+      {
+        name: 'Lock In',
+        description: 'Hop on a call with another hack clubber and lock in.',
+        img: '/cards/lockin.png',
+        background: '#eefbf6',
+        titleColor: '#17171d',
+        descriptionColor: '#17171d',
+        external: true,
+        url: 'https://lockin.hackclub.com',
+        fancy: true
+      },
     ]
   },
   {
@@ -228,55 +239,6 @@ export default [
         icon: 'list',
         external: true,
         url: 'https://muse.hackclub.com',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Scrapbook',
-        description: 'A daily diary of what Hack Clubbers are learning & making every day',
-        icon: 'photo-fill',
-        external: true,
-        url: 'https://scrapbook.hackclub.com',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Hack Night',
-        description: 'Hack club community calls to chat, procrastinate or livestream, whenever you want it to be!',
-        img: '/cards/hacknight.png',
-        background: '#17171d',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff',
-        external: true, 
-        url: 'https://hackclub.com/night',
-        fancy: true,
-      },
-      {
-        name: 'LockIn',
-        description: 'Hop on a call with another hack clubber and lock in.',
-        img: '/cards/lockin.png',
-        background: '#eefbf6',
-        titleColor: '#17171d',
-        descriptionColor: '#17171d',
-        external: true,
-        url: 'https://lockin.hackclub.com',
-        fancy: true
-      },
-      {
-        name: 'Minecraft Server',
-        description: 'Hang out with the tree-punchers of Hack Club playing on the official minecraft server',
-        img: '/cards/minecraftserver.svg',
-        background: '#5c762a',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff',
-        external: true,
-        url: 'https://hackclub.com/minecraft',
-        fancy: true
-      },
-      {
-        name: 'Pfp Maker',
-        description: 'Add cool overlays to your slack profile picture to join a cult!',
-        icon: 'profile-fill',
-        external: true,
-        url: 'https://pfp.hackclub.com',
         forUseBy: 'everyone'
       }
     ]
@@ -427,6 +389,17 @@ export default [
         forUseBy: 'everyone'
       },
       {
+        name: 'Hackatime',
+        description: "Hack Club's coding time tracker",
+        img: 'cards/hackatime.png',
+        external: true,
+        url: 'https://hackatime.hackclub.com',
+        background: '#121217',
+        titleColor: '#e2344d',
+        descriptionColor: '#ffffff',
+        fancy: true
+      },
+      {
         name: 'Spaces',
         description: 'All-in-one web IDE to create, host and collaborate in with over 500 supported languages and a variety of templates to use.',
         img: 'cards/spaces.png',
@@ -438,31 +411,39 @@ export default [
         fancy: true
       },
       {
+        name: 'Scrapbook',
+        description: 'Post devlogs about what you are building, for the world to see.',
+        icon: 'photo-fill',
+        external: true,
+        url: 'https://scrapbook.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Minecraft Server',
+        description: 'Hang out with the tree-punchers of Hack Club playing on the official minecraft server',
+        img: '/cards/minecraftserver.svg',
+        background: '#5c762a',
+        titleColor: '#ffffff',
+        descriptionColor: '#ffffff',
+        external: true,
+        url: 'https://hackclub.com/minecraft',
+        fancy: true
+      },
+      {
         name: 'Mail',
-        description: "Hackclub's mail dashboard!",
+        description: "Check what mail from Hack Club is on your way",
         icon: 'email-fill',
         external: true,
         url: 'https://mail.hackclub.com',
         forUseBy: 'everyone',
       },
       {
-        name: 'Open Source at HackClub',
-        description: 'Open sourced finances, code, planning documents and more at HC',
+        name: 'Open Source',
+        description: 'Open sourced finances, code, planning documents and more at Hack Club.',
         icon: 'analytics',
         external: true,
         url: 'https://hackclub.com/opensource',
         forUseBy: 'everyone',
-      },
-      {
-        name: 'Hackatime',
-        description: "Hack Club's Coding Time Tracker - See How Much You Code!",
-        img: 'cards/hackatime.png',
-        external: true,
-        url: 'https://hackatime.hackclub.com',
-        background: '#121217',
-        titleColor: '#e2344d',
-        descriptionColor: '#ffffff',
-        fancy: true
       }
     ]
   },
