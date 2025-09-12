@@ -450,7 +450,7 @@ export default [
         description: 'Open sourced finances, code, planning documents and more at HC',
         icon: 'analytics',
         external: true,
-        url: 'hackclub.com/opensource',
+        url: 'https://hackclub.com/opensource',
         forUseBy: 'everyone',
       },
       {
