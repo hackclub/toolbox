@@ -14,6 +14,15 @@ export default [
         forUseBy: 'everyone'
       },
       {
+        name: 'CAD YSWSs',
+        description:
+          'Our 3D modeling You Ship, We Ships!',
+        img: '/cards/cad.png',
+        external: true,
+        url: 'https://cad.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
         name: 'Armed',
         description: 'Develop an ARM assembly program, get LEGO',
         img: '/cards/armlogo.svg',
