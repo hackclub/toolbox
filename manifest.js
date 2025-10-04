@@ -69,30 +69,6 @@ export default [
         url: 'https://sprig.hackclub.com',
         fancy: true
       },
-      {
-        name: 'Cider',
-        description:
-          'Design and code an iOS app and get it shipped to the App Store for free',
-        img: '/cards/cider.png',
-        background: '#b93c3c',
-        titleColor: '#fffffb',
-        descriptionColor: '#ffffff',
-        external: true,
-        url: 'https://cider.hackclub.com/',
-        fancy: true
-      },
-      {
-        name: 'Gemini',
-        description:
-          'Ship an Android app to the Play Store, get an Android Phone!',
-        img: '/cards/gemini.png',
-        background: '#299558',
-        titleColor: 'white',
-        descriptionColor: 'white',
-        external: true,
-        url: 'https://gemini.hackclub.com/',
-        fancy: true
-      },
       // Limited-time YSWSs start here
       {
         name: "Hackcraft",
@@ -103,6 +79,17 @@ export default [
         descriptionColor: "#FFFFFF",
         external: true,
         url: "https://hackcraft.hackclub.com/",
+        fancy: true,
+      },
+            {
+        name: "Blueprint",
+        description: "Make a hardware project, get the funds to build it!",
+        img: "/cards/blueprint.png",
+        background: "#0d2d55",
+        titleColor: "#FFFFFF",
+        descriptionColor: "#FFFFFF",
+        external: true,
+        url: "https://blueprint.hackclub.com/",
         fancy: true,
       },
       {
@@ -125,6 +112,28 @@ export default [
         descriptionColor: "#ffffff",
         external: true,
         url: "https://raspite.hackclub.com",
+        fancy: true
+      },
+      {
+        name: "Fanpage",
+        description: "Ship a project about something you're a fan of. Get that very thing.",
+        img: "/cards/fanpage.png",
+        background: "#23232a",
+        titleColor: "#ff2d2d",
+        descriptionColor: "#ffffff",
+        external: true,
+        url: "https://fanpage.hackclub.com",
+        fancy: true
+      },
+     {
+        name: "Hack Berry",
+        description: "Ship a Python program using OpenCV. Get a personalized $100+ Raspberry Pi Kit!",
+        img: "/cards/hackberry.png",
+        background: "#23232a",
+        titleColor: "#ff2d2d",
+        descriptionColor: "#ffffff",
+        external: true,
+        url: "https://hackberry.hackclub.com",
         fancy: true
       },
     ]
