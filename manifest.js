@@ -90,7 +90,7 @@ export default [
         titleColor: "#FFFFFF",
         descriptionColor: "#FFFFFF",
         external: true,
-        url: "https://blueprint.hackclub.com/",
+        url: "https://blueprint.hackclub.com/?utm_source=toolbox",
         fancy: true,
       },
       {
