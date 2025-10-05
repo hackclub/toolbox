@@ -83,9 +83,10 @@ export default [
       },
             {
         name: "Blueprint",
-        description: "Make a hardware project, get the funds to build it!",
+        description: "Up to $400 for hardware project grants",
         img: "/cards/blueprint.png",
-        background: "#0d2d55",
+        background: "linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px), #0d2d55",
+        backgroundSize: "25px 25px, 25px 25px, 100%",
         titleColor: "#FFFFFF",
         descriptionColor: "#FFFFFF",
         external: true,
