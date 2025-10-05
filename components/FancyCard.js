@@ -11,6 +11,7 @@ export default function FancyCard({
 }) {
   const {
     background,
+    backgroundSize,
     titleColor,
     descriptionColor,
     arrowColor,
@@ -58,9 +59,8 @@ export default function FancyCard({
           onMouseLeave={() => onHoverLeave()}
           sx={{
             mr: 3,
-            background: background.includes('linear-gradient')
-              ? ''
-              : background,
+            background: background,
+            ...(backgroundSize && { backgroundSize }),
             position: 'relative',
             p: '0 !important',
             width: '100%',
@@ -79,9 +79,8 @@ export default function FancyCard({
                   bottom: 0,
                   left: 0,
                   pointerEvents: 'none',
-                  backgroundColor: background.includes('linear-gradient')
-                    ? 'black'
-                    : background,
+                  background: background,
+                  ...(backgroundSize && { backgroundSize }),
                   width: '100%',
                   height: '25px'
                 },
@@ -136,9 +135,8 @@ export default function FancyCard({
           </Box>
           <Card
             sx={{
-              background: background.includes('linear-gradient')
-                ? 'black'
-                : background,
+              background: background,
+              ...(backgroundSize && { backgroundSize }),
               color: 'white',
               padding: [4, '20px !important'],
               '@media screen and (max-width: 992px)': {
