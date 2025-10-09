@@ -145,17 +145,6 @@ export default [
     icon: 'event-code',
     items: [
       {
-        name: "Summer of Making",
-        description: " Build stuff. Get stuff. Repeat.",
-        img: "/cards/summerofmaking.png",
-        background: "#EED8BC",
-        titleColor: "#4A2D24",
-        descriptionColor: "#8b4513",
-        external: true,
-        url: "https://summer.hackclub.com/",
-        fancy: true,
-      },      
-      {
         name: "Athena Award",
         description: "Build three projects, code 30 hours and open source your projects, earn a industrry recognized ceritifcate and travel to NYC for 2025's largest high school hackathon for girls! (Until Oct 31st)",
         img: "/cards/athena.svg",
