@@ -71,6 +71,18 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: 'Craft',
+        description: 'Ship a Minecraft plugin/mod/map & get rewards!',
+        img: '/cards/craft.png',
+        background: '#000000',
+        titleColor: '#DE0391',
+        descriptionColor: '#d872b3',
+        arrowColor: '#9a9a9a',
+        external: true,
+        url: 'https://craft.hackclub.com/',
+        fancy: true
+      },
+      {
         name: "Hackcraft",
         description: "Make a Minecraft mod, get Minecraft",
         img: "/cards/hackcraft.png",
@@ -118,8 +130,8 @@ export default [
         name: "Fanpage",
         description: "Ship a project about something you're a fan of. Get that very thing.",
         img: "/cards/fanpage.png",
-        background: "#23232a",
-        titleColor: "#ff2d2d",
+        background: "#3f4581",
+        titleColor: "#ffffff",
         descriptionColor: "#ffffff",
         external: true,
         url: "https://fanpage.hackclub.com",
@@ -129,7 +141,7 @@ export default [
         name: "Hack Berry",
         description: "Ship a Python program using OpenCV. Get a personalized $100+ Raspberry Pi Kit!",
         img: "/cards/hackberry.png",
-        background: "#23232a",
+        background: "#a3b37f",
         titleColor: "#ff2d2d",
         descriptionColor: "#ffffff",
         external: true,
@@ -143,17 +155,6 @@ export default [
     color: '#FF2800',
     icon: 'event-code',
     items: [
-      {
-        name: "Summer of Making",
-        description: " Build stuff. Get stuff. Repeat.",
-        img: "/cards/summerofmaking.png",
-        background: "#EED8BC",
-        titleColor: "#4A2D24",
-        descriptionColor: "#8b4513",
-        external: true,
-        url: "https://summer.hackclub.com/",
-        fancy: true,
-      },      
       {
         name: "Athena Award",
         description: "Build three projects, code 30 hours and open source your projects, earn a industrry recognized ceritifcate and travel to NYC for 2025's largest high school hackathon for girls! (Until Oct 31st)",
@@ -377,15 +378,6 @@ export default [
         icon: 'briefcase',
         external: true,
         url: 'https://gas.hackclub.com/',
-        forUseBy: 'everyone'
-      },
-            {
-        name: 'Jet Fund',
-        description:
-          'Fly to any high school hackathon and get the flights reimbursed',
-        icon: 'send',
-        external: true,
-        url: 'https://jet.hackclub.com/',
         forUseBy: 'everyone'
       },
       {
