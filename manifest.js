@@ -23,6 +23,18 @@ export default [
         forUseBy: 'everyone'
       },
       {
+        name: 'Craft',
+        description: 'Ship a Minecraft plugin/mod/map & get rewards!',
+        img: '/cards/armlogo.svg',
+        background: '#000000',
+        titleColor: '#DE0391',
+        descriptionColor: '#d872b3',
+        arrowColor: '#9a9a9a',
+        external: true,
+        url: 'https://craft.hackclub.com/',
+        fancy: true
+      },
+      {
         name: 'Armed',
         description: 'Develop an ARM assembly program, get LEGO',
         img: '/cards/armlogo.svg',
