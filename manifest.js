@@ -71,18 +71,6 @@ export default [
       },
       // Limited-time YSWSs start here
       {
-        name: 'Craft',
-        description: 'Ship a Minecraft plugin/mod/map & get rewards!',
-        img: '/cards/craft.png',
-        background: '#000000',
-        titleColor: '#DE0391',
-        descriptionColor: '#d872b3',
-        arrowColor: '#9a9a9a',
-        external: true,
-        url: 'https://craft.hackclub.com/',
-        fancy: true
-      },
-      {
         name: "Hackcraft",
         description: "Make a Minecraft mod, get Minecraft",
         img: "/cards/hackcraft.png",
@@ -95,13 +83,14 @@ export default [
       },
             {
         name: "Blueprint",
-        description: "Make a hardware project, get the funds to build it!",
+        description: "Up to $400 for hardware project grants",
         img: "/cards/blueprint.png",
-        background: "#0d2d55",
+        background: "linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px), #0d2d55",
+        backgroundSize: "25px 25px, 25px 25px, 100%",
         titleColor: "#FFFFFF",
         descriptionColor: "#FFFFFF",
         external: true,
-        url: "https://blueprint.hackclub.com/",
+        url: "https://blueprint.hackclub.com/?utm_source=toolbox",
         fancy: true,
       },
       {
@@ -127,6 +116,18 @@ export default [
         fancy: true
       },
       {
+        name: 'Craft',
+        description: 'Ship a Minecraft plugin/mod/map & get rewards!',
+        img: '/cards/craft.png',
+        background: '#000000',
+        titleColor: '#DE0391',
+        descriptionColor: '#d872b3',
+        arrowColor: '#9a9a9a',
+        external: true,
+        url: 'https://craft.hackclub.com/',
+        fancy: true
+      },
+      {
         name: "Fanpage",
         description: "Ship a project about something you're a fan of. Get that very thing.",
         img: "/cards/fanpage.png",
@@ -148,6 +149,7 @@ export default [
         url: "https://hackberry.hackclub.com",
         fancy: true
       },
+
     ]
   },
   {
@@ -369,15 +371,6 @@ export default [
         icon: 'grid',
         external: true,
         url: 'https://theme.hackclub.com',
-        forUseBy: 'everyone'
-      },
-      {
-        name: 'Gas Fund',
-        description:
-          'Drive to any high school hackathon and get the cost of gas reimbursed',
-        icon: 'briefcase',
-        external: true,
-        url: 'https://gas.hackclub.com/',
         forUseBy: 'everyone'
       },
       {
