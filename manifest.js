@@ -116,18 +116,6 @@ export default [
         fancy: true
       },
       {
-        name: 'Craft',
-        description: 'Ship a Minecraft plugin/mod/map & get rewards!',
-        img: '/cards/craft.png',
-        background: '#000000',
-        titleColor: '#DE0391',
-        descriptionColor: '#d872b3',
-        arrowColor: '#9a9a9a',
-        external: true,
-        url: 'https://craft.hackclub.com/',
-        fancy: true
-      },
-      {
         name: "Fanpage",
         description: "Ship a project about something you're a fan of. Get that very thing.",
         img: "/cards/fanpage.png",
@@ -371,6 +359,24 @@ export default [
         icon: 'grid',
         external: true,
         url: 'https://theme.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Gas Fund',
+        description:
+          'Drive to any high school hackathon and get the cost of gas reimbursed',
+        icon: 'briefcase',
+        external: true,
+        url: 'https://gas.hackclub.com/',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'Jet Fund',
+        description:
+          'Fly to any high school hackathon and get the flights reimbursed',
+        icon: 'send',
+        external: true,
+        url: 'https://jet.hackclub.com/',
         forUseBy: 'everyone'
       },
       {
