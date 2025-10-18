@@ -119,8 +119,8 @@ export default [
         name: "Fanpage",
         description: "Ship a project about something you're a fan of. Get that very thing.",
         img: "/cards/fanpage.png",
-        background: "#23232a",
-        titleColor: "#ff2d2d",
+        background: "#3f4581",
+        titleColor: "#ffffff",
         descriptionColor: "#ffffff",
         external: true,
         url: "https://fanpage.hackclub.com",
@@ -130,13 +130,14 @@ export default [
         name: "Hack Berry",
         description: "Ship a Python program using OpenCV. Get a personalized $100+ Raspberry Pi Kit!",
         img: "/cards/hackberry.png",
-        background: "#23232a",
+        background: "#a3b37f",
         titleColor: "#ff2d2d",
         descriptionColor: "#ffffff",
         external: true,
         url: "https://hackberry.hackclub.com",
         fancy: true
       },
+
     ]
   },
   {
@@ -369,7 +370,7 @@ export default [
         url: 'https://gas.hackclub.com/',
         forUseBy: 'everyone'
       },
-            {
+      {
         name: 'Jet Fund',
         description:
           'Fly to any high school hackathon and get the flights reimbursed',
