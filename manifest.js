@@ -71,17 +71,6 @@ export default [
       },
       // Limited-time YSWSs start here
       {
-        name: "Hackcraft",
-        description: "Make a Minecraft mod, get Minecraft",
-        img: "/cards/hackcraft.png",
-        background: "#30AE1F",
-        titleColor: "#FFFFFF",
-        descriptionColor: "#FFFFFF",
-        external: true,
-        url: "https://hackcraft.hackclub.com/",
-        fancy: true,
-      },
-            {
         name: "Blueprint",
         description: "Up to $400 for hardware project grants",
         img: "/cards/blueprint.png",
