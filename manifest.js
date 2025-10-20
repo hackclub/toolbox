@@ -409,6 +409,16 @@ export default [
         fancy: true
       },
       {
+        name: 'Lapse',
+        description: 'Track anything Hackatime cannot via timelapses',
+        img: 'cards/lapse.svg',
+        external: true,
+        url: 'https://github.com/hackclub/lapse',
+        background: '#f25648',
+        titleColor: '#ffffff',
+        fancy: true,
+      },
+      {
         name: 'Spaces',
         description: 'All-in-one web IDE to create, host and collaborate in with over 500 supported languages and a variety of templates to use.',
         img: 'cards/spaces.png',
