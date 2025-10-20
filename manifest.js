@@ -23,41 +23,6 @@ export default [
         forUseBy: 'everyone'
       },
       {
-        name: 'Armed',
-        description: 'Develop an ARM assembly program, get LEGO',
-        img: '/cards/armlogo.svg',
-        background: '#000000',
-        titleColor: '#DE0391',
-        descriptionColor: '#d872b3',
-        arrowColor: '#9a9a9a',
-        external: true,
-        url: 'https://armed.hackclub.com/',
-        fancy: true
-      },
-            {
-        name: 'BakeBuild',
-        description: 'Design a cookie cutter and get it shipped to you',
-        img: '/cards/bakebuild.png',
-        background: '#ffffff',
-        titleColor: '#83583c',
-        descriptionColor: '#b19065',
-        arrowColor: '#9a9a9a',
-        external: true,
-        url: 'https://bakebuild.hackclub.com/',
-        fancy: true
-      },
-            {
-        name: "Fuse Ring",
-        description: "Design a keyring, get your keyring and a clip for your backpack!",
-        img: "/cards/fusering.svg",
-        background: "#a75970",
-        titleColor: "#ffffffff",
-        descriptionColor: "#ffffff",
-        external: true,
-        url: "https://fusering.hackclub.com",
-        fancy: true
-      },
-      {
         name: 'Sprig',
         description:
           'Join hundreds of teenagers making tile-based JavaScript games',
@@ -113,17 +78,6 @@ export default [
         descriptionColor: "#ffffff",
         external: true,
         url: "https://fanpage.hackclub.com",
-        fancy: true
-      },
-     {
-        name: "Hack Berry",
-        description: "Ship a Python program using OpenCV. Get a personalized $100+ Raspberry Pi Kit!",
-        img: "/cards/hackberry.png",
-        background: "#a3b37f",
-        titleColor: "#ff2d2d",
-        descriptionColor: "#ffffff",
-        external: true,
-        url: "https://hackberry.hackclub.com",
         fancy: true
       },
 
@@ -481,14 +435,6 @@ export default [
         icon: 'welcome',
         external: false,
         url: '/zoom.mdx',
-        forUseBy: 'clubbers'
-      },
-      {
-        name: 'Figma',
-        description: "Free access to Figma's team plan",
-        icon: 'photo',
-        external: false,
-        url: '/figma.mdx',
         forUseBy: 'clubbers'
       },
       {
