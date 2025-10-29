@@ -4,6 +4,19 @@ export default [
     color: 'green',
     icon: 'bolt',
     items: [
+       {
+        name: 'YSWS Programs',
+        description:
+          'Check out all Hack Club YSWS programs!',
+        img: '/cards/flag-orpheus-top.svg',
+        background: '#000',
+        titleColor: 'red',
+        descriptionColor: 'white',
+        external: true,
+        fancy: true,
+        url: 'https://ysws.hackclub.com',
+        forUseBy: 'everyone'
+      },
       {
         name: 'Web Development YSWSs',
         description:
@@ -35,6 +48,18 @@ export default [
         fancy: true
       },
       // Limited-time YSWSs start here
+      {
+        name: "Page",
+        description: "Build a Personal Website. Make it Live. Get Swag.",
+        img: "/cards/Page.png",
+        background: "3DB6FF",
+        backgroundSize: "25px 25px, 25px 25px, 100%",
+        titleColor: "#EB8900",
+        descriptionColor: "#52EB00",
+        external: true,
+        url: "https://page.hackclub.com/",
+        fancy: true,
+      },
       {
         name: "Blueprint",
         description: "Up to $400 for hardware project grants",
