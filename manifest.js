@@ -13,6 +13,7 @@ export default [
         titleColor: 'red',
         descriptionColor: 'white',
         external: true,
+        fancy: true,
         url: 'https://ysws.hackclub.com',
         forUseBy: 'everyone'
       },
