@@ -49,6 +49,18 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: "Axiom",
+        description: "Make any math or science related app get prizes!",
+        img: "/cards/axiom.png",
+        background: "000000",
+        backgroundSize: "25px 25px, 25px 25px, 100%",
+        titleColor: "#FFFFFF",
+        descriptionColor: "#FFFFFF",
+        external: true,
+        url: 'https://axiom.hackclub.com',
+        fancy: true,
+      },
+      {
         name: "Page",
         description: "Build a Personal Website. Make it Live. Get Swag.",
         img: "/cards/Page.png",
