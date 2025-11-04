@@ -52,7 +52,7 @@ export default [
         name: "Axiom",
         description: "Make any math or science related app get prizes!",
         img: "/cards/axiom.png",
-        background: "000000",
+        background: "#000",
         backgroundSize: "25px 25px, 25px 25px, 100%",
         titleColor: "#FFFFFF",
         descriptionColor: "#FFFFFF",
