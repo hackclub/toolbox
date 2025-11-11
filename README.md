@@ -100,4 +100,4 @@ _For `color` and `icon`, you can use [Hack Club's theme](https://theme.hackclub.
 
 When you edit the file to make these changes, you'll be asked to make a pull request.
 
-Let us know if you have any questions (or find any issues) in the #leaders channel on [our Slack](https://hackclub.com/slack) or email ethan@hackclub.com or jared@hackclub.com  
+Let us know if you have any questions (or find any issues) in the #leaders channel on [our Slack](https://hackclub.com/slack) or email clubs@hackclub.com
