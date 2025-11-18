@@ -389,7 +389,7 @@ export default [
       },
       {
         name: 'Minecraft Server',
-        description: 'Hang out with the tree-punchers of Hack Club playing on the official minecraft server',
+        description: 'Hang out with the tree-punchers of Hack Club playing on the official Minecraft server',
         img: '/cards/minecraftserver.svg',
         background: '#5c762a',
         titleColor: '#ffffff',
@@ -464,7 +464,7 @@ export default [
       },
       {
         name: 'Code Crafters',
-        description: 'Code crafters free 2 years free membership',
+        description: 'Free 2-year membership to CodeCrafters',
         icon: 'code',
         external: true,
         url: 'https://codecrafters.io/event/hackclub',
@@ -488,7 +488,7 @@ export default [
       },
       {
         name: 'AI',
-        description: 'An experimental service providing unlimited /chat/completions for free, for teens in Hack Club.',
+        description: 'Free, unlimited AI and image generation for teens at Hack Club.',
         icon: 'code',
         external: true,
         url: 'https://ai.hackclub.com',
