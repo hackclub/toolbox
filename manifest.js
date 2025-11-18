@@ -227,15 +227,6 @@ export default [
     icon: 'explore',
     items: [
       {
-        name: 'Dashboard',
-        description:
-          "A tool to help manage your club!",
-        icon: 'leaders',
-        external: true,
-        url: 'https://dashboard.hackclub.com',
-        forUseBy: 'leaders'
-      },
-      {
         name: "Github Education",
         description: "Get access to tons of hacker resources and free offers",
         img: "/cards/gh.svg",
