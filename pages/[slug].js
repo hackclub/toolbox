@@ -216,6 +216,24 @@ export default function Index({ everything = [], menu, source }) {
             >
               Start Your Hack Club
             </Button>
+
+                <Button
+              variant="cta"
+              as="a"
+              href="https://dashboard.hackclub.com"
+              target="_blank"
+              sx={{
+                pointerEvents: 'all',
+                mt: 2,
+                ml: 4,
+                mb: [3, 0],
+                '@media screen and (max-width: 991.98px)': {
+                  display: 'none'
+                }
+              }}
+            >
+              Club Dashboard
+            </Button>
           </Box>
         </Flex>
         <Map />
