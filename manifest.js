@@ -8,7 +8,7 @@ export default [
         name: 'YSWS Programs',
         description:
           'Check out all Hack Club YSWS programs!',
-        img: '/cards/flag-orpheus-top.svg',
+        img: '/cards/white_flag.svg',
         background: '#000',
         titleColor: 'red',
         descriptionColor: 'white',
