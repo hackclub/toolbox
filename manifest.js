@@ -96,17 +96,6 @@ export default [
         fancy: true
       },
       {
-        name: "Raspite",
-        description: "Make a website for your club. Get a domain grant, or a Raspberry Pi. Or both?",
-        img: "/cards/raspi.svg",
-        background: "#23232a",
-        titleColor: "#ff2d2d",
-        descriptionColor: "#ffffff",
-        external: true,
-        url: "https://raspite.hackclub.com",
-        fancy: true
-      },
-      {
         name: "Fanpage",
         description: "Ship a project about something you're a fan of. Get that very thing.",
         img: "/cards/fanpage.png",
@@ -240,7 +229,7 @@ export default [
       },
       {
         name: 'Posters',
-        description: 'Get large Hack Club posters to promote your Hack Club',
+        description: 'Get large Hack Club posters to promote your Hack Club (US)',
         icon: 'docs-fill',
         external: true,
         url: 'https://forms.hackclub.com/t/uzgyhTqvsFus',
@@ -249,7 +238,7 @@ export default [
       {
         name: 'International Posters',
         description:
-          "If you're outside of US/Canada, get large Hack Club posters to promote your Hack Club",
+          "If you're outside of the US, get large Hack Club posters to promote your Hack Club",
         icon: 'docs-fill',
         external: true,
         url: 'https://hack.club/intl-posters',
