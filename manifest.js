@@ -49,6 +49,18 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: "Carnival",
+        description: "Build an extension, plugin, or widget get prizes",
+        img: "/cards/carnival.jpg",
+        background: "#f9dfbdff",
+        backgroundSize: "25px 25px, 25px 25px, 100%",
+        titleColor: "#5A0605",
+        descriptionColor: "#7B0907",
+        external: true,
+        url: 'https://carnival.hackclub.com/',
+        fancy: true,
+      },
+      {
         name: "Axiom",
         description: "Make any math or science related app get prizes!",
         img: "/cards/axiom.png",
