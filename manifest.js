@@ -493,7 +493,23 @@ export default [
         icon: 'code',
         external: true,
         url: 'https://ai.hackclub.com',
-        forUseBy: 'everyone'
+        forUseBy: 'everyone',
+        fancy: true,
+        background: "#1a1025",
+        titleColor: "#e9d5ff",
+        descriptionColor: "#c4b5fd"
+      },
+      {
+        name: 'Web Search API',
+        description: 'Free Brave Search API for teens. Search the web and find images/videos programmatically!',
+        icon: 'code',
+        external: true,
+        url: 'https://ai.hackclub.com',
+        forUseBy: 'everyone',
+        fancy: true,
+        background: "#1a1025",
+        titleColor: "#e9d5ff",
+        descriptionColor: "#c4b5fd"
       }
     ]
   }
