@@ -8,7 +8,7 @@ export default [
         name: 'YSWS Programs',
         description:
           'Check out all Hack Club YSWS programs!',
-        img: '/cards/flag-orpheus-top.svg',
+        img: '/cards/white_flag.svg',
         background: '#000',
         titleColor: 'red',
         descriptionColor: 'white',
@@ -48,6 +48,18 @@ export default [
         fancy: true
       },
       // Limited-time YSWSs start here
+      {
+        name: "Carnival",
+        description: "Build an extension, plugin, or widget get prizes",
+        img: "/cards/carnival.jpg",
+        background: "#f9dfbdff",
+        backgroundSize: "25px 25px, 25px 25px, 100%",
+        titleColor: "#5A0605",
+        descriptionColor: "#7B0907",
+        external: true,
+        url: 'https://carnival.hackclub.com/',
+        fancy: true,
+      },
       {
         name: "Axiom",
         description: "Make any math or science related app get prizes!",
@@ -93,17 +105,6 @@ export default [
         descriptionColor: "#7B0907",
         external: true,
         url: "https://siege.hackclub.com",
-        fancy: true
-      },
-      {
-        name: "Raspite",
-        description: "Make a website for your club. Get a domain grant, or a Raspberry Pi. Or both?",
-        img: "/cards/raspi.svg",
-        background: "#23232a",
-        titleColor: "#ff2d2d",
-        descriptionColor: "#ffffff",
-        external: true,
-        url: "https://raspite.hackclub.com",
         fancy: true
       },
       {
@@ -227,15 +228,6 @@ export default [
     icon: 'explore',
     items: [
       {
-        name: 'Dashboard',
-        description:
-          "A tool to help manage your club!",
-        icon: 'leaders',
-        external: true,
-        url: 'https://dashboard.hackclub.com',
-        forUseBy: 'leaders'
-      },
-      {
         name: "Github Education",
         description: "Get access to tons of hacker resources and free offers",
         img: "/cards/gh.svg",
@@ -249,7 +241,7 @@ export default [
       },
       {
         name: 'Posters',
-        description: 'Get large Hack Club posters to promote your Hack Club',
+        description: 'Get large Hack Club posters to promote your Hack Club (US)',
         icon: 'docs-fill',
         external: true,
         url: 'https://forms.hackclub.com/t/uzgyhTqvsFus',
@@ -258,7 +250,7 @@ export default [
       {
         name: 'International Posters',
         description:
-          "If you're outside of US/Canada, get large Hack Club posters to promote your Hack Club",
+          "If you're outside of the US, get large Hack Club posters to promote your Hack Club",
         icon: 'docs-fill',
         external: true,
         url: 'https://hack.club/intl-posters',
