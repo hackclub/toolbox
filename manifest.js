@@ -494,6 +494,14 @@ export default [
         external: true,
         url: 'https://ai.hackclub.com',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'Web Search API',
+        description: 'Free Brave Search API for teens at Hack Club. Search the web, images, videos, and more.',
+        icon: 'code',
+        external: true,
+        url: 'https://search.hackclub.com',
+        forUseBy: 'everyone'
       }
     ]
   }
