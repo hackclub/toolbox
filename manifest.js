@@ -504,7 +504,7 @@ export default [
         description: 'Free Brave Search API for teens. Search the web and find images/videos programmatically!',
         icon: 'code',
         external: true,
-        url: 'https://ai.hackclub.com',
+        url: 'https://search.hackclub.com',
         forUseBy: 'everyone',
         fancy: true,
         background: "#1a1025",
