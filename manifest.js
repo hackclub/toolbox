@@ -61,6 +61,18 @@ export default [
         fancy: true,
       },
       {
+        name: "Page",
+        description: "Build a Personal Website. Make it Live. Get Swag.",
+        img: "/cards/Page.png",
+        background: "3DB6FF",
+        backgroundSize: "25px 25px, 25px 25px, 100%",
+        titleColor: "#EB8900",
+        descriptionColor: "#52EB00",
+        external: true,
+        url: "https://page.hackclub.com/",
+        fancy: true,
+      },
+      {
         name: "Blueprint",
         description: "Up to $400 for hardware project grants",
         img: "/cards/blueprint.png",
@@ -408,6 +420,14 @@ export default [
         icon: 'crosshairs',
         external: true,
         url: 'https://hackathons.hackclub.com',
+        forUseBy: 'everyone'
+      },
+      {
+        name: 'IP',
+        description: 'An experimental service providing unlimited IP address geolocation and metadata for free, for teens in Hack Club.',
+        icon: 'pin-fill',
+        external: true,
+        url: 'https://ip.hackclub.com',
         forUseBy: 'everyone'
       },
       {
