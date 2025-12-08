@@ -61,18 +61,6 @@ export default [
         fancy: true,
       },
       {
-        name: "Axiom",
-        description: "Make any math or science related app get prizes!",
-        img: "/cards/axiom.png",
-        background: "#000",
-        backgroundSize: "25px 25px, 25px 25px, 100%",
-        titleColor: "#FFFFFF",
-        descriptionColor: "#FFFFFF",
-        external: true,
-        url: 'https://axiom.hackclub.com',
-        fancy: true,
-      },
-      {
         name: "Page",
         description: "Build a Personal Website. Make it Live. Get Swag.",
         img: "/cards/Page.png",
@@ -96,29 +84,6 @@ export default [
         url: "https://blueprint.hackclub.com/?utm_source=toolbox",
         fancy: true,
       },
-      {
-        name: "Siege",
-        description: "Ship every week, get prizes. Make it to the end, get a framework!",
-        img: "/cards/siege.webp",
-        background: "#D4B68E",
-        titleColor: "#5A0605",
-        descriptionColor: "#7B0907",
-        external: true,
-        url: "https://siege.hackclub.com",
-        fancy: true
-      },
-      {
-        name: "Fanpage",
-        description: "Ship a project about something you're a fan of. Get that very thing.",
-        img: "/cards/fanpage.png",
-        background: "#3f4581",
-        titleColor: "#ffffff",
-        descriptionColor: "#ffffff",
-        external: true,
-        url: "https://fanpage.hackclub.com",
-        fancy: true
-      },
-
     ]
   },
   {
@@ -126,28 +91,6 @@ export default [
     color: '#FF2800',
     icon: 'event-code',
     items: [
-      {
-        name: "Athena Award",
-        description: "Build three projects, code 30 hours and open source your projects, earn a industrry recognized ceritifcate and travel to NYC for 2025's largest high school hackathon for girls! (Until Oct 31st)",
-        img: "/cards/athena.svg",
-        background: "#8c2e37",
-        titleColor: "white",
-        descriptionColor: "white",
-        external: true,
-        url: "https://athena.hackclub.com",
-        fancy: true,
-      },
-      {
-        name: "Shiba",
-        description: "Build a Godot game, make an arcade in Japan!",
-        img: "/cards/shiba.png",
-        background: "#ff1a00",
-        titleColor: "white",
-        descriptionColor: "white",
-        external: true,
-        url: "https://shiba.hackclub.com",
-        fancy: true,
-      },
     ]
   },
   {
