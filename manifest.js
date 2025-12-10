@@ -49,6 +49,17 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: "Axiom",
+        description: "Build Math/ Science projects get rewards!",
+        img: "/cards/axiom.png",
+        background: '#000',
+        titleColor: '#fff',
+        descriptionColor: '#fff',
+        external: true,
+        url: 'https://axiom.hackclub.com',
+        fancy: true
+      },
+      {
         name: "Carnival",
         description: "Build an extension, plugin, or widget get prizes",
         img: "/cards/carnival.jpg",
