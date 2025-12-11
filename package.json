@@ -15,7 +15,7 @@
     "airtable-plus": "^1.0.4",
     "fuzzaldrin": "^2.1.0",
     "leaflet": "^1.9.3",
-    "next": "^14.2.30",
+    "next": "^14.2.34",
     "next-auth": "^4.19.2",
     "next-mdx-remote": "^4.3.0",
     "nprogress": "^0.2.0",
