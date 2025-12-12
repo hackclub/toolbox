@@ -60,6 +60,17 @@ export default [
         fancy: true
       },
       {
+        name: "Construct",
+        description: "Spend 40 hours doing CAD projects, get a 3D printer!",
+        img: "/cards/construct.png",
+        background: '#79320E',
+        titleColor: '#fff',
+        descriptionColor: '#fff',
+        external: true,
+        url: 'https://construct.hackclub.com',
+        fancy: true
+      },
+      {
         name: "Carnival",
         description: "Build an extension, plugin, or widget get prizes",
         img: "/cards/carnival.jpg",
