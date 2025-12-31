@@ -83,6 +83,18 @@ export default [
         fancy: true,
       },
       {
+        name: "Mosaic",
+        description: "Build a website every month with a different theme. Get stuff. Repeat.",
+        img: "/cards/carnival.jpg",
+        background: "#60AFFF",
+        backgroundSize: "25px 25px, 25px 25px, 100%",
+        titleColor: "#000000",
+        descriptionColor: "#000000",
+        external: true,
+        url: 'https://mosaic.hackclub.com/',
+        fancy: true,
+      },
+      {
         name: "Blueprint",
         description: "Up to $400 for hardware project grants",
         img: "/cards/blueprint.png",
