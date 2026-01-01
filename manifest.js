@@ -125,7 +125,8 @@ export default [
         description:
           'Collaborative coding workshops where sparks ignite, fears dissolve, and inventions come to life',
         img: '/cards/jams.png',
-        backgroun     titleColor: '#ffffff',
+        background: '#1f2d3d',     
+        titleColor: '#ffffff',
         descriptionColor: '#ffffff',
         external: true,
         url: 'https://jams.hackclub.com/',
