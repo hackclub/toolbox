@@ -85,7 +85,7 @@ export default [
       {
         name: "Mosaic",
         description: "Build a website every month with a different theme. Get stuff. Repeat.",
-        img: "/cards/carnival.jpg",
+        img: "/cards/mosaic.png",
         background: "#60AFFF",
         backgroundSize: "25px 25px, 25px 25px, 100%",
         titleColor: "#000000",
@@ -125,7 +125,7 @@ export default [
         description:
           'Collaborative coding workshops where sparks ignite, fears dissolve, and inventions come to life',
         img: '/cards/jams.png',
-        background: '#1f2d3d',
+        background: '#1f2d3d',     
         titleColor: '#ffffff',
         descriptionColor: '#ffffff',
         external: true,
