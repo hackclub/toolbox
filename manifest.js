@@ -49,17 +49,6 @@ export default [
       },
       // Limited-time YSWSs start here
       {
-        name: "Axiom",
-        description: "Build Math/ Science projects get rewards!",
-        img: "/cards/axiom.png",
-        background: '#000',
-        titleColor: '#fff',
-        descriptionColor: '#fff',
-        external: true,
-        url: 'https://axiom.hackclub.com',
-        fancy: true
-      },
-      {
         name: "Construct",
         description: "Spend 40 hours doing CAD projects, get a 3D printer!",
         img: "/cards/construct.png",
