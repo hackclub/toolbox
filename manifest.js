@@ -49,6 +49,17 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: "Hackcraft",
+        description: "Make a Minecraft mod, get Minecraft or another game!",
+        img: "/cards/hackcraft.png",
+        background: "#30AE1F",
+        titleColor: "#FFFFFF",
+        descriptionColor: "#FFFFFF",
+        external: true,
+        url: "https://hackcraft.hackclub.com/",
+        fancy: true,
+      },
+      {
         name: "Construct",
         description: "Spend 40 hours doing CAD projects, get a 3D printer!",
         img: "/cards/construct.png",
