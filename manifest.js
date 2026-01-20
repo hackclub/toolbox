@@ -106,6 +106,17 @@ export default [
         url: "https://blueprint.hackclub.com/?utm_source=toolbox",
         fancy: true,
       },
+      {
+        name: "Flavortown",
+        description: "Build projects, get prizes!",
+        img: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/0256e44f53eb79e4_logo-b28e0e8b.avif",
+        background: "#E83A30",
+        titleColor: "#FFFFFF",
+        descriptionColor: "#FFFFFF",
+        external: true,
+        url: "https://flavortown.hackclub.com?ref=toolbox",
+        fancy: true,
+      },
     ]
   },
   {
