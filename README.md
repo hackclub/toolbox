@@ -11,6 +11,10 @@ Deals for Hack Clubbers—powered by [Next.js], [Theme UI] & [MDX].
 [mdx]: https://mdxjs.com
 [theme ui]: http://theme-ui.com
 
+## Dependency updates
+
+Dependabot updates for this repo are configured at the org level, so there is no repository-specific configuration here.
+
 ## How do I add a card?
 
 All the cards except for the current ones are stored in `manifest.js`. If you take a look at it, you'll notice it's in JSON:
