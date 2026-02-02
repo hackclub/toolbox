@@ -270,7 +270,7 @@ export default [
         description: 'Advice on how to lead a club',
         icon: 'docs-fill',
         external: true,
-        url: 'https://archived.guide.hackclub.com/#/',
+        url: 'https://guide.leaders.hackclub.com/#/',
         forUseBy: 'leaders'
       },
       {
