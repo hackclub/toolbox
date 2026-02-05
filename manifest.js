@@ -60,6 +60,17 @@ export default [
         fancy: true,
       },
       {
+        name: "Scraps",
+        description: "Make projects, get scraps, try your lock, get prizes, repeat.",
+        img: "https://cdn.hackclub.com/019c2e78-1e48-7116-9691-5e0fde4243ea/icon.png",
+        background: "#FFFFFF",
+        titleColor: "#000000",
+        descriptionColor: "#000000",
+        external: true,
+        url: "https://scraps.hackclub.com/?utm_source=toolbox",
+        fancy: true,
+      },
+      {
         name: "Construct",
         description: "Spend 40 hours doing CAD projects, get a 3D printer!",
         img: "/cards/construct.png",
