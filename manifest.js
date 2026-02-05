@@ -49,6 +49,17 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: "Scraps",
+        description: "Make projects, get scraps, try your luck, get prizes, repeat.",
+        img: "https://cdn.hackclub.com/019c2e78-1e48-7116-9691-5e0fde4243ea/icon.png",
+        background: "#FFFFFF",
+        titleColor: "#000000",
+        descriptionColor: "#000000",
+        external: true,
+        url: "https://scraps.hackclub.com/?utm_source=toolbox",
+        fancy: true,
+      },
+      {
         name: "Hackcraft",
         description: "Make a Minecraft mod, get Minecraft or another game!",
         img: "/cards/hackcraft.png",
@@ -57,17 +68,6 @@ export default [
         descriptionColor: "#FFFFFF",
         external: true,
         url: "https://hackcraft.hackclub.com/",
-        fancy: true,
-      },
-      {
-        name: "Scraps",
-        description: "Make projects, get scraps, try your lock, get prizes, repeat.",
-        img: "https://cdn.hackclub.com/019c2e78-1e48-7116-9691-5e0fde4243ea/icon.png",
-        background: "#FFFFFF",
-        titleColor: "#000000",
-        descriptionColor: "#000000",
-        external: true,
-        url: "https://scraps.hackclub.com/?utm_source=toolbox",
         fancy: true,
       },
       {
