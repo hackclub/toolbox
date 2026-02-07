@@ -185,7 +185,7 @@ export default function Index({ everything = [], menu, source }) {
             <Button
               variant="cta"
               as="a"
-              href="https://hackclub.com/slack"
+              href="https://slack.hackclub.com/"
               target="_blank"
               sx={{
                 pointerEvents: 'all',
