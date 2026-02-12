@@ -16,7 +16,7 @@
     "leaflet": "^1.9.3",
     "next": "^16.0.10",
     "next-auth": "^4.19.2",
-    "next-mdx-remote": "^5.0.0",
+    "next-mdx-remote": "^6.0.0",
     "nprogress": "^0.2.0",
     "prop-type": "^0.0.1",
     "prop-types": "^15.8.1",
