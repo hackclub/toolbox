@@ -401,7 +401,18 @@ export default [
         external: true,
         url: 'https://hackclub.com/opensource',
         forUseBy: 'everyone',
-      }
+      },
+      {
+        name: 'Hardware Docs',
+        description: 'Some tips to help with hardware projects',
+        img: '/cards/icon-blue-purple.png',
+        background: '#ff1190',
+        titleColor: '#ffffff',
+        descriptionColor: '#ffffff',
+        external: true,
+        url: 'https://hwdocs.hackclub.dev',
+        fancy: true,
+      },
     ]
   },
   {
