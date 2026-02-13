@@ -120,7 +120,7 @@ export default [
       {
         name: "Flavortown",
         description: "Build projects, get prizes!",
-        img: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/0256e44f53eb79e4_logo-b28e0e8b.avif",
+        img: "https://user-cdn.hackclub-assets.com/019c256d-ac97-73c8-b0e4-4723dcda1f97/logo-b28e0e8b.avif",
         background: "#E83A30",
         titleColor: "#FFFFFF",
         descriptionColor: "#FFFFFF",
