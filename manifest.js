@@ -487,7 +487,7 @@ export default [
       },
       {
         name: 'AI',
-        description: 'Free, unlimited AI and image generation for teens at Hack Club.',
+        description: 'Free AI and image generation for teens at Hack Club.',
         icon: 'code',
         external: true,
         url: 'https://ai.hackclub.com',
