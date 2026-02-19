@@ -413,6 +413,14 @@ export default [
         url: 'https://hwdocs.hackclub.dev',
         fancy: true,
       },
+      {
+        name: 'Visa Invitation',
+        description: 'Apply for an official visa invitation letter for Hack Club events',
+        icon: 'docs-fill',
+        external: true,
+        url: 'https://visas.hackclub.com/',
+        forUseBy: 'everyone',
+      },
     ]
   },
   {
