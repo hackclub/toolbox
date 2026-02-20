@@ -318,15 +318,15 @@ export default [
         url: 'https://gas.hackclub.com/',
         forUseBy: 'everyone'
       },
-      {
-        name: 'Jet Fund',
-        description:
-          'Fly to any high school hackathon and get the flights reimbursed',
-        icon: 'send',
-        external: true,
-        url: 'https://jet.hackclub.com/',
-        forUseBy: 'everyone'
-      },
+      // {
+      //   name: 'Jet Fund',
+      //   description:
+      //     'Fly to any high school hackathon and get the flights reimbursed',
+      //   icon: 'send',
+      //   external: true,
+      //   url: 'https://jet.hackclub.com/',
+      //   forUseBy: 'everyone'
+      // },
       {
         name: 'Hackathons Page',
         description:
