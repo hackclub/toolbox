@@ -319,15 +319,6 @@ export default [
         forUseBy: 'everyone'
       },
       {
-        name: 'Jet Fund',
-        description:
-          'Fly to any high school hackathon and get the flights reimbursed',
-        icon: 'send',
-        external: true,
-        url: 'https://jet.hackclub.com/',
-        forUseBy: 'everyone'
-      },
-      {
         name: 'Hackathons Page',
         description:
           'Everything you need to know to run an amazing event, all in one place',
