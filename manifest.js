@@ -348,6 +348,17 @@ export default [
         fancy: true
       },
       {
+        name: 'Lapse',
+        description: "Record time spent on hardware, art, or anything else Hackatime can't track",
+        img: 'cards/lapse.png',
+        external: true,
+        url: 'https://lapse.hackclub.com',
+        background: '#17171d',
+        titleColor: '#ec3750',
+        descriptionColor: '#ffffff',
+        fancy: true
+      },
+      {
         name: 'Spaces',
         description: 'All-in-one web IDE to create, host and collaborate in with over 500 supported languages and a variety of templates to use.',
         img: 'cards/spaces.png',
