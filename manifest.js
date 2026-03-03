@@ -49,6 +49,29 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: 'Sleepover',
+        description:
+          'Learn to code and fly out to an all girls Slumber Party Hackathon in Chicago!',
+        img: 'https://cdn.hackclub.com/019cb51b-3772-71e5-ab48-da8f5c8d2ffa/image.png',
+        background: 'https://cdn.hackclub.com/019cb51b-3a1a-742e-b765-6d80a1f8ecd9/image.png',
+        titleColor: '#9B72AA',
+        descriptionColor: '#9B72AA',
+        external: true,
+        url: 'https://sleepover.hackclub.com?utm_source=toolbox',
+        fancy: true
+      },
+      {
+        name: 'Stasis',
+        description:'Build hardware projects and fly out to Austin, TX for a hardware hackathon.',
+        img: 'https://cdn.hackclub.com/019cb521-985f-7b28-815c-1512b12b9a63/stasis-logo.png',
+        background: 'https://cdn.hackclub.com/019cb521-9b7a-7faf-b26c-e81d66e42fbb/stasis-banner.png',
+        titleColor: '#4A2006',
+        descriptionColor: '#4A2006',
+        external: true,
+        url: 'https://stasis.hackclub.com?utm_source=toolbox',
+        fancy: true
+      },
+      {
         name: "Scraps",
         description: "Make projects, get scraps, try your luck, get prizes, repeat.",
         img: "https://cdn.hackclub.com/019c2e78-1e48-7116-9691-5e0fde4243ea/icon.png",
