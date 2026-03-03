@@ -416,7 +416,7 @@ export default [
         fancy: true,
       },
       {
-        name: 'HackClub Auth',
+        name: 'Hack Club Auth',
         description: 'View and manage your personal information shared with Hack Club applications and programs',
         icon: 'private-outline',
         external: 'true',
