@@ -415,6 +415,13 @@ export default [
         url: 'https://hwdocs.hackclub.dev',
         fancy: true,
       },
+      {
+        name: 'HackClub Auth',
+        description: 'View and manage your personal information shared with Hack Club applications and programs',
+        icon: 'private-outline',
+        external: 'true',
+        url: 'https://auth.hackclub.com/',
+      },
     ]
   },
   {
@@ -486,6 +493,13 @@ export default [
         external: true,
         url: 'https://ip.hackclub.com',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'CDN',
+        description: '50GB of free image and video hosting, with permanent links for your websites',
+        icon: 'download',
+        external: 'true',
+        url: 'https://cdn.hackclub.com/',
       },
       {
         name: 'AI',
