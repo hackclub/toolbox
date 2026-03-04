@@ -62,8 +62,8 @@ export default [
       },
       {
         name: 'Stasis',
-        description:'Build hardware projects and fly out to Austin, TX for a hardware hackathon.',
-        img: 'https://cdn.hackclub.com/019cb521-985f-7b28-815c-1512b12b9a63/stasis-logo.png',
+        description:'Build hardware projects and f  ly out to Austin, TX for a hardware hackathon.',
+        img: 'https://cdn.hackclub.com/019cb70b-096a-7412-9625-9fa77be951b1/image__192_.png',
         background: 'https://cdn.hackclub.com/019cb521-9b7a-7faf-b26c-e81d66e42fbb/stasis-banner.png',
         titleColor: '#4A2006',
         descriptionColor: '#4A2006',
