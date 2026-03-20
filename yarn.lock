@@ -223,10 +223,10 @@
   resolved "https://registry.npmjs.org/@hackclub/icons/-/icons-0.0.15.tgz"
   integrity sha512-IKJ5JQhRhlkYINv9pxzT//fn3aYwsGBeyNNBcw7eU+J0lfs0wGrq9lh7CGcXUUGXaKFxDPRlWhTxaAVaRdZVRA==
 
-"@hackclub/meta@^1.1.32":
-  version "1.1.33"
-  resolved "https://registry.npmjs.org/@hackclub/meta/-/meta-1.1.33.tgz"
-  integrity sha512-03gvSNcjIy1c2kO0XW+uuxgPHALsPubqGivb2/9NBalGNH0FqnvRvWD5h+sPV6L6hpe+TbqYZG+Sq/e/vyT8wQ==
+"@hackclub/meta@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@hackclub/meta/-/meta-1.2.0.tgz#e64dddad660e6162f2b2fe393867a100bbfdc0d1"
+  integrity sha512-CicpTiQtE+FiDzt5Wwime/6N3ML9lVfuH3NzhF/0kCces6+kIvjofc3dhaCiW5s/5kMVu0wVEVLsZ6M6uT4dGA==
 
 "@hackclub/theme@^0.3.3":
   version "0.3.3"
