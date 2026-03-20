@@ -2002,10 +2002,10 @@ preact@^10.6.3:
   resolved "https://registry.npmjs.org/preact/-/preact-10.28.0.tgz"
   integrity sha512-rytDAoiXr3+t6OIP3WGlDd0ouCUG1iCWzkcY3++Nreuoi17y6T5i/zRhe6uYfoVcxq6YU+sBtJouuRDsq8vvqA==
 
-prettier@^3.7.4:
-  version "3.7.4"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-3.7.4.tgz"
-  integrity sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==
+prettier@^3.8.1:
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.8.1.tgz#edf48977cf991558f4fcbd8a3ba6015ba2a3a173"
+  integrity sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==
 
 pretty-format@^3.8.0:
   version "3.8.0"
