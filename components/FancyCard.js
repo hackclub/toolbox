@@ -18,6 +18,7 @@ export default function FancyCard({
     name,
     description,
     img,
+    icon,
     url,
     tag
   } = item
@@ -148,14 +149,22 @@ export default function FancyCard({
               height: onMobile ? '100%' : 'initial'
             }}
           >
-            <Image
-              src={img}
-              sx={{
-                width: ['50px', '58px'],
-                height: ['50px', '58px'],
-                objectFit: 'contain'
-              }}
-            />
+            {img ? (
+              <Image
+                src={img}
+                sx={{
+                  width: ['50px', '58px'],
+                  height: ['50px', '58px'],
+                  objectFit: 'contain'
+                }}
+              />
+            ) : icon ? (
+              <Icon
+                glyph={icon}
+                size={58}
+                color={titleColor || '#fff'}
+              />
+            ) : null}
             <Text as="h3" sx={{ color: titleColor, fontSize: '22px' }}>
               {name}
             </Text>
