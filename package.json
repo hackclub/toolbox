@@ -24,7 +24,7 @@
     "react-dom": "^19.2.3",
     "react-leaflet": "^5.0.0",
     "swr": "^2.0.3",
-    "theme-ui": "^0.17.2"
+    "theme-ui": "^0.17.4"
   },
   "devDependencies": {
     "prettier": "^3.7.4"
