@@ -626,18 +626,18 @@
     "@theme-ui/css" "^0.17.2"
     "@types/styled-system" "^5.1.13"
 
-"@theme-ui/core@^0.17.2":
-  version "0.17.2"
-  resolved "https://registry.npmjs.org/@theme-ui/core/-/core-0.17.2.tgz"
-  integrity sha512-PMBaFCh/9HTlUZJFZRxZJoy+w/SVOJCr7v3s7XF5qyGcCuAB5tLv+fjcKpALaZ6QBT1SkHWd07AyTHrs0V2uRw==
+"@theme-ui/core@^0.17.2", "@theme-ui/core@^0.17.4":
+  version "0.17.4"
+  resolved "https://registry.yarnpkg.com/@theme-ui/core/-/core-0.17.4.tgz#96570f144812870497460a3b852997cf0c5324d2"
+  integrity sha512-Thi46ulVpTbsU+DafydCrt6AftWvG+NicsA62MasObd0sbrfPPZVjuZdEt6yNDwzWXaI2UjNmJa8G4Uty+ALrA==
   dependencies:
-    "@theme-ui/css" "^0.17.2"
+    "@theme-ui/css" "^0.17.4"
     deepmerge "^4.2.2"
 
-"@theme-ui/css@^0.17.2":
-  version "0.17.2"
-  resolved "https://registry.npmjs.org/@theme-ui/css/-/css-0.17.2.tgz"
-  integrity sha512-sYeurC8WbZBLumt8qO7rM6ZDyvneMh6JojeZov3uwu4Ty2iis8rhqGGK8LD1SfwsWcV8pu3AivQ9xyvWZeaQrw==
+"@theme-ui/css@^0.17.2", "@theme-ui/css@^0.17.4":
+  version "0.17.4"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.17.4.tgz#5ce9756da180932eb0cd67aaeba08d810c2d4a02"
+  integrity sha512-lyitzWdqszEK+T76ad4XUYQM+UCUadeFqMsjjKB8E461oQHxCKuV7fY/SRJr6hP/Zxk/mAEQnwNp2wjc0z8OIA==
   dependencies:
     csstype "^3.0.10"
 
@@ -649,13 +649,13 @@
     "@theme-ui/core" "^0.17.2"
     "@theme-ui/css" "^0.17.2"
 
-"@theme-ui/mdx@^0.17.2":
-  version "0.17.2"
-  resolved "https://registry.npmjs.org/@theme-ui/mdx/-/mdx-0.17.2.tgz"
-  integrity sha512-1Gl1m71jhFxm00cZPEz8eSg47+boy0+a8Pe+4r85Ncs2hHZZuV6ABmgDaoMStKxxwwnCQyehV3WCuChNQmYUxg==
+"@theme-ui/mdx@^0.17.4":
+  version "0.17.4"
+  resolved "https://registry.yarnpkg.com/@theme-ui/mdx/-/mdx-0.17.4.tgz#c0a3c908f0351e6ed1d9afcfdb4452a785d0a718"
+  integrity sha512-OOe/3N+BmGmXkgWCRAH6+NxHvSsRHBk/fkztekfv2qL9XAYwRDqJMZPVkuqTLhA5T3A5sW1ONa5nuBfZUmNTaQ==
   dependencies:
-    "@theme-ui/core" "^0.17.2"
-    "@theme-ui/css" "^0.17.2"
+    "@theme-ui/core" "^0.17.4"
+    "@theme-ui/css" "^0.17.4"
 
 "@theme-ui/theme-provider@^0.17.2":
   version "0.17.2"
