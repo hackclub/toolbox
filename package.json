@@ -9,7 +9,7 @@
     "@emotion/styled": "^11.10.5",
     "@hackclub/icons": "^0.0.15",
     "@hackclub/meta": "^1.1.32",
-    "@hackclub/theme": "^0.3.3",
+    "@hackclub/theme": "^1.1.0",
     "@theme-ui/mdx": "^0.17.2",
     "airtable-plus": "^1.0.4",
     "fuzzaldrin": "^2.1.0",
