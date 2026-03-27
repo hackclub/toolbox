@@ -49,17 +49,6 @@ export default [
       },
       // Limited-time YSWSs start here
       {
-        name: "Scraps",
-        description: "Make projects, get scraps, try your luck, get prizes, repeat.",
-        img: "https://cdn.hackclub.com/019c2e78-1e48-7116-9691-5e0fde4243ea/icon.png",
-        background: "#FFFFFF",
-        titleColor: "#000000",
-        descriptionColor: "#000000",
-        external: true,
-        url: "https://scraps.hackclub.com/?utm_source=toolbox",
-        fancy: true,
-      },
-      {
         name: "Hackcraft",
         description: "Make a Minecraft mod, get Minecraft or another game!",
         img: "/cards/hackcraft.png",
@@ -91,18 +80,6 @@ export default [
         descriptionColor: "#7B0907",
         external: true,
         url: 'https://carnival.hackclub.com/',
-        fancy: true,
-      },
-      {
-        name: "Mosaic",
-        description: "Build a website every month with a different theme. Get stuff. Repeat.",
-        img: "/cards/mosaic.png",
-        background: "#60AFFF",
-        backgroundSize: "25px 25px, 25px 25px, 100%",
-        titleColor: "#000000",
-        descriptionColor: "#000000",
-        external: true,
-        url: 'https://mosaic.hackclub.com/',
         fancy: true,
       },
       {
@@ -146,6 +123,29 @@ export default [
     color: '#FF2800',
     icon: 'event-code',
     items: [
+      {
+        name: 'Sleepover',
+        description:
+          'Learn to code and fly out to an all girls Slumber Party Hackathon in Chicago!',
+        img: 'https://cdn.hackclub.com/019cb51b-3772-71e5-ab48-da8f5c8d2ffa/image.png',
+        background: 'https://cdn.hackclub.com/019cb51b-3a1a-742e-b765-6d80a1f8ecd9/image.png',
+        titleColor: '#9B72AA',
+        descriptionColor: '#9B72AA',
+        external: true,
+        url: 'https://sleepover.hackclub.com?utm_source=toolbox',
+        fancy: true
+      },
+      {
+        name: 'Stasis',
+        description:'Build hardware projects and fly out to Austin, TX for a hardware hackathon.',
+        img: 'https://cdn.hackclub.com/019cb521-985f-7b28-815c-1512b12b9a63/stasis-logo.png',
+        background: 'https://cdn.hackclub.com/019cb521-9b7a-7faf-b26c-e81d66e42fbb/stasis-banner.png',
+        titleColor: '#4A2006',
+        descriptionColor: '#4A2006',
+        external: true,
+        url: 'https://stasis.hackclub.com?utm_source=toolbox',
+        fancy: true
+      },
     ]
   },
   {
@@ -359,6 +359,17 @@ export default [
         fancy: true
       },
       {
+        name: 'Lapse',
+        description: "Record time spent on hardware, art, or anything else Hackatime can't track",
+        img: 'cards/lapse.png',
+        external: true,
+        url: 'https://lapse.hackclub.com',
+        background: '#17171d',
+        titleColor: '#ec3750',
+        descriptionColor: '#ffffff',
+        fancy: true
+      },
+      {
         name: 'Spaces',
         description: 'All-in-one web IDE to create, host and collaborate in with over 500 supported languages and a variety of templates to use.',
         img: 'cards/spaces.png',
@@ -414,6 +425,13 @@ export default [
         external: true,
         url: 'https://hwdocs.hackclub.dev',
         fancy: true,
+      },
+      {
+        name: 'Hack Club Auth',
+        description: 'View and manage your personal information shared with Hack Club applications and programs',
+        icon: 'private-outline',
+        external: 'true',
+        url: 'https://auth.hackclub.com/',
       },
     ]
   },
@@ -486,6 +504,13 @@ export default [
         external: true,
         url: 'https://ip.hackclub.com',
         forUseBy: 'everyone'
+      },
+      {
+        name: 'CDN',
+        description: '50GB of free image and video hosting, with permanent links for your websites',
+        icon: 'download',
+        external: 'true',
+        url: 'https://cdn.hackclub.com/',
       },
       {
         name: 'AI',
