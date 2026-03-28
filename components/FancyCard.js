@@ -1,4 +1,4 @@
-import { Box, Card, Image, Link, Text } from 'theme-ui'
+import { Badge, Box, Card, Image, Link, Text } from 'theme-ui'
 import Icon from '@hackclub/icons'
 import { useState } from 'react'
 
@@ -10,7 +10,7 @@ export default function FancyCard({
   onHoverLeave
 }) {
   const {
-    background,
+    background: rawBackground,
     backgroundSize,
     titleColor,
     descriptionColor,
@@ -18,8 +18,11 @@ export default function FancyCard({
     name,
     description,
     img,
-    url
+    url,
+    tag
   } = item
+  const isUrl = rawBackground && (rawBackground.startsWith('http') || rawBackground.startsWith('/'))
+  const background = isUrl ? `url(${rawBackground}) center/cover no-repeat` : rawBackground
   return (
     <Box
       sx={{
@@ -159,6 +162,20 @@ export default function FancyCard({
             <Text as="p" sx={{ color: descriptionColor, fontSize: '20px' }}>
               {description}
             </Text>
+            {tag && (
+              <Badge
+                sx={{
+                  bg: titleColor,
+                  fontSize: 1,
+                  borderRadius: 3,
+                  px: 2,
+                  mt: 2,
+                  display: 'inline-block'
+                }}
+              >
+                #{tag}
+              </Badge>
+            )}
           </Card>
         </Card>
       </Link>
