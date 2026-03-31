@@ -4,7 +4,7 @@ export default [
     color: 'green',
     icon: 'bolt',
     items: [
-       {
+      {
         name: 'YSWS Programs',
         description:
           'Check out all Hack Club YSWS programs!',
@@ -83,18 +83,6 @@ export default [
         fancy: true,
       },
       {
-        name: "Blueprint",
-        description: "Up to $400 for hardware project grants",
-        img: "/cards/blueprint.png",
-        background: "linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px), #0d2d55",
-        backgroundSize: "25px 25px, 25px 25px, 100%",
-        titleColor: "#FFFFFF",
-        descriptionColor: "#FFFFFF",
-        external: true,
-        url: "https://blueprint.hackclub.com/?utm_source=toolbox",
-        fancy: true,
-      },
-      {
         name: "TrailIt",
         description: "Build a web-app, Produce A trailer, get Production equipment!",
         img: "https://cdn.hackclub.com/019ca3f0-aae8-7974-b112-08fcf6ec30b8/svgviewer-png-output.png",
@@ -149,7 +137,7 @@ export default [
       },
       {
         name: 'Stasis',
-        description:'Build hardware projects and fly out to Austin, TX for a hardware hackathon.',
+        description: 'Build hardware projects and fly out to Austin, TX for a hardware hackathon.',
         img: 'https://cdn.hackclub.com/019cb521-985f-7b28-815c-1512b12b9a63/stasis-logo.png',
         background: 'https://cdn.hackclub.com/019cb521-9b7a-7faf-b26c-e81d66e42fbb/stasis-banner.png',
         titleColor: '#4A2006',
@@ -170,7 +158,7 @@ export default [
         description:
           'Collaborative coding workshops where sparks ignite, fears dissolve, and inventions come to life',
         img: '/cards/jams.png',
-        background: '#1f2d3d',     
+        background: '#1f2d3d',
         titleColor: '#ffffff',
         descriptionColor: '#ffffff',
         external: true,
