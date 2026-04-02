@@ -218,10 +218,10 @@
   resolved "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.4.0.tgz"
   integrity sha512-snKqtPW01tN0ui7yu9rGv69aJXr/a/Ywvl11sUjNtEcRc+ng/mQriFL0wLXMef74iHa/EkftbDzU9F8iFbH+zg==
 
-"@hackclub/icons@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.npmjs.org/@hackclub/icons/-/icons-0.0.15.tgz"
-  integrity sha512-IKJ5JQhRhlkYINv9pxzT//fn3aYwsGBeyNNBcw7eU+J0lfs0wGrq9lh7CGcXUUGXaKFxDPRlWhTxaAVaRdZVRA==
+"@hackclub/icons@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@hackclub/icons/-/icons-0.2.2.tgz#e6a002874bde8cac7f57fcd2eefa05173cb4a6c8"
+  integrity sha512-dfcTgjrkep22tbCRpNHlbqIpKAxyXIHLlHJEXwP5e95/t1NUTsyKW8fXzAbIDrgrtUhyLiL7seYKzXz30mgYRg==
 
 "@hackclub/meta@^1.1.32":
   version "1.1.33"
