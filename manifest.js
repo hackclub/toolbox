@@ -47,6 +47,18 @@ export default [
         url: 'https://sprig.hackclub.com',
         fancy: true
       },
+      {
+        name: 'Vibes',
+        description:
+          'Build a website with good vibes (and a little help from AI) and throw a club pizza party!',
+        img: '/cards/vibes.png',
+        background: '#ffdd58',
+        titleColor: '#ff00a9',
+        descriptionColor: 'black',
+        external: true,
+        url: 'https://vibes.hackclub.com',
+        fancy: true
+      },
       // Limited-time YSWSs start here
       {
         name: "Hackcraft",
