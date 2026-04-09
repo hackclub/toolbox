@@ -20,7 +20,7 @@
     "nprogress": "^0.2.0",
     "prop-type": "^0.0.1",
     "prop-types": "^15.8.1",
-    "react": "^19.2.3",
+    "react": "^19.2.5",
     "react-dom": "^19.2.3",
     "react-leaflet": "^5.0.0",
     "swr": "^2.0.3",
