@@ -15,7 +15,7 @@
     "fuzzaldrin": "^2.1.0",
     "leaflet": "^1.9.3",
     "next": "^16.1.7",
-    "next-auth": "^4.19.2",
+    "next-auth": "^4.24.14",
     "next-mdx-remote": "^6.0.0",
     "nprogress": "^0.2.0",
     "prop-type": "^0.0.1",
