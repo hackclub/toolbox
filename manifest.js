@@ -136,6 +136,15 @@ export default [
         fancy: true
       },
       {
+        name: 'Macondo',
+        description: 'Make projects. Win free prizes. Fly to Bogotá, Colombia',
+        img: 'https://cdn.hackclub.com/019dbdb4-84a1-746a-b308-a804acc0be6a/icon_mariposa.png',
+        background: 'https://cdn.hackclub.com/019dbdb3-b42f-7618-9879-11805f88ee8a/background_logo_3.png',
+        external: true,
+        url: 'https://macondo.hackclub.com/?utm_source=toolbox',
+        fancy: true
+      },
+      {
         name: 'Fallout',
         description:
           'Build hardware projects, Visit Shenzhen, China!',
