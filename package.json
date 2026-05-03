@@ -8,7 +8,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@hackclub/icons": "^0.0.15",
-    "@hackclub/meta": "^1.1.32",
+    "@hackclub/meta": "^1.2.1",
     "@hackclub/theme": "^0.3.3",
     "@theme-ui/mdx": "^0.17.2",
     "airtable-plus": "^1.0.4",
