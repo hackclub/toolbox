@@ -124,18 +124,6 @@ export default [
     icon: 'event-code',
     items: [
       {
-        name: 'Sleepover',
-        description:
-          'Learn to code and fly out to an all girls Slumber Party Hackathon in Chicago!',
-        img: 'https://cdn.hackclub.com/019cb51b-3772-71e5-ab48-da8f5c8d2ffa/image.png',
-        background: 'https://cdn.hackclub.com/019cb51b-3a1a-742e-b765-6d80a1f8ecd9/image.png',
-        titleColor: '#9B72AA',
-        descriptionColor: '#9B72AA',
-        external: true,
-        url: 'https://sleepover.hackclub.com?utm_source=toolbox',
-        fancy: true
-      },
-      {
         name: 'Macondo',
         description: 'Make projects. Win free prizes. Fly to Bogotá, Colombia',
         img: 'https://cdn.hackclub.com/019dbdb4-84a1-746a-b308-a804acc0be6a/icon_mariposa.png',
