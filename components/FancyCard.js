@@ -20,7 +20,8 @@ export default function FancyCard({
     img,
     icon,
     url,
-    tag
+    tag,
+    slack
   } = item
   const isUrl = rawBackground && (rawBackground.startsWith('http') || rawBackground.startsWith('/'))
   const background = isUrl ? `url(${rawBackground}) center/cover no-repeat` : rawBackground
@@ -184,6 +185,25 @@ export default function FancyCard({
               >
                 #{tag}
               </Badge>
+            )}
+            {slack && (
+              <Box sx={{ mt: 2 }}>
+                <Link
+                  href={`https://hackclub.slack.com/archives/${slack.id}`}
+                  target="_blank"
+                  rel="noopener"
+                  onClick={e => e.stopPropagation()}
+                  sx={{
+                    fontSize: 1,
+                    color: descriptionColor || '#fff',
+                    opacity: 0.85,
+                    textDecoration: 'none',
+                    '&:hover': { textDecoration: 'underline', opacity: 1 }
+                  }}
+                >
+                  #{slack.name}
+                </Link>
+              </Box>
             )}
           </Card>
         </Card>
