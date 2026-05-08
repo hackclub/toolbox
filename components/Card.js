@@ -147,6 +147,24 @@ export function InternalCard({
             </Badge>
           )}
         </Box>
+        {item.slack && (
+          <Link
+            href={`https://hackclub.slack.com/archives/${item.slack.id}`}
+            target="_blank"
+            rel="noopener"
+            onClick={e => e.stopPropagation()}
+            sx={{
+              display: 'inline-block',
+              mt: 1,
+              fontSize: 1,
+              color: 'muted',
+              textDecoration: 'none',
+              '&:hover': { textDecoration: 'underline' }
+            }}
+          >
+            #{item.slack.name}
+          </Link>
+        )}
       </Card>
     </Card>
   )
@@ -282,6 +300,24 @@ export function ExternalCard({
             </Badge>
           )}
         </Box>
+        {item.slack && (
+          <Link
+            href={`https://hackclub.slack.com/archives/${item.slack.id}`}
+            target="_blank"
+            rel="noopener"
+            onClick={e => e.stopPropagation()}
+            sx={{
+              display: 'inline-block',
+              mt: 1,
+              fontSize: 1,
+              color: 'muted',
+              textDecoration: 'none',
+              '&:hover': { textDecoration: 'underline' }
+            }}
+          >
+            #{item.slack.name}
+          </Link>
+        )}
       </Card>
     </Card>
   )

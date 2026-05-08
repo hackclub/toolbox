@@ -395,7 +395,8 @@ export default [
         icon: 'photo-fill',
         external: true,
         url: 'https://scrapbook.hackclub.com',
-        forUseBy: 'everyone'
+        forUseBy: 'everyone',
+        slack: { name: 'scrapbook', id: 'C01504DCLVD' }
       },
       {
         name: 'Minecraft Server',
@@ -520,6 +521,7 @@ export default [
         icon: 'download',
         external: 'true',
         url: 'https://cdn.hackclub.com/',
+        slack: { name: 'cdn', id: 'C016DEDUL87' }
       },
       {
         name: 'AI',
@@ -531,7 +533,8 @@ export default [
         fancy: true,
         background: "#1a1025",
         titleColor: "#e9d5ff",
-        descriptionColor: "#c4b5fd"
+        descriptionColor: "#c4b5fd",
+        slack: { name: 'hackclub-ai', id: 'C099S1LLFFU' }
       },
       {
         name: 'Web Search API',
@@ -543,7 +546,8 @@ export default [
         fancy: true,
         background: "#1a1025",
         titleColor: "#e9d5ff",
-        descriptionColor: "#c4b5fd"
+        descriptionColor: "#c4b5fd",
+        slack: { name: 'hackclub-search', id: 'C0A2XCJL6JU' }
       }
     ]
   }
