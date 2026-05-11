@@ -482,7 +482,7 @@ export default [
       },
       {
         name: 'Code Crafters',
-        description: 'Free 2-year membership to CodeCrafters',
+        description: 'Free 2-year membership to CodeCrafters (Clubs Only)',
         icon: 'code',
         external: true,
         url: 'https://codecrafters.io/event/hackclub',
