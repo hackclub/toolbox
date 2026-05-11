@@ -14,20 +14,28 @@
     "airtable": "^0.12.2",
     "fuzzaldrin": "^2.1.0",
     "leaflet": "^1.9.3",
-    "next": "^16.1.7",
+    "next": "^16.2.6",
     "next-auth": "^4.24.14",
     "next-mdx-remote": "^6.0.0",
     "nprogress": "^0.2.0",
     "prop-type": "^0.0.1",
     "prop-types": "^15.8.1",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "react-leaflet": "^5.0.0",
     "swr": "^2.0.3",
     "theme-ui": "^0.17.2"
   },
   "devDependencies": {
     "prettier": "^3.7.4"
+  },
+  "resolutions": {
+    "lodash": "^4.18.1",
+    "form-data": "^2.5.5",
+    "qs": "^6.15.1",
+    "tough-cookie": "^4.1.4",
+    "postcss": "^8.5.14",
+    "**/postcss": "^8.5.14"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
