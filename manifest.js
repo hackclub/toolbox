@@ -265,7 +265,7 @@ export default [
         description: 'Get a box of stickers for your next meeting or event',
         icon: 'sticker',
         external: true,
-        url: 'https://forms.hackclub.com/stickers',
+        url: 'http://forms.hackclub.com/club-stickers',
         forUseBy: 'leaders'
       },
       {
