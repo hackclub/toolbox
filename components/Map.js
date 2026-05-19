@@ -105,7 +105,7 @@ export default function Map() {
           left: 0,
           border: 'none'
         }}
-        src="https://hackclub.com/map/"
+        src="https://hackclub.github.io/map/"
         height="500px"
         width="100%"
       />
@@ -140,7 +140,7 @@ export default function Map() {
             }}
             onClick={event => event.stopPropagation()}
           >
-            <Embed src="https://hackclub.com/map/" />
+            <Embed src="https://hackclub.github.io/map/" />
           </Box>
         </Box>
       )}
