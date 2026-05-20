@@ -94,17 +94,6 @@ export default [
         url: "https://trailit.hackclub.com",
         fancy: true,
       },
-      {
-        name: "Flavortown",
-        description: "Build projects, get prizes!",
-        img: "https://user-cdn.hackclub-assets.com/019c256d-ac97-73c8-b0e4-4723dcda1f97/logo-b28e0e8b.avif",
-        background: "#E83A30",
-        titleColor: "#FFFFFF",
-        descriptionColor: "#FFFFFF",
-        external: true,
-        url: "https://flavortown.hackclub.com?ref=toolbox",
-        fancy: true,
-      },
     ]
   },
   {
