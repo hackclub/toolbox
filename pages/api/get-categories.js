@@ -1,19 +1,14 @@
 import manifest from '../../manifest.js';
 
 /**
- * @brief Get categories list.
- * Category format:
- * {
- *   name: "Category Name",
- *   id: n
- * }
+ * @brief Get categories list as an array of strings.
  */
 function getCategories() {
 	let categories = [];
 
 	for (let i = 0; i < manifest.length; i++) {
 		const entry = manifest[i];
-		categories.push({ name: entry.category, id: i });
+		categories.push(entry.category);
 	}
 
 	return categories;
