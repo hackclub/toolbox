@@ -144,6 +144,18 @@ export default [
         url : 'https://beest.hackclub.com?utm_source=toolbox',
         fancy: true
 
+      },
+      {
+        name: 'Horizons',
+        description: '7 hackathons. Run by teenagers across the globe. For teenagers everywhere.',
+        img: 'https://user-cdn.hackclub-assets.com/019e53e3-20bc-7ee5-b78d-f524dd7f8f0c/image.png',
+        background: 'https://user-cdn.hackclub-assets.com/019e53e2-6cc5-7518-8ebf-dac1efe0457f/image.png',
+        titleColor: '#000000',
+        descriptionColor: '#000000',
+        external: true,
+        url : 'https://horizons.hackclub.com?utm_source=toolbox',
+        fancy: true
+
       }
     ]
   },
