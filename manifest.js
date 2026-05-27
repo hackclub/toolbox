@@ -94,17 +94,6 @@ export default [
         url: "https://trailit.hackclub.com",
         fancy: true,
       },
-      {
-        name: "Flavortown",
-        description: "Build projects, get prizes!",
-        img: "https://user-cdn.hackclub-assets.com/019c256d-ac97-73c8-b0e4-4723dcda1f97/logo-b28e0e8b.avif",
-        background: "#E83A30",
-        titleColor: "#FFFFFF",
-        descriptionColor: "#FFFFFF",
-        external: true,
-        url: "https://flavortown.hackclub.com?ref=toolbox",
-        fancy: true,
-      },
     ]
   },
   {
@@ -144,6 +133,30 @@ export default [
         url: 'https://stasis.hackclub.com?utm_source=toolbox',
         fancy: true
       },
+      {
+        name: 'Beest',
+        description: 'Code projects , Fly to Netherlands , Build a mechanical animal',
+        img: 'https://user-cdn.hackclub-assets.com/019e25d8-7e29-71e0-bce2-00d5c860ff33/favicon.webp',
+        background: 'https://user-cdn.hackclub-assets.com/019e25b8-958e-76b4-90cb-c60016ea83f9/hero.webp',
+        titleColor: '#4B4840',
+        descriptionColor: '#7F796D',
+        external: true,
+        url : 'https://beest.hackclub.com?utm_source=toolbox',
+        fancy: true
+
+      },
+      {
+        name: 'Horizons',
+        description: '7 hackathons. Run by teenagers across the globe. For teenagers everywhere.',
+        img: 'https://user-cdn.hackclub-assets.com/019e53e3-20bc-7ee5-b78d-f524dd7f8f0c/image.png',
+        background: 'https://user-cdn.hackclub-assets.com/019e53e2-6cc5-7518-8ebf-dac1efe0457f/image.png',
+        titleColor: '#000000',
+        descriptionColor: '#000000',
+        external: true,
+        url : 'https://horizons.hackclub.com?utm_source=toolbox',
+        fancy: true
+
+      }
     ]
   },
   {
@@ -265,7 +278,7 @@ export default [
         description: 'Get a box of stickers for your next meeting or event',
         icon: 'sticker',
         external: true,
-        url: 'https://forms.hackclub.com/stickers',
+        url: 'http://forms.hackclub.com/club-stickers',
         forUseBy: 'leaders'
       },
       {
