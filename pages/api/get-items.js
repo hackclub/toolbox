@@ -20,12 +20,6 @@ export default function handler(req, res) {
 
 	let categoryName = req.query.category;
 
-	// // if no category chosen, send all categories
-	// if (categoryName === undefined) {
-	// 	res.status(200).json({ categories: manifest });
-	// 	return;
-	// }
-
 	const map = getCategoryToItemsMap();
 
 	if (!map.hasOwnProperty(categoryName)) {
