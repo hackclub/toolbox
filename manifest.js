@@ -139,7 +139,7 @@ export default [
         img: 'https://user-cdn.hackclub-assets.com/019e25d8-7e29-71e0-bce2-00d5c860ff33/favicon.webp',
         background: 'https://user-cdn.hackclub-assets.com/019e25b8-958e-76b4-90cb-c60016ea83f9/hero.webp',
         titleColor: '#4B4840',
-        descriptionColor: '#7F796D',
+        descriptionColor: '#000000',
         external: true,
         url : 'https://beest.hackclub.com?utm_source=toolbox',
         fancy: true
