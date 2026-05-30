@@ -488,7 +488,6 @@ export default [
       {
         name: 'Canva Pro',
         description: 'Free Canva Pro for Hack Club Leaders',
-        icon: 'grid',
         img: '/cards/canva.png',
         external: true,
         url: 'https://hack.club/canva',
