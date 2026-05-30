@@ -486,6 +486,19 @@ export default [
         forUseBy: 'clubbers'
       },
       {
+        name: 'Canva Pro',
+        description: 'Free Canva Pro for Hack Club Leaders',
+        icon: 'grid',
+        img: '/cards/canva.png',
+        external: true,
+        url: 'https://hack.club/canva',
+        forUseBy: 'leaders',
+        fancy: true,
+        background: 'linear-gradient(135deg, #00C4D5 0%, #5A32FA 50%, #7D2AEB 100%)',
+        titleColor: '#000000',
+        descriptionColor: '#000000'
+      },
+      {
         name: 'CodeDay',
         description: 'Discount for in-person CodeDay events',
         icon: 'event-code',
