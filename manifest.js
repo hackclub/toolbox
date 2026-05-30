@@ -494,9 +494,9 @@ export default [
         url: 'https://hack.club/canva',
         forUseBy: 'leaders',
         fancy: true,
-        background: 'linear-gradient(135deg, #00C4D5 0%, #5A32FA 50%, #7D2AEB 100%)',
-        titleColor: '#000000',
-        descriptionColor: '#000000'
+        background: 'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), linear-gradient(135deg, #00C4D5 0%, #5A32FA 50%, #7D2AEB 100%)',
+        titleColor: '#ffffff',
+        descriptionColor: '#ffffff'
       },
       {
         name: 'CodeDay',
