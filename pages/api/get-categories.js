@@ -1,8 +1,5 @@
 import manifest from '../../manifest.js';
 
-/**
- * @brief Get categories list as an array of strings.
- */
 function getCategories() {
 	let categories = [];
 
