@@ -137,9 +137,9 @@ export default [
         name: 'Beest',
         description: 'Code projects , Fly to Netherlands , Build a mechanical animal',
         img: 'https://user-cdn.hackclub-assets.com/019e25d8-7e29-71e0-bce2-00d5c860ff33/favicon.webp',
-        background: 'https://user-cdn.hackclub-assets.com/019e25b8-958e-76b4-90cb-c60016ea83f9/hero.webp',
+        background: 'https://cdn.hackclub.com/019e6a52-9450-71eb-88a0-e388d4acdff0/beestbutblurred.png',
         titleColor: '#4B4840',
-        descriptionColor: '#7F796D',
+        descriptionColor: '#000000',
         external: true,
         url : 'https://beest.hackclub.com?utm_source=toolbox',
         fancy: true
