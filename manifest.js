@@ -61,6 +61,17 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: "Stardance",
+        description: "The largest STEM event of the summer: make anything you want and earn free prizes.",
+        img: "/cards/stardance.avif",
+        background: "#0b0920",
+        titleColor: "#fefdfb",
+        descriptionColor: "#c5c5c5",
+        external: true,
+        url: "https://stardance.hackclub.com/leaders",
+        fancy: true,
+      },
+      {
         name: "Hackcraft",
         description: "Make a Minecraft mod, get Minecraft or another game!",
         img: "/cards/hackcraft.png",
