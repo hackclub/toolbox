@@ -72,6 +72,18 @@ export default [
         fancy: true,
       },
       {
+        name: 'Keeb',
+        description:
+          'Keeb is a YSWS where you can make a keyboard from scratch. Start with nothing, design everything, add an optional twist, and build it yourself!',
+        img: '/cards/keeb_logo.png',
+        background: '#ae1e1e',
+        titleColor: '#ffffff',
+        descriptionColor: 'white',
+        external: true,
+        url: 'https://keeb.hackclub.com',
+        fancy: true
+      },
+      {
         name: "Hackcraft",
         description: "Make a Minecraft mod, get Minecraft or another game!",
         img: "/cards/hackcraft.png",
