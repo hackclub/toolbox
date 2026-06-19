@@ -179,6 +179,18 @@ export default [
         url : 'https://horizons.hackclub.com?utm_source=toolbox',
         fancy: true
 
+      },
+      {
+        name: 'Outpost',
+        description: '4-day hackathon followed by a 2-day showcase at Open Sauce!',
+        img: 'https://cdn.hackclub.com/019ee0ed-f0c1-754f-a9ac-5348c91e80c4/favicon.png',
+        background: 'https://cdn.hackclub.com/019ee0ed-dab7-7574-9304-5082eff65514/bg1.png',
+        titleColor: '#000000',
+        descriptionColor: '#000000',
+        external: true,
+        url : 'https://outpost.hackclub.com?utm_source=toolbox',
+        fancy: true
+
       }
     ]
   },
