@@ -190,7 +190,6 @@ export default [
         external: true,
         url : 'https://outpost.hackclub.com?utm_source=toolbox',
         fancy: true
-
       }
     ]
   },
