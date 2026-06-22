@@ -272,7 +272,7 @@ export default [
     items: [
       {
         name: "Github Education",
-        description: "Get access to tons of hacker resources and free offers",
+        description: "Get access to tons of hacker resources and free offers by verifying your student status on GitHub. More details available on GitHub's documentation.",
         img: "/cards/gh.svg",
         external: true,
         url: "https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student",
