@@ -117,6 +117,17 @@ export default [
         url: "https://trailit.hackclub.com",
         fancy: true,
       },
+      {
+        name: "Premiere",
+        description: "Make a trailer to your game. Get prizes for doing it.",
+        img: "https://cdn.hackclub.com/019f663a-ac98-7d7e-98a1-35f96842703d/premiere.png",
+        background: "#faeba8",
+        titleColor: "#101250",
+        descriptionColor: "#101250",
+        external: true,
+        url: "https://premiere.hackclub.com",
+        fancy: true,
+      },
     ]
   },
   {
