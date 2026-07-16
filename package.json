@@ -27,7 +27,7 @@
     "theme-ui": "^0.17.2"
   },
   "devDependencies": {
-    "prettier": "^3.7.4"
+    "prettier": "^3.9.5"
   },
   "resolutions": {
     "lodash": "^4.18.1",
