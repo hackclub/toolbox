@@ -117,6 +117,18 @@ export default [
         url: "https://trailit.hackclub.com",
         fancy: true,
       },
+      {
+        name: 'Breadboard',
+        description:
+          'Design a real breadboard project, get a free component kit shipped to you to build it!',
+        img: 'https://breadboard.hackclub.com/assets/Breadboard_Logo_White.svg',
+        background: '#17171d',
+        titleColor: '#ffffff',
+        descriptionColor: '#ffffff',
+        external: true,
+        url: 'https://breadboard.hackclub.com',
+        fancy: true
+      },
     ]
   },
   {
