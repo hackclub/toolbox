@@ -596,19 +596,6 @@ export default [
         descriptionColor: "#c4b5fd",
         slack: { name: 'hackclub-ai', id: 'C099S1LLFFU' }
       },
-      {
-        name: 'Web Search API',
-        description: 'Free Brave Search API for teens. Search the web and find images/videos programmatically!',
-        icon: 'code',
-        external: true,
-        url: 'https://search.hackclub.com',
-        forUseBy: 'everyone',
-        fancy: true,
-        background: "#1a1025",
-        titleColor: "#e9d5ff",
-        descriptionColor: "#c4b5fd",
-        slack: { name: 'hackclub-search', id: 'C0A2XCJL6JU' }
-      }
     ]
   }
 ]
