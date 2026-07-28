@@ -299,7 +299,7 @@ export default [
         description: 'Get large Hack Club posters to promote your Hack Club (US)',
         icon: 'docs-fill',
         external: true,
-        url: 'https://forms.hackclub.com/t/uzgyhTqvsFus',
+        url: 'https://forms.hackclub.com/club-stickers',
         forUseBy: 'leaders'
       },
       {
@@ -308,7 +308,7 @@ export default [
           "If you're outside of the US, get large Hack Club posters to promote your Hack Club",
         icon: 'docs-fill',
         external: true,
-        url: 'https://hack.club/intl-posters',
+        url: 'https://are-we-there-yet.hackclub.com/',
         forUseBy: 'leaders'
       },
       {
