@@ -295,37 +295,12 @@ export default [
         descriptionColor: "#ffffff",
       },
       {
-        name: 'Posters',
-        description: 'Get large Hack Club posters to promote your Hack Club (US)',
-        icon: 'docs-fill',
-        external: true,
-        url: 'https://forms.hackclub.com/club-stickers',
-        forUseBy: 'leaders'
-      },
-      {
-        name: 'International Posters',
-        description:
-          "If you're outside of the US, get large Hack Club posters to promote your Hack Club",
-        icon: 'docs-fill',
-        external: true,
-        url: 'https://are-we-there-yet.hackclub.com/',
-        forUseBy: 'leaders'
-      },
-      {
         name: 'Branding & Logos',
         description: 'Make anything Hack Club branded',
         icon: 'like',
         external: true,
         url: 'https://hackclub.com/brand',
         forUseBy: 'everyone'
-      },
-      {
-        name: 'Stickers',
-        description: 'Get a box of stickers for your next meeting or event',
-        icon: 'sticker',
-        external: true,
-        url: 'http://forms.hackclub.com/club-stickers',
-        forUseBy: 'leaders'
       },
       {
         name: 'Nest Git',
@@ -355,14 +330,6 @@ export default [
         external: true,
         url: 'https://hackclub.com/slack',
         forUseBy: 'everyone'
-      },
-      {
-        name: 'Leadership Guide',
-        description: 'Advice on how to lead a club',
-        icon: 'docs-fill',
-        external: true,
-        url: 'https://guide.leaders.hackclub.com/#/',
-        forUseBy: 'leaders'
       },
       {
         name: 'DNS',
@@ -566,18 +533,6 @@ export default [
         forUseBy: 'clubbers'
       },
       {
-        name: 'Canva Pro',
-        description: 'Free Canva Pro for Hack Club Leaders',
-        img: '/cards/canva.png',
-        external: true,
-        url: 'https://hack.club/canva',
-        forUseBy: 'leaders',
-        fancy: true,
-        background: 'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), linear-gradient(135deg, #00C4D5 0%, #5A32FA 50%, #7D2AEB 100%)',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff'
-      },
-      {
         name: 'CodeDay',
         description: 'Discount for in-person CodeDay events',
         icon: 'event-code',
@@ -630,6 +585,58 @@ export default [
         descriptionColor: "#c4b5fd",
         slack: { name: 'hackclub-ai', id: 'C099S1LLFFU' }
       },
+    ]
+  },
+  {
+    category: 'Club Leaders',
+    color: 'blue',
+    icon: 'clubs',
+    items: [
+      {
+        name: 'Posters',
+        description: 'Get large Hack Club posters to promote your Hack Club (US)',
+        icon: 'docs-fill',
+        external: true,
+        url: 'https://forms.hackclub.com/club-stickers',
+        forUseBy: 'leaders'
+      },
+      {
+        name: 'International Posters',
+        description:
+          "If you're outside of the US, get large Hack Club posters to promote your Hack Club",
+        icon: 'docs-fill',
+        external: true,
+        url: 'https://are-we-there-yet.hackclub.com/',
+        forUseBy: 'leaders'
+      },
+      {
+        name: 'Leadership Guide',
+        description: 'Advice on how to lead a club',
+        icon: 'docs-fill',
+        external: true,
+        url: 'https://guide.leaders.hackclub.com/#/',
+        forUseBy: 'leaders'
+      },
+      {
+        name: 'Canva Pro',
+        description: 'Free Canva Pro for Hack Club Leaders',
+        img: '/cards/canva.png',
+        external: true,
+        url: 'https://hack.club/canva',
+        forUseBy: 'leaders',
+        fancy: true,
+        background: 'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), linear-gradient(135deg, #00C4D5 0%, #5A32FA 50%, #7D2AEB 100%)',
+        titleColor: '#ffffff',
+        descriptionColor: '#ffffff'
+      },
+      {
+        name: 'Stickers',
+        description: 'Get a box of stickers for your next meeting or event',
+        icon: 'sticker',
+        external: true,
+        url: 'http://forms.hackclub.com/club-stickers',
+        forUseBy: 'leaders'
+      }
     ]
   }
 ]
