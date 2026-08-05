@@ -30,7 +30,7 @@ xexport default [
         name: 'CAD YSWSs',
         description:
           'Our 3D modeling You Ship, We Ships!',
-        img: '/cards/cad.png',
+        icon: '3d-rotate',
         external: true,
         url: 'https://cad.hackclub.com',
         forUseBy: 'everyone'
