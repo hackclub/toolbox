@@ -328,6 +328,18 @@ xexport default [
         forUseBy: 'leaders'
       },
       {
+        name: 'Nest Git',
+        description: 'A GitHub Alternative for Hack Clubbers; a painless, self-hosted Git service!',
+        icon: 'github',
+        external: true,
+        url: 'https://git.hackclub.app',
+        forUseBy: 'everyone',
+        fancy: true,
+        background: '#FFFFFF',
+        titleColor: '#D40000',
+        descriptionColor: '#18181C'
+      },
+      {
         name: 'School Toolbox',
         description: 'Resources to help with school admin or IT challenges',
         icon: 'briefcase',
