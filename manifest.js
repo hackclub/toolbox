@@ -509,6 +509,16 @@ xexport default [
         fancy: true,
       },
       {
+        name: 'Print Legion',
+        description: 'An International Network of 3D Printers from Hack Club - available for Hack Club YSWS programs!',
+        icon: '3d-rotate',
+        background: '#F2F0E5',
+        titleColor: '#CE5D97',
+        descriptionColor: '#1C1C1A',
+        external: true,
+        url: 'https://printlegion.hackclub.com/',
+        fancy: true
+      {
         name: 'Hack Club Auth',
         description: 'View and manage your personal information shared with Hack Club applications and programs',
         icon: 'private-outline',
