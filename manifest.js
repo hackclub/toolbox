@@ -1,4 +1,4 @@
-export default [
+xexport default [
   {
     category: 'YSWSs',
     color: 'green',
@@ -448,6 +448,7 @@ export default [
         descriptionColor: '#FFFFFF',
         slack: {name: 'nest', id: 'C056WDR3MQR' },
         forUseBy: 'everyone'
+      },
       {
         name: 'Scrapbook',
         description: 'Post devlogs about what you are building, for the world to see.',
