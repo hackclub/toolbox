@@ -485,6 +485,7 @@ export default [
         external: true,
         url: 'https://printlegion.hackclub.com/',
         fancy: true
+      },
       {
         name: 'Hack Club Auth',
         description: 'View and manage your personal information shared with Hack Club applications and programs',
