@@ -1,4 +1,4 @@
-xexport default [
+export default [
   {
     category: 'YSWSs',
     color: 'green',
