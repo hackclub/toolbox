@@ -440,15 +440,14 @@ export default [
       {
         name: 'Nest',
         description: 'Nest is a free Linux server from Hack Club to host Discord bots, apps, website, try out basic computer networking, chat with others and much more!',
-        img: '',
+        icon: 'hdd-stack',
         external: true,
         url: 'https://hackclub.app/',
         background: '#06001C',
         titleColor: 'A633D6',
         descriptionColor: '#FFFFFF',
         slack: {name: 'nest', id: 'C056WDR3MQR' },
-        forUseBy: 'everyone',
-        fancy: true
+        forUseBy: 'everyone'
       {
         name: 'Scrapbook',
         description: 'Post devlogs about what you are building, for the world to see.',
