@@ -415,7 +415,7 @@ export default [
         external: true,
         url: 'https://hackclub.app/',
         background: '#06001C',
-        titleColor: 'A633D6',
+        titleColor: '#A633D6',
         descriptionColor: '#FFFFFF',
         slack: {name: 'nest', id: 'C056WDR3MQR' },
         forUseBy: 'everyone'
@@ -635,7 +635,7 @@ export default [
         description: 'Get a box of stickers for your next meeting or event',
         icon: 'sticker',
         external: true,
-        url: 'http://forms.hackclub.com/club-stickers',
+        url: 'https://forms.hackclub.com/club-stickers',
         forUseBy: 'leaders'
       }
     ]
