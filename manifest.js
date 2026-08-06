@@ -315,14 +315,6 @@ export default [
         descriptionColor: '#18181C'
       },
       {
-        name: 'School Toolbox',
-        description: 'Resources to help with school admin or IT challenges',
-        icon: 'briefcase',
-        external: true,
-        url: 'https://school-toolbox.hackclub.com',
-        forUseBy: 'everyone'
-      },
-      {
         name: 'Slack Community',
         description:
           'Be part of a fun, technically-diverse and supportive community on Slack',
@@ -629,6 +621,14 @@ export default [
         background: 'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), linear-gradient(135deg, #00C4D5 0%, #5A32FA 50%, #7D2AEB 100%)',
         titleColor: '#ffffff',
         descriptionColor: '#ffffff'
+      },
+      {
+        name: 'School Toolbox',
+        description: 'Resources to help with school admin or IT challenges',
+        icon: 'briefcase',
+        external: true,
+        url: 'https://school-toolbox.hackclub.com',
+        forUseBy: 'leaders'
       },
       {
         name: 'Stickers',
