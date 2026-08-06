@@ -311,7 +311,7 @@ export default [
         forUseBy: 'everyone',
         fancy: true,
         background: '#FFFFFF',
-        titleColor: '#D40000',
+        titleColor: '#18181C',
         descriptionColor: '#18181C'
       },
       {
