@@ -30,7 +30,7 @@ export default [
         name: 'CAD YSWSs',
         description:
           'Our 3D modeling You Ship, We Ships!',
-        img: '/cards/cad.png',
+        icon: '3d-rotate',
         external: true,
         url: 'https://cad.hackclub.com',
         forUseBy: 'everyone'
@@ -295,23 +295,6 @@ export default [
         descriptionColor: "#ffffff",
       },
       {
-        name: 'Posters',
-        description: 'Get large Hack Club posters to promote your Hack Club (US)',
-        icon: 'docs-fill',
-        external: true,
-        url: 'https://forms.hackclub.com/club-stickers',
-        forUseBy: 'leaders'
-      },
-      {
-        name: 'International Posters',
-        description:
-          "If you're outside of the US, get large Hack Club posters to promote your Hack Club",
-        icon: 'docs-fill',
-        external: true,
-        url: 'https://are-we-there-yet.hackclub.com/',
-        forUseBy: 'leaders'
-      },
-      {
         name: 'Branding & Logos',
         description: 'Make anything Hack Club branded',
         icon: 'like',
@@ -320,20 +303,16 @@ export default [
         forUseBy: 'everyone'
       },
       {
-        name: 'Stickers',
-        description: 'Get a box of stickers for your next meeting or event',
-        icon: 'sticker',
+        name: 'Nest Git',
+        description: 'A GitHub Alternative for Hack Clubbers; a painless, self-hosted Git service!',
+        icon: 'github',
         external: true,
-        url: 'http://forms.hackclub.com/club-stickers',
-        forUseBy: 'leaders'
-      },
-      {
-        name: 'School Toolbox',
-        description: 'Resources to help with school admin or IT challenges',
-        icon: 'briefcase',
-        external: true,
-        url: 'https://school-toolbox.hackclub.com',
-        forUseBy: 'everyone'
+        url: 'https://git.hackclub.app',
+        forUseBy: 'everyone',
+        fancy: true,
+        background: '#FFFFFF',
+        titleColor: '#18181C',
+        descriptionColor: '#18181C'
       },
       {
         name: 'Slack Community',
@@ -343,14 +322,6 @@ export default [
         external: true,
         url: 'https://hackclub.com/slack',
         forUseBy: 'everyone'
-      },
-      {
-        name: 'Leadership Guide',
-        description: 'Advice on how to lead a club',
-        icon: 'docs-fill',
-        external: true,
-        url: 'https://guide.leaders.hackclub.com/#/',
-        forUseBy: 'leaders'
       },
       {
         name: 'DNS',
@@ -438,6 +409,18 @@ export default [
         fancy: true
       },
       {
+        name: 'Nest',
+        description: 'Nest is a free Linux server from Hack Club to host Discord bots, apps, website, try out basic computer networking, chat with others and much more!',
+        icon: 'hdd-stack',
+        external: true,
+        url: 'https://hackclub.app/',
+        background: '#06001C',
+        titleColor: '#A633D6',
+        descriptionColor: '#FFFFFF',
+        slack: {name: 'nest', id: 'C056WDR3MQR' },
+        forUseBy: 'everyone'
+      },
+      {
         name: 'Scrapbook',
         description: 'Post devlogs about what you are building, for the world to see.',
         icon: 'photo-fill',
@@ -485,6 +468,17 @@ export default [
         fancy: true,
       },
       {
+        name: 'Print Legion',
+        description: 'An International Network of 3D Printers from Hack Club - available for Hack Club YSWS programs!',
+        icon: '3d-rotate',
+        background: '#F2F0E5',
+        titleColor: '#CE5D97',
+        descriptionColor: '#1C1C1A',
+        external: true,
+        url: 'https://printlegion.hackclub.com/',
+        fancy: true
+      },
+      {
         name: 'Hack Club Auth',
         description: 'View and manage your personal information shared with Hack Club applications and programs',
         icon: 'private-outline',
@@ -530,18 +524,6 @@ export default [
         external: false,
         url: '/zoom.mdx',
         forUseBy: 'clubbers'
-      },
-      {
-        name: 'Canva Pro',
-        description: 'Free Canva Pro for Hack Club Leaders',
-        img: '/cards/canva.png',
-        external: true,
-        url: 'https://hack.club/canva',
-        forUseBy: 'leaders',
-        fancy: true,
-        background: 'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), linear-gradient(135deg, #00C4D5 0%, #5A32FA 50%, #7D2AEB 100%)',
-        titleColor: '#ffffff',
-        descriptionColor: '#ffffff'
       },
       {
         name: 'CodeDay',
@@ -596,6 +578,66 @@ export default [
         descriptionColor: "#c4b5fd",
         slack: { name: 'hackclub-ai', id: 'C099S1LLFFU' }
       },
+    ]
+  },
+  {
+    category: 'Club Leaders',
+    color: 'blue',
+    icon: 'clubs',
+    items: [
+      {
+        name: 'Posters',
+        description: 'Get large Hack Club posters to promote your Hack Club (US)',
+        icon: 'docs-fill',
+        external: true,
+        url: 'https://forms.hackclub.com/club-stickers',
+        forUseBy: 'leaders'
+      },
+      {
+        name: 'International Posters',
+        description:
+          "If you're outside of the US, get large Hack Club posters to promote your Hack Club",
+        icon: 'docs-fill',
+        external: true,
+        url: 'https://are-we-there-yet.hackclub.com/',
+        forUseBy: 'leaders'
+      },
+      {
+        name: 'Leadership Guide',
+        description: 'Advice on how to lead a club',
+        icon: 'docs-fill',
+        external: true,
+        url: 'https://guide.leaders.hackclub.com/#/',
+        forUseBy: 'leaders'
+      },
+      {
+        name: 'Canva Pro',
+        description: 'Free Canva Pro for Hack Club Leaders',
+        img: '/cards/canva.png',
+        external: true,
+        url: 'https://hack.club/canva',
+        forUseBy: 'leaders',
+        fancy: true,
+        background: 'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), linear-gradient(135deg, #00C4D5 0%, #5A32FA 50%, #7D2AEB 100%)',
+        titleColor: '#ffffff',
+        descriptionColor: '#ffffff'
+      },
+      {
+        name: 'School Toolbox',
+        description: 'Resources to help with school admin or IT challenges',
+        icon: 'briefcase',
+        external: true,
+        url: 'https://school-toolbox.hackclub.com',
+        forUseBy: 'leaders'
+      },
+      {
+        name: 'Stickers',
+        description: 'Get a box of stickers for your next meeting or event',
+        icon: 'sticker',
+        external: true,
+        url: 'https://forms.hackclub.com/club-stickers',
+        forUseBy: 'leaders'
+      }
     ]
   }
 ]
