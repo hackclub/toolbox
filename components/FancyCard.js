@@ -18,6 +18,7 @@ export default function FancyCard({
     name,
     description,
     img,
+    imgSx,
     icon,
     url,
     tag,
@@ -87,12 +88,15 @@ export default function FancyCard({
                   background: background,
                   ...(backgroundSize && { backgroundSize }),
                   width: '100%',
-                  height: '25px'
+                  height: '25px',
+                  // Image backgrounds get their fade from the inner card instead,
+                  // so the image lines up rather than being squashed into the strip
+                  ...(isUrl && { display: 'none' })
                 },
                 ':hover': {
                   overflow: 'visible',
                   zIndex: 1000,
-                  '::after': {
+                  '::after, .fade::after': {
                     display: 'none'
                   },
                   '.more': {
@@ -139,9 +143,25 @@ export default function FancyCard({
             <Icon glyph="more" size={25} color={descriptionColor} opacity={0.7} />
           </Box>
           <Card
+            className="fade"
             sx={{
               background: background,
               ...(backgroundSize && { backgroundSize }),
+              ...(isUrl && !onMobile && {
+                '@media screen and (min-width: 992px)': {
+                  position: 'relative',
+                  '::after': {
+                    content: '""',
+                    position: 'absolute',
+                    inset: 0,
+                    pointerEvents: 'none',
+                    background: background,
+                    ...(backgroundSize && { backgroundSize }),
+                    // Covers the bottom 25px of the 175px-tall outer card
+                    maskImage: 'linear-gradient(to bottom, transparent 150px, black 150px)'
+                  }
+                }
+              }),
               color: 'white',
               padding: [4, '20px !important'],
               '@media screen and (max-width: 992px)': {
@@ -156,7 +176,8 @@ export default function FancyCard({
                 sx={{
                   width: ['50px', '58px'],
                   height: ['50px', '58px'],
-                  objectFit: 'contain'
+                  objectFit: 'contain',
+                  ...imgSx
                 }}
               />
             ) : icon ? (
