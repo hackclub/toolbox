@@ -48,6 +48,21 @@ export default [
         fancy: true
       },
       {
+        name: 'Crescent',
+        description:
+          'Four different challenges each week - pick a card, then ship something!',
+        img: '/cards/crescent-logo.png',
+        // Wide wordmark; scale it up visually without affecting layout
+        imgSx: { transform: 'scale(1.4)', transformOrigin: 'left center' },
+        background: '/cards/crescent-bg.avif',
+        titleColor: '#ecdec3',
+        descriptionColor: '#ecdec3',
+        arrowColor: '#ecdec3',
+        external: true,
+        url: 'https://crescent.hackclub.com/?utm_source=toolbox',
+        fancy: true
+      },
+      {
         name: 'Vibes',
         description:
           'Build a website with good vibes (and a little help from AI) and throw a club pizza party!',
