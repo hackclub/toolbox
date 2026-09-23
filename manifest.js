@@ -76,6 +76,21 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: 'Forge',
+        description:
+          'Design and build hardware projects - get funding for parts and a ticket to Hackaday Supercon in LA.',
+        img: '/cards/forge-logo.png',
+        // Wide wordmark; scale it up visually without affecting layout
+        imgSx: { transform: 'scale(1.4)', transformOrigin: 'left center' },
+        background: '/cards/forge-bg.png',
+        titleColor: '#ecdec3',
+        descriptionColor: '#ecdec3',
+        arrowColor: '#ecdec3',
+        external: true,
+        url: 'https://forge.hackclub.com/',
+        fancy: true
+      },
+      {
         name: "Stardance",
         description: "The largest STEM event of the summer: make anything you want and earn free prizes.",
         img: "/cards/stardance.avif",
