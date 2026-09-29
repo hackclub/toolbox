@@ -166,70 +166,12 @@ export default [
     icon: 'event-code',
     items: [
       {
-        name: 'Macondo',
-        description: 'Make projects. Win free prizes. Fly to Bogotá, Colombia',
-        img: 'https://cdn.hackclub.com/019dbdb4-84a1-746a-b308-a804acc0be6a/icon_mariposa.png',
-        background: 'https://cdn.hackclub.com/019dbdb3-b42f-7618-9879-11805f88ee8a/background_logo_3.png',
+        name: 'PHANTOM',
+        description: 'Make projects. Win free prizes. Fly to an escape room hackathon in Philadelphia',
+        img: 'https://phantom.hackclub.com/favicon.svg',
+        background: 'https://cdn.hackclub.com/01a096d5-6bdc-71fc-97b0-036729b96a45/bg.png',
         external: true,
-        url: 'https://macondo.hackclub.com/?utm_source=toolbox',
-        fancy: true
-      },
-      {
-        name: 'Fallout',
-        description:
-          'Build hardware projects, Visit Shenzhen, China!',
-        img: 'https://cdn.hackclub.com/019d2eec-ce13-72cd-92f1-c343bd14f8d3/chineseheidi.gif',
-        background: '#38c9ff',
-        titleColor: '#FFFFFF',
-        descriptionColor: '#FFFFFF',
-        external: true,
-        url: 'https://fallout.hackclub.com?utm_source=toolbox',
-        fancy: true
-      },
-      {
-        name: 'Stasis',
-        description: 'Build hardware projects and fly out to Austin, TX for a hardware hackathon.',
-        img: 'https://cdn.hackclub.com/019cb521-985f-7b28-815c-1512b12b9a63/stasis-logo.png',
-        background: 'https://cdn.hackclub.com/019cb521-9b7a-7faf-b26c-e81d66e42fbb/stasis-banner.png',
-        titleColor: '#4A2006',
-        descriptionColor: '#4A2006',
-        external: true,
-        url: 'https://stasis.hackclub.com?utm_source=toolbox',
-        fancy: true
-      },
-      {
-        name: 'Beest',
-        description: 'Code projects , Fly to Netherlands , Build a mechanical animal',
-        img: 'https://user-cdn.hackclub-assets.com/019e25d8-7e29-71e0-bce2-00d5c860ff33/favicon.webp',
-        background: 'https://cdn.hackclub.com/019e6a52-9450-71eb-88a0-e388d4acdff0/beestbutblurred.png',
-        titleColor: '#4B4840',
-        descriptionColor: '#000000',
-        external: true,
-        url : 'https://beest.hackclub.com?utm_source=toolbox',
-        fancy: true
-
-      },
-      {
-        name: 'Horizons',
-        description: '7 hackathons. Run by teenagers across the globe. For teenagers everywhere.',
-        img: 'https://user-cdn.hackclub-assets.com/019e53e3-20bc-7ee5-b78d-f524dd7f8f0c/image.png',
-        background: 'https://user-cdn.hackclub-assets.com/019e53e2-6cc5-7518-8ebf-dac1efe0457f/image.png',
-        titleColor: '#000000',
-        descriptionColor: '#000000',
-        external: true,
-        url : 'https://horizons.hackclub.com?utm_source=toolbox',
-        fancy: true
-
-      },
-      {
-        name: 'Outpost',
-        description: '4-day hackathon followed by a 2-day showcase at Open Sauce!',
-        img: 'https://cdn.hackclub.com/019ee0ed-f0c1-754f-a9ac-5348c91e80c4/favicon.png',
-        background: 'https://cdn.hackclub.com/019ee0ed-dab7-7574-9304-5082eff65514/bg1.png',
-        titleColor: '#000000',
-        descriptionColor: '#000000',
-        external: true,
-        url : 'https://outpost.hackclub.com?utm_source=toolbox',
+        url: 'https://phantom.hackclub.com/?utm_source=toolbox',
         fancy: true
       }
     ]
