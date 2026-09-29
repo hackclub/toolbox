@@ -167,7 +167,7 @@ export default [
     items: [
       {
         name: 'PHANTOM',
-        description: 'Make projects. Win free prizes. Fly to an escape room hackathon in Philadelphia',
+        description: 'Make projects. Win free prizes. Fly to an escape room hackathon in Philadelphia.',
         img: 'https://phantom.hackclub.com/favicon.svg',
         background: 'https://cdn.hackclub.com/01a096d5-6bdc-71fc-97b0-036729b96a45/bg.png',
         external: true,
