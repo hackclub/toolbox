@@ -90,6 +90,20 @@ export default [
         fancy: true
       },
       {
+        name: "The Basics of ASICs",
+        description:
+          "Design a chip, we'll manufacture it and send you tools to test it. ",
+        img: "/cards/asic-logo.png",
+        imgSx: { transform: "scale(1.4)", transformOrigin: "left center" },
+        background: "/cards/asic-bg.png",
+        titleColor: "#cd2a89",
+        descriptionColor: "#fff",
+        arrowColor: "#fff",
+        external: true,
+        url: "https://asic.hackclub.com/",
+        fancy: true
+      },
+      {
         name: "Stardance",
         description: "The largest STEM event of the summer: make anything you want and earn free prizes.",
         img: "/cards/stardance.avif",
