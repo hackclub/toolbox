@@ -148,17 +148,6 @@ export default [
         external: true,
         url: 'https://carnival.hackclub.com/',
         fancy: true,
-      },
-      {
-        name: "TrailIt",
-        description: "Build a web-app, Produce A trailer, get Production equipment!",
-        img: "https://cdn.hackclub.com/019ca3f0-aae8-7974-b112-08fcf6ec30b8/svgviewer-png-output.png",
-        background: "#17171D",
-        titleColor: "#ec3750",
-        descriptionColor: "#FFFFFF",
-        external: true,
-        url: "https://trailit.hackclub.com",
-        fancy: true,
       }
     ]
   },
