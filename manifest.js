@@ -549,19 +549,10 @@ export default [
     items: [
       {
         name: 'Posters',
-        description: 'Get large Hack Club posters to promote your Hack Club (US)',
+        description: 'Get large Hack Club posters to promote your Hack Club',
         icon: 'docs-fill',
         external: true,
         url: 'https://forms.hackclub.com/club-stickers',
-        forUseBy: 'leaders'
-      },
-      {
-        name: 'International Posters',
-        description:
-          "If you're outside of the US, get large Hack Club posters to promote your Hack Club",
-        icon: 'docs-fill',
-        external: true,
-        url: 'https://are-we-there-yet.hackclub.com/',
         forUseBy: 'leaders'
       },
       {
