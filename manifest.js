@@ -48,6 +48,31 @@ export default [
         fancy: true
       },
       {
+        name: 'Vibes',
+        description:
+          'Build a website with good vibes (and a little help from AI) and throw a club pizza party!',
+        img: '/cards/vibes.png',
+        background: '#ffdd58',
+        titleColor: '#ff00a9',
+        descriptionColor: 'black',
+        external: true,
+        url: 'https://vibes.hackclub.com',
+        fancy: true
+      },
+      // Limited-time YSWSs start here
+      {
+        name: 'Scraps',
+        description: 'Make any type of project to roll for rewards!',
+        img: '/cards/scraps-logo.png',
+        background: '/cards/scraps-bg.png',
+        titleColor: '#000000',
+        descriptionColor: '#000000',
+        arrowColor: '#000000',
+        external: true,
+        url: 'https://scraps.hackclub.com/?utm_source=toolbox',
+        fancy: true
+      },
+      {
         name: 'Crescent',
         description:
           'Four different challenges each week - pick a card, then ship something!',
@@ -62,19 +87,6 @@ export default [
         url: 'https://crescent.hackclub.com/?utm_source=toolbox',
         fancy: true
       },
-      {
-        name: 'Vibes',
-        description:
-          'Build a website with good vibes (and a little help from AI) and throw a club pizza party!',
-        img: '/cards/vibes.png',
-        background: '#ffdd58',
-        titleColor: '#ff00a9',
-        descriptionColor: 'black',
-        external: true,
-        url: 'https://vibes.hackclub.com',
-        fancy: true
-      },
-      // Limited-time YSWSs start here
       {
         name: 'Forge',
         description:

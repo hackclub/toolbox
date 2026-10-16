@@ -5,7 +5,7 @@
     The new <a href="https://hackclub.com/">Hack Club Toolbox</a>!
 </h1>
 
-Deals for Hack Clubbers—powered by [Next.js], [Theme UI] & [MDX].
+Deals for Hack Clubbers: powered by [Next.js], [Theme UI] & [MDX].
 
 [next.js]: https://nextjs.org
 [mdx]: https://mdxjs.com
