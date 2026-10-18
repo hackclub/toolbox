@@ -14,7 +14,7 @@ export default [
         descriptionColor: 'white',
         external: true,
         fancy: true,
-        url: 'https://ysws.hackclub.com',
+        url: 'https://hackclub.com/programs',
         forUseBy: 'everyone'
       },
       {
