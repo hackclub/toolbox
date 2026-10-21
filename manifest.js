@@ -61,6 +61,20 @@ export default [
       },
       // Limited-time YSWSs start here
       {
+        name: 'Fabricate',
+        description:
+          'Learn engineering this fall with up to $500 in funding and the tools you need to build out your workshop',
+        img: '/cards/fabricate-logo.png',
+        imgSx: { transform: 'scale(2.5   )', transformOrigin: 'left center' },
+        background: '/cards/fabricate-bg.png',
+        titleColor: '#FFFFFF',
+        descriptionColor: '#ffffffdc',
+        arrowColor: '#FFFFFF',
+        external: true,
+        url: 'https://fabricate.hackclub.com/?utm_source=toolbox',
+        fancy: true
+      },
+      {
         name: 'Scraps',
         description: 'Make any type of project to roll for rewards!',
         img: '/cards/scraps-logo.png',
