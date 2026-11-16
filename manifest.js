@@ -130,17 +130,6 @@ export default [
         fancy: true
       },
       {
-        name: "Stardance",
-        description: "The largest STEM event of the summer: make anything you want and earn free prizes.",
-        img: "/cards/stardance.avif",
-        background: "#0b0920",
-        titleColor: "#fefdfb",
-        descriptionColor: "#c5c5c5",
-        external: true,
-        url: "https://stardance.hackclub.com/leaders",
-        fancy: true,
-      },
-      {
         name: 'Keeb',
         description:
           'Keeb is a YSWS where you can make a keyboard from scratch. Start with nothing, design everything, add an optional twist, and build it yourself!',
