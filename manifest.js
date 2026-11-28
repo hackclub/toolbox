@@ -519,6 +519,15 @@ export default [
         forUseBy: 'clubbers'
       },
       {
+        name: 'SaaSCity Builder Tools & Free Launch',
+        description:
+          'Free zero-signup SEO & launch calculators plus a 100% free Featured SaaSCity Launch for student-built projects',
+        icon: 'web',
+        external: true,
+        url: 'https://saascity.io/free-tools',
+        forUseBy: 'everyone'
+      },
+      {
         name: 'Hackathons',
         description: 'Find hackathons to attend',
         icon: 'crosshairs',
